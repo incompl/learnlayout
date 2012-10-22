@@ -16,13 +16,17 @@
 
     {{ content }}
 
-    {% if page.next %}
-      <a class="next" href="{{ page.next }}.html">Next</a>
-    {% endif %}
+    <div class="nav-wrapper">
 
-    {% if page.prev %}
-      <a class="prev" href="{{ page.prev }}.html">Previous</a>
-    {% endif %}
+      {% if page.prev %}
+        <a class="nav prev" href="{{ page.prev }}.html">Previous</a>
+      {% endif %}
+
+      {% if page.next %}
+        <a class="nav next" href="{{ page.next }}.html">Next</a>
+      {% endif %}
+
+    </div>
 
   </body>
 </html>

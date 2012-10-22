@@ -2,20 +2,31 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 p {
   margin: 1em;
 }
 
+p code {
+  background-color: #ddd;
+}
+
 h1 {
   font-family: 'Handlee';
   text-align: center;
+  margin: 1.5em 0;
+}
+
+h2 {
+  font-family: 'Handlee';
+  margin: 1.2em 1rem;
 }
 
 #about {
-  width: 600px;
-  margin: 6em auto;
+  max-width: 600px;
+  margin: 4em auto 2em;
 }
 
 .css {
@@ -53,30 +64,59 @@ h1 {
   text-shadow: 1px 1px 0 black;
 }
 
-.prev, .next {
-  font-family: 'sans';
+.elem {
+  border: solid blue 3px;
+  position: relative;
+}
+
+.elem-inline .label, .elem-inline .endlabel {
+  position: static;
+}
+
+.label, .endlabel {
+  position: absolute;
+  background-color: blue;
+  color: white;
+  line-height: 1em;
+  text-shadow: 1px 1px 0 #003;
+}
+
+.label {
+  top: 0;
+  left: 0;
+}
+
+.endlabel {
+  right: 0;
+  bottom: 0;
+}
+
+.nav {
+  font-family: sans-serif;
   background-color: black;
   color: white;
   border-radius: 1em;
-  font-size: 1.5em;
+  font-size: 1.1em;
   padding: .2em .3em;
   text-decoration: none;
-  position: fixed;
-  bottom: 1em;
   border: solid black 2px;
   text-shadow: 2px 2px 0 black;
 }
 
-.prev:hover {
-  background-color: gray;
+.nav:hover {
+  background-color: blue;
 }
 
-.next:hover {
-  background-color: blue;
+.nav-wrapper {
+  text-align: center;
+  padding: 1em 0;
 }
 
 .prev {
   left: 1em;
+  background-color: gray;
+  text-shadow: 2px 2px 0 gray;
+  border: none;
 }
 
 .next {
