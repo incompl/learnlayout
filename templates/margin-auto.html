@@ -1,0 +1,29 @@
+---
+layout: default
+title: "margin: auto;"
+next: 
+prev: no-layout
+---
+
+<style>
+  #main {
+    width: 600px;
+    margin: 0 auto;
+  }
+</style>
+
+{% highlight css %}
+#main {
+  width: 600px;
+  margin: 0 auto; 
+}
+{% endhighlight %}
+
+<div id="main">
+  <p>
+  Setting the <code>width</code> of an element will prevent it from stretching out to the edges of its container to the left and right. Then, you can set the left and right margins to <code>auto</code> to horizontally center that element within its container. The element will take up the width you specify, then the remaining space will be split evenly between the two margins.
+  </p>
+  <p>
+    This works with elements that are <code>display: block;</code>. This is what elements like <code>&lt;div&gt;</code> are by default. You can always set <code>display: block;</code> in CSS yourself.
+  </p>
+</div>

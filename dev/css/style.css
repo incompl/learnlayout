@@ -8,12 +8,8 @@ p {
   margin: 1em;
 }
 
-code {
-  background-color: #ddd;
-}
-
 h1 {
-  font-family: 'Archivo Black';
+  font-family: 'Handlee';
   text-align: center;
 }
 
@@ -22,7 +18,7 @@ h1 {
   margin: 6em auto;
 }
 
-#css {
+.css {
   display: block;
   text-shadow: 1px 1px 0 black;
   background-color: #333333;
@@ -58,6 +54,7 @@ h1 {
 }
 
 .prev, .next {
+  font-family: 'sans';
   background-color: black;
   color: white;
   border-radius: 1em;

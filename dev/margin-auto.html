@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    
+      <title>css layout - margin: auto;</title>
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/code.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <h1>margin: auto;</h1>
+
+    <style>
+  #main {
+    width: 600px;
+    margin: 0 auto;
+  }
+</style>
+
+<div class="highlight"><pre><code class="css"><span class="nf">#main</span> <span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">600px</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span> 
+<span class="p">}</span>
+</code></pre>
+</div>
+
+
+<div id="main">
+  <p>
+  Setting the <code>width</code> of an element will prevent it from stretching out to the edges of its container to the left and right. Then, you can set the left and right margins to <code>auto</code> to horizontally center that element within its container. The element will take up the width you specify, then the remaining space will be split evenly between the two margins.
+  </p>
+  <p>
+    This works with elements that are <code>display: block;</code>. This is what elements like <code>&lt;div&gt;</code> are by default. You can always set <code>display: block;</code> in CSS yourself.
+  </p>
+</div>
+
+    
+
+    
+      <a class="prev" href="no-layout.html">Previous</a>
+    
+
+  </body>
+</html>

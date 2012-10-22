@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    {% if page.title != nil %}
+      <title>css layout - {{ page.title }}</title>
+    {% else %}
+      <title>css layout crash course</title>
+    {% endif %}
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/code.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+
+    {% if page.next %}
+      <a class="next" href="{{ page.next }}.html">Next</a>
+    {% endif %}
+
+    {% if page.prev %}
+      <a class="prev" href="{{ page.prev }}.html">Previous</a>
+    {% endif %}
+
+  </body>
+</html>
