@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "margin: auto;"
-next: 
-prev: no-layout
+next: max-width
+prev: display
 ---
 
 <style>
@@ -19,11 +19,13 @@ prev: no-layout
 }
 {% endhighlight %}
 
-<div id="main">
+<div id="main" class="elem">
+  <span class="label">&lt;div id="main"></span>
   <p>
-  Setting the <code>width</code> of an element will prevent it from stretching out to the edges of its container to the left and right. Then, you can set the left and right margins to <code>auto</code> to horizontally center that element within its container. The element will take up the width you specify, then the remaining space will be split evenly between the two margins.
+    Setting the <code>width</code> of a block-level element will prevent it from stretching out to the edges of its container to the left and right. Then, you can set the left and right margins to <code>auto</code> to horizontally center that element within its container. The element will take up the width you specify, then the remaining space will be split evenly between the two margins.
   </p>
   <p>
-    This works with elements that are <code>display: block;</code>. This is what elements like <code>&lt;div&gt;</code> are by default. You can always set <code>display: block;</code> in CSS yourself.
+    The only problem occurs when the browser window is narrower than the width of your element. The browser resolves this by creating a horizontal scrollbar on the page. Let's improve the situation...
   </p>
+  <span class="endlabel">&lt;/div></span>
 </div>

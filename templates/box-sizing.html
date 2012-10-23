@@ -1,0 +1,86 @@
+---
+layout: default
+title: "box-sizing"
+next: position
+prev: box-model
+---
+
+<style>
+  .simple {
+    width: 500px;
+    margin: 20px auto;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid blue 10px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+</style>
+
+<p class="content">
+  Over the generations, people realized that math is not fun, so a new CSS property called <code>box-sizing</code> was created. When you set <code>box-sizing: border-box;</code> on an element, the padding and border of that element no longer increase its width. Here is the same example as the previous page, but with <code>box-sizing: border-box;</code> on both elements:
+</p>
+
+{% highlight css %}
+.simple {
+  width: 500px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fancy {
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border: solid blue 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+{% endhighlight %}
+
+<div class="simple elem">
+  <span class="label">&lt;div class="simple"></span>
+  <p>
+    sdfasddfas
+  </p>
+  <span class="endlabel">&lt;/div></span>
+</div>
+
+<div class="fancy elem">
+  <span class="label">&lt;div class="fancy"></span>
+  <p>
+    asdfdsads
+  </p>
+  <span class="endlabel">&lt;/div></span>
+</div>
+
+<p class="content">
+  Since this is so much better, some authors want all elements on all their pages to always work this way. Such authors put the following CSS on their pages:
+</p>
+
+{% highlight css %}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+{% endhighlight %}
+
+<p class="content">
+  This ensures that all elements are always sized in this more intuitive way.
+</p>
+
+<p class="content">
+  Since <code>box-sizing</code> is pretty new, you should use the <code>-webkit-</code> and <code>-moz-</code> prefixes for now, as I have in these examples. Also, keep in mind that this one is <a href="http://caniuse.com/#search=box-sizing">IE8+</a>.
+</p>

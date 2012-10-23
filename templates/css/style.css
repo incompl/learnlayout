@@ -5,6 +5,12 @@ body {
   line-height: 1.5em;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 p {
   margin: 1em;
 }
@@ -24,9 +30,32 @@ h2 {
   margin: 1.2em 1rem;
 }
 
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: #ffa;
+  color: black;
+}
+
+a:active {
+  background-color: black;
+  color: white;
+}
+
 #about {
   max-width: 600px;
   margin: 4em auto 2em;
+}
+
+.content {
+  max-width: 600px;
+  margin: 1em auto;
 }
 
 .css {
@@ -39,7 +68,7 @@ h2 {
   background-image:      -o-linear-gradient(top, #333333, #000000); /* Opera 11.10-12.00 */
   background-image:         linear-gradient(to bottom, #333333, #000000); /* Firefox 16+, IE10, Opera 12.50+ */
   color: white;
-  width: 600px;
+  max-width: 600px;
   margin: 2em auto 2em;
   padding: 1em;
   border-color: rgba(255, 255, 255, 0.3);
@@ -47,21 +76,6 @@ h2 {
   border-style: solid;
   border-radius: 10px;
   white-space: pre;
-}
-
-#main {
-  border-color: blue;
-  border-width: 5px;
-  border-style: none solid solid;
-}
-
-#main:before {
-  content: "<div id=\"main\">";
-  display: block;
-  background-color: blue;
-  color: white;
-  padding: 5px 0;
-  text-shadow: 1px 1px 0 black;
 }
 
 .elem {
@@ -84,14 +98,37 @@ h2 {
 .label {
   top: 0;
   left: 0;
+  padding: 0 3px 3px 0;
 }
 
 .endlabel {
   right: 0;
   bottom: 0;
+  padding: 3px 0 0 3px;
 }
 
-.nav {
+.elem-green {
+  border: solid green 3px;
+}
+.elem-green .label, .elem-green .endlabel{
+  background-color: green;
+}
+
+.elem-red {
+  border: solid #900 3px;
+}
+.elem-red .label, .elem-red .endlabel{
+  background-color: #900;
+}
+
+.elem-orange {
+  border: solid orange 3px;
+}
+.elem-orange .label, .elem-orange .endlabel{
+  background-color: orange;
+}
+
+a.nav {
   font-family: sans-serif;
   background-color: black;
   color: white;
@@ -101,10 +138,25 @@ h2 {
   text-decoration: none;
   border: solid black 2px;
   text-shadow: 2px 2px 0 black;
+  -webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
+     -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0.1s ease-out;  /* Opera 10.5–12.00 */
+          transition: all 0.1s ease-out;  /* Firefox 16+, Opera 12.50+ */
 }
 
-.nav:hover {
+a.nav:hover {
   background-color: blue;
+  text-shadow: 2px 2px 0 black;
+  -webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
+     -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0.1s ease-out;  /* Opera 10.5–12.00 */
+          transition: all 0.1s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+a.nav:active {
+  background-color: white;
+  color: black;
+  text-shadow: 0 0 0;
 }
 
 .nav-wrapper {

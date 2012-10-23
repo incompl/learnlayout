@@ -1,0 +1,122 @@
+---
+layout: default
+title: "position example"
+next: 
+prev: position
+---
+
+<p class="content">
+  This position stuff might make a little more sense in a practical example. Below is a realistic page layout.
+</p>
+
+<style>
+  .container {
+    position: relative;
+  }
+  nav.elem {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+  }
+  section {
+    /* position is static by default */
+    margin-left: 200px;
+  }
+  footer.elem {
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+  }
+  body {
+    margin-bottom: 70px;
+  }
+</style>
+
+{% highlight css %}
+.container {
+  position: relative;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+}
+section {
+  /* position is static by default */
+  margin-left: 200px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 70px;
+}
+{% endhighlight %}
+
+<div class="container elem">
+  <span class="label">&lt;div class="container"></span>
+
+  <nav class="elem elem-red">
+    <span class="label">&lt;nav></span>
+    <ul>
+      <li>
+        <a href="position-example.html">Home</a>
+      </li>
+      <li>
+        <a href="position-example.html">Taco Menu</a>
+      </li>
+      <li>
+        <a href="position-example.html">Draft List</a>
+      </li>
+      <li>
+        <a href="position-example.html">Hours</a>
+      </li>
+      <li>
+        <a href="position-example.html">Directions</a>
+      </li>
+      <li>
+        <a href="position-example.html">Contact</a>
+      </li>
+    </ul>
+    <span class="endlabel">&lt;/nav></span>
+  </nav>
+
+  <section class="elem elem-green">
+    <span class="label">&lt;section></span>
+    <p>
+      The <code>margin-left</code> style for <code>section</code>s makes sure there is room for the <code>nav</code>.
+    </p>
+    <span class="endlabel">&lt;/section></span>
+  </section>
+
+  <section class="elem elem-green">
+    <span class="label">&lt;section></span>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </p>
+    <span class="endlabel">&lt;/section></span>
+  </section>
+
+  <section class="elem elem-green">
+    <span class="label">&lt;section></span>
+    <p>
+      Notice what happens when you resize your browser. It works nicely!
+    </p>
+    <span class="endlabel">&lt;/section></span>
+  </section>
+
+  <footer class="elem elem-orange">
+    <span class="label">&lt;footer></span>
+    <p>
+      If you use a fixed footer, make sure there is room for it! I put a <code>margin-bottom</code> on the <code>body</code>.
+    </p>
+    <span class="endlabel">&lt;/footer></span>
+  </footer>
+
+</div>

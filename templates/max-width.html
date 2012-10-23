@@ -1,0 +1,31 @@
+---
+layout: default
+title: "max-width"
+next: box-model
+prev: margin-auto
+---
+
+<style>
+  #main {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+</style>
+
+{% highlight css %}
+#main {
+  max-width: 600px;
+  margin: 0 auto; 
+}
+{% endhighlight %}
+
+<div id="main" class="elem">
+  <span class="label">&lt;div id="main"></span>
+  <p>
+    Using <code>max-width</code> instead of <code>width</code> in this situation will improve the browser's handling of small windows. This is important to making the site usable on mobile. Resize this page to check it out!
+  </p>
+  <p>
+    By the way, <code>max-width</code> is <a href="http://caniuse.com/#search=max-width">supported by all major browsers</a> including IE7+ so you shouldn't be afraid of using it.
+  </p>
+  <span class="endlabel">&lt;/div></span>
+</div>

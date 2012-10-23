@@ -1,0 +1,64 @@
+---
+layout: default
+title: "the box model"
+next: box-sizing
+prev: max-width
+---
+
+<style>
+  .simple {
+    width: 500px;
+    margin: 20px auto;
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+
+  .fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid blue 10px;
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+</style>
+
+<p class="content">
+  While we're talking about width, we should talk about width's big caveat: the <em>box model</em>. When you set the width of an element, the element can actually appear bigger than what you set: the element's border and padding will stretch out the element beyond the specified width. Look at the following example, where two elements with the same width value end up different sizes in the result.
+</p>
+
+{% highlight css %}
+.simple {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.fancy {
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border: solid blue 10px;
+}
+{% endhighlight %}
+
+<div class="simple elem">
+  <span class="label">&lt;div class="simple"></span>
+  <p>
+    sdfasddfas
+  </p>
+  <span class="endlabel">&lt;/div></span>
+</div>
+
+<div class="fancy elem">
+  <span class="label">&lt;div class="fancy"></span>
+  <p>
+    asdfdsads
+  </p>
+  <span class="endlabel">&lt;/div></span>
+</div>
+
+<p class="content">
+  For generations, the solution to this problem has been math. CSS authors have always just written a smaller width value than what they wanted, subtracting out the padding and border. Thankfully, you don't have to do that anymore nowadays...
+</p>
