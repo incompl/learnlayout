@@ -58,6 +58,11 @@ a:active {
   margin: 1em auto;
 }
 
+.ipsum {
+  color: #734161;
+  background-color: #eee;
+}
+
 .css {
   display: block;
   text-shadow: 1px 1px 0 black;

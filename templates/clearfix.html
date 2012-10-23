@@ -1,0 +1,81 @@
+---
+layout: default
+title: "the clearfix hack"
+next: 
+prev: float-2
+---
+
+<p class="content">
+  Here is a weird, bad thing that can sometimes happen when using floats:
+</p>
+
+<style>
+  img {
+    float: right;
+  }
+  .clear {
+    clear: both;
+  }
+</style>
+
+{% highlight css %}
+img {
+  float: right;
+}
+{% endhighlight %}
+
+<div class="content">
+
+  <div class="elem">
+    <span class="label">&lt;div></span>
+    <img src="/images/ilta.jpg" alt="An Image">
+    <p>
+      Uh oh... this image is taller than the element containing it, and it's floated, so it's overflowing outside of its container!
+    </p>
+  </div>
+
+</div>
+
+<p class="content clear">
+  Boo. There is a way to fix this, but it's ugly. It's called the <em>clearfix hack</em>.
+</p>
+
+<p class="content">
+  Let's try adding this new CSS:
+</p>
+
+<style>
+  .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+</style>
+
+{% highlight css %}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+{% endhighlight %}
+
+<p class="content">
+  Woah. What the heck does that mean? Well, I'm not going to get into it, but <a href="http://www.positioniseverything.net/easyclearing.html">here is some info if you're interested</a>. For now, the important thing to know is that it works:
+</p>
+
+<div class="content">
+
+  <div class="elem clearfix">
+    <span class="label">&lt;div class="clearfix"></span>
+    <img src="/images/ilta.jpg" alt="An Image">
+    <p>
+      Much better!
+    </p>
+  </div>
+
+</div>
