@@ -115,21 +115,21 @@ a:active {
 .elem-green {
   border: solid green 3px;
 }
-.elem-green .label, .elem-green .endlabel{
+.elem-green > .label, .elem-green > .endlabel{
   background-color: green;
 }
 
 .elem-red {
   border: solid #900 3px;
 }
-.elem-red .label, .elem-red .endlabel{
+.elem-red > .label, .elem-red > .endlabel{
   background-color: #900;
 }
 
 .elem-orange {
   border: solid orange 3px;
 }
-.elem-orange .label, .elem-orange .endlabel{
+.elem-orange > .label, .elem-orange > .endlabel{
   background-color: orange;
 }
 

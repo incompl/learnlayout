@@ -1,0 +1,83 @@
+---
+layout: default
+title: "clear"
+next: clearfix
+prev: float
+---
+
+<p class="content">
+  The <code>clear</code> property is important for controlling the behavior of floats. Compare these two examples:
+</p>
+
+<style>
+  .box {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+  }
+</style>
+
+{% highlight css %}
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+{% endhighlight %}
+
+<p class="content">
+  <div class="box elem">
+    <span class="label">&lt;div class="box"></span>
+    <p>
+      I feel like I'm floating!
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </div>
+
+
+  <section class="elem elem-green">
+    <span class="label">&lt;section></span>
+    <p>
+      In this case, the <code>section</code> element is actually after the <code>div</code>. However, since the <code>div</code> is floated to the left, this is what happens: the text in the <code>section</code> is floated around the <code>div</code> and the <code>section</code> surrounds the whole thing. What if we wanted the <code>section</code> to actually appear after the floated element?
+    </p>
+    <span class="endlabel">&lt;/section></span>
+  </section>
+</p>
+
+<style>
+  .after-box {
+    clear: left;
+  }
+</style>
+
+{% highlight css %}
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.after-box {
+  clear: left;
+}
+{% endhighlight %}
+
+<p class="content">
+  <div class="box elem">
+    <span class="label">&lt;div class="box"></span>
+    <p>
+      I feel like I'm floating!
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </div>
+
+  <section class="elem elem-green after-box">
+    <span class="label">&lt;div class="after-box"></span>
+    <p>
+      Using <code>clear</code> we have now moved this section down below the floated <code>div</code>.
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </section>
+</p>

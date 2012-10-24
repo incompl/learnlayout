@@ -1,0 +1,232 @@
+---
+layout: default
+title: "flexbox"
+next: frameworks
+prev: column
+---
+
+<p class="content">
+  The new <code>flexbox</code> layout mode is poised to redefine how we do layouts in CSS. Unfortunately the specification has changed a lot recently, so it's implemented differently in different browsers. Still, I'd like to share a couple examples so you know what's coming up. These examples currently only work in the Chrome flexbox implementation, based on the <a href="http://www.w3.org/TR/css3-flexbox/">latest version of the standard</a>.
+</p>
+
+<p class="content">
+  There are a lot of out-of-date flexbox resources around. If you want to learn more about flexbox, <a href="http://css-tricks.com/old-flexbox-and-new-flexbox/">start here</a> to learn how to identify if a resource is current or not.
+</p>
+
+<p class="content">
+  There is a lot more you can do with flexbox; these are just a few examples to give you an idea:
+</p>
+
+<h2>Simple Layout using Flexbox</h2>
+
+<style>
+  .container {
+    display: -webkit-flex;
+    display: flex;
+  }
+  nav {
+    width: 200px;
+  }
+  .flex-column {
+    -webkit-flex: 1;
+            flex: 1;
+  }
+</style>
+
+{% highlight css %}
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  width: 200px;
+}
+.flex-column {
+  -webkit-flex: 1;
+          flex: 1;
+}
+{% endhighlight %}
+
+<div class="container elem">
+  <span class="label">&lt;div class="container"></span>
+
+  <nav class="elem elem-red">
+    <span class="label">&lt;nav></span>
+    <ul>
+      <li>
+        <a href="position-example.html">Home</a>
+      </li>
+      <li>
+        <a href="position-example.html">Taco Menu</a>
+      </li>
+      <li>
+        <a href="position-example.html">Draft List</a>
+      </li>
+      <li>
+        <a href="position-example.html">Hours</a>
+      </li>
+      <li>
+        <a href="position-example.html">Directions</a>
+      </li>
+      <li>
+        <a href="position-example.html">Contact</a>
+      </li>
+    </ul>
+    <span class="endlabel">&lt;/nav></span>
+  </nav>
+
+  <div class="elem elem-red flex-column">
+    <span class="label">&lt;div class="flex-column"></span>
+
+    <section class="elem elem-green">
+      <span class="label">&lt;section></span>
+      <p>
+        Flexbox is so easy!
+      </p>
+      <span class="endlabel">&lt;/section></span>
+    </section>
+
+    <section class="elem elem-green ipsum">
+      <span class="label">&lt;section></span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+      </p>
+      <span class="endlabel">&lt;/section></span>
+    </section>
+
+    <section class="elem elem-green">
+      <span class="label">&lt;section></span>
+      <p>
+        Notice what happens when you resize your browser.
+      </p>
+      <span class="endlabel">&lt;/section></span>
+    </section>
+
+    <span class="endlabel">&lt;/div></span>
+  </div>
+
+</div>
+
+<h2>Fancy Layout using Flexbox</h2>
+
+<style>
+.initial {
+  -webkit-flex: initial;
+          flex: initial;
+  width: 200px;
+  min-width: 100px;
+}
+.none {
+  -webkit-flex: none;
+          flex: none;
+  width: 200px;
+}
+.flex1 {
+  -webkit-flex: 1;
+          flex: 1;
+}
+.flex2 {
+  -webkit-flex: 2;
+          flex: 2;
+}
+</style>
+
+{% highlight css %}
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+.initial {
+  -webkit-flex: initial;
+          flex: initial;
+  width: 200px;
+  min-width: 100px;
+}
+.none {
+  -webkit-flex: none;
+          flex: none;
+  width: 200px;
+}
+.flex1 {
+  -webkit-flex: 1;
+          flex: 1;
+}
+.flex2 {
+  -webkit-flex: 2;
+          flex: 2;
+}
+{% endhighlight %}
+
+<div class="container elem">
+
+  <section class="elem elem-green initial">
+    <span class="label">&lt;div class="initial"></span>
+    <p>
+      I will be 200px when there is room, and I will shrink down to 100px if there is not room, but no smaller.
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </section>
+
+  <section class="elem elem-green none">
+    <span class="label">&lt;div class="none"></span>
+    <p>
+      I will always be 200px, no matter what.
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </section>
+
+  <section class="elem elem-green flex1">
+    <span class="label">&lt;div class="flex1"></span>
+    <p>
+      I will fill up 1/3 of the remaining width.
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </section>
+
+  <section class="elem elem-green flex2">
+    <span class="label">&lt;div class="flex2"></span>
+    <p>
+      I will fill up 2/3 of the remaining width.
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </section>
+
+</div>
+
+<h2>Centering using Flexbox</h2>
+
+<style>
+.vertical-container {
+  display: -webkit-flex;
+  display:         flex;
+  height: 300px;
+}
+.vertically-centered {
+  margin: auto;
+}
+</style>
+
+{% highlight css %}
+.vertical-container {
+  display: -webkit-flex;
+  display: flex;
+  height: 300px;
+}
+.vertically-centered {
+  margin: auto;
+}
+{% endhighlight %}
+
+<div class="vertical-container elem">
+  <span class="label">&lt;div class="vertical-container"></span>
+
+  <section class="elem elem-green vertically-centered">
+    <span class="label">&lt;div class="vertically-centered"></span>
+    <p>
+      Finally, it's easy to vertically center something in CSS!
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </section>
+
+  <span class="endlabel">&lt;/div></span>
+</div>

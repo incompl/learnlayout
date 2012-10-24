@@ -1,0 +1,106 @@
+---
+layout: default
+title: "inline-block"
+next: column
+prev: percent
+---
+
+<div class="content">
+  <h2>The Hard Way (using float)</h2>
+  <p>
+    You can use floated elements and clear to create a grid of boxes that fills the browser width nicely. Check it out:
+  </p>
+</div>
+
+<style>
+  .box {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+  }
+  .after-box {
+    clear: left;
+  }
+</style>
+
+{% highlight css %}
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.after-box {
+  clear: left;
+}
+{% endhighlight %}
+
+<p class="content">
+  {% for i in (1..11) %}
+    <div class="box elem">
+      <span class="label">&lt;div class="box"></span>
+      <p>
+        I'm floating!
+      </p>
+      <span class="endlabel">&lt;/div></span>
+    </div>
+  {% endfor %}
+
+  <section class="elem elem-green after-box">
+    <span class="label">&lt;div class="after-box"></span>
+    <p>
+      I'm using clear so I don't float next to the above boxes.
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </section>
+</p>
+
+<div class="content">
+  <h2>The Easy Way (using inline-block)</h2>
+  <p>
+    You can achieve the same effect using the <code>inline-block</code> value of the <code>display</code> property.
+  </p>
+</div>
+
+<style>
+  .box2 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+  }
+</style>
+
+{% highlight css %}
+.box2 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+{% endhighlight %}
+
+<p class="content">
+  {% for i in (1..11) %}
+    <div class="box2 elem">
+      <span class="label">&lt;div class="box2"></span>
+      <p>
+        I'm an inline block!
+      </p>
+      <span class="endlabel">&lt;/div></span>
+    </div>
+  {% endfor %}
+
+  <section class="elem elem-green">
+    <span class="label">&lt;div></span>
+    <p>
+      I don't have to use <code>clear</code> in this case. Nice!
+    </p>
+    <span class="endlabel">&lt;/div></span>
+  </section>
+</p>
+
+<p class="content">
+  You have to do extra work for <a href="http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/">IE6 and IE7 support</a> of <code>inline-block</code>. Sometimes people talk about <code>inline-block</code> triggering something called <code>hasLayout</code>, though you only need to know about that to support old browsers. Follow the previous link about IE6 and IE7 support if you're curious to learn more. Otherwise, let's continue.
+</p>

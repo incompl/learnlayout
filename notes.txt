@@ -1,0 +1,17 @@
+## TODO
+
+css grid frameworks
+
+pros / cons of positioned vs float layouts
+
+## DONE (?)
+
+pros / cons of % vs else
+visibility: hidden;
+
+display: inline-block;
+hasLayout (part of discussion on inline-block)
+
+columns
+
+flexbox
