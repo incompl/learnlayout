@@ -12,6 +12,16 @@
   </head>
   <body>
 
+    {% if page.menu != false %}
+
+      <div id="menu">
+        <a href="/">home</a>
+        <br>
+        <a href="toc.html">table of contents</a>
+      </div>
+
+    {% endif %}
+
     <h1>{{ page.title }}</h1>
 
     {{ content }}
