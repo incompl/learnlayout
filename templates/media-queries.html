@@ -1,31 +1,49 @@
 ---
 layout: default
-title: "percent width"
-next: media-queries
-prev: float-layout
+title: "media queries"
+next: inline-block
+prev: percent
 ---
 
 <p class="content">
-  For some sites it's preferable to use percent widths. This can require more work. In this example, the <code>nav</code> content starts to wrap in a displeasing way when the window is too narrow. It comes down to what works for your content.
+  "Responsive Design" is the strategy of making a site that "responds" to the browser and device that it is being shown on... by looking awesome no matter what.
+</p>
+
+<p class="content">
+  Media queries are the most powerful tool for doing this. Let's take our layout that uses percent widths and have it display in one column when the browser is too small to fit the menu in the sidebar:
 </p>
 
 <style>
-  nav.elem {
+  @media screen and (min-width:600px) {
+    nav.elem {
+      float: left;
+      width: 25%;
+    }
+    section {
+      margin-left: 25%;
+    }
+  }
+  @media screen and (max-width:599px) {
+    nav li {
+      display: inline;
+    }
+  }
+</style>
+
+{% highlight css %}
+@media screen and (min-width:600px) {
+  nav {
     float: left;
     width: 25%;
   }
   section {
     margin-left: 25%;
   }
-</style>
-
-{% highlight css %}
-nav {
-  float: left;
-  width: 25%;
 }
-section {
-  margin-left: 25%;
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
 }
 {% endhighlight %}
 
@@ -76,9 +94,13 @@ section {
   <section class="elem elem-green">
     <span class="label">&lt;section></span>
     <p>
-      Notice what happens when you resize your browser. It works nicely!
+      Now when you resize your browser it's even cooler than ever!
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>
 
 </div>
+
+<p class="content">
+  Tada! Now our layout looks great even on mobile browsers. Here are <a href="http://mediaqueri.es/">some popular sites that use media queries this way</a>. There is a whole lot more you can detect than <code>min-width</code> and <code>max-width</code>: check out <a href="https://developer.mozilla.org/en-US/docs/CSS/Media_queries">the MDN documentation</a> to learn more.
+</p>

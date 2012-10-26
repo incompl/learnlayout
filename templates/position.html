@@ -64,7 +64,7 @@ prev: box-sizing
 <div class="relative2 elem elem-red">
   <span class="label">&lt;div class="relative2"></span>
   <p>
-    Setting the <code>top</code>, <code>right</code>, <code>bottom</code>, or <code>left</code> properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+    Setting the <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
   </p>
   <span class="endlabel">&lt;/div></span>
 </div>
@@ -81,16 +81,6 @@ prev: box-sizing
   }
 </style>
 
-{% highlight css %}
-.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 200px;
-  background-color: white;
-}
-{% endhighlight %}
-
 <div class="fixed elem elem-green">
   <span class="label">&lt;div class="fixed"></span>
   <p>
@@ -100,12 +90,22 @@ prev: box-sizing
 </div>
 
 <p class="content">
-  A fixed element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. As with <code>relative</code>, the <code>top</code>, <code>right</code>, <code>bottom</code>, or <code>left</code> properties are used.
+  A fixed element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. As with <code>relative</code>, the <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> properties are used.
 </p>
 
 <p class="content">
-  I'm sure you've noticed that fixed element in the lower-right hand corner of the page. I'm giving you permission to pay attention to it now.
+  I'm sure you've noticed that fixed element in the lower-right hand corner of the page. I'm giving you permission to pay attention to it now. Here is the CSS that puts it there:
 </p>
+
+{% highlight css %}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+}
+{% endhighlight %}
 
 <p class="content">
   One last detail about fixed: A fixed element does not leave a gap in the page where it would normally have been located.
@@ -121,34 +121,40 @@ prev: box-sizing
   }
   .absolute {
     position: absolute;
-    top: 100px;
+    top: 120px;
     right: 0;
     width: 300px;
     height: 200px;
   }
 </style>
 
-{% highlight css %}
-.relative {
-  position: relative;
-  width: 600px;
-  height: 600px;
-}
-.absolute {
-  position: absolute;
-  top: 100px;
-  right: 0;
-}
-{% endhighlight %}
-
 <p class="content">
   <code>absolute</code> is the trickiest position value. <code>absolute</code> behaves like <code>fixed</code> except relative to <em>the nearest positioned ancestor</em> instead of relative to the viewport. If an absolutely-positioned element has no positioned ancestors, it uses the document body, and still moves along with page scrolling. Remember, a "positioned" element is one whose position is anything except <code>static</code>.
 </p>
 
+<p class="content">
+  Here is a simple example:
+</p>
+
+{% highlight css %}
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+.absolute {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+}
+{% endhighlight %}
+
 <div class="relative elem">
   <span class="label">&lt;div class="relative"></span>
   <p>
-    This element is relatively-positioned. If this element was <code>position: static;</code> its child would escape and would be positioned relative to the document.
+    This element is relatively-positioned. If this element was <code>position: static;</code> its absolutely-positioned child would escape and would be positioned relative to the document body.
   </p>
   <div class="absolute elem elem-red">
     <span class="label">&lt;div class="absolute"></span>
