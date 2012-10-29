@@ -15,7 +15,7 @@ p {
   margin: 1em;
 }
 
-p code {
+p code, li code {
   background-color: #ddd;
 }
 
@@ -31,7 +31,7 @@ h2 {
 }
 
 a:link {
-  color: blue;
+  color: #00c;
 }
 
 a:visited {
@@ -49,9 +49,13 @@ a:active {
 }
 
 #menu {
+  position: absolute;
+  top: 0;
+  left: 0;
   border-bottom: solid #CCC 2px;
   width: 250px;
   text-align: center;
+  background-color: white;
   -webkit-transform-origin: 0 0;
      -moz-transform-origin: 0 0;
       -ms-transform-origin: 0 0;
@@ -83,7 +87,7 @@ a:active {
   background-color: #eee;
 }
 
-.css {
+.css, .html {
   display: block;
   text-shadow: 1px 1px 0 black;
   background-color: #333333;
@@ -101,6 +105,22 @@ a:active {
   border-style: solid;
   border-radius: 10px;
   white-space: pre;
+}
+
+.html:before {
+  content: "html";
+  float: right;
+  color: black;
+  text-shadow: -1px 1px 0 #666; /* \m/ */
+  font-size: 1.5em;
+}
+
+.css:before {
+  content: "css";
+  float: right;
+  color: black;
+  text-shadow: -1px 1px 0 #666; /* \m/ */
+  font-size: 1.5em;
 }
 
 .elem {
@@ -198,4 +218,12 @@ a.nav:active {
 
 .next {
   right: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a:link, footer a:visited {
+  color: #888;
 }

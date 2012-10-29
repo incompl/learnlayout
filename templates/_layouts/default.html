@@ -10,18 +10,27 @@
     <link rel="stylesheet" href="/css/code.css"/>
     <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35945753-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+    </script>
   </head>
   <body>
 
-    {% if page.menu != false %}
-
-      <div id="menu">
-        <a href="/">home</a>
-        <br>
-        <a href="toc.html">table of contents</a>
-      </div>
-
-    {% endif %}
+    <div id="menu">
+      <a href="/">home</a>
+      <br>
+      <a href="toc.html">table of contents</a>
+    </div>
 
     <h1>{{ page.title }}</h1>
 
@@ -38,6 +47,12 @@
       {% endif %}
 
     </div>
+
+    {% if page.noFooter != true %}
+      <footer>
+        <a href="https://github.com/incompl/csslayoutsite/issues">issues / feedback</a>
+      </footer>
+    {% endif %}
 
   </body>
 </html>

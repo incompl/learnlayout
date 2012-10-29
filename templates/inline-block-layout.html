@@ -1,0 +1,103 @@
+---
+layout: default
+title: "inline-block layout"
+next: column
+prev: inline-block
+---
+
+<div class="content">
+
+  <p>
+    You can also use <code>inline-block</code> for layouts. There are a few things to keep in mind:
+  </p>
+
+  <ul>
+    <li><code>inline-block</code> elements are affected by the <code>vertical-align</code> property, which you probably want set to <code>top</code>.
+    <li>You need to set the width of each column
+    <li>There will be a gap between the columns if there is any whitespace between them in the HTML
+  </ul>
+</div>
+
+<style>
+  nav.elem {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+  }
+  .column {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+  }
+</style>
+
+{% highlight css %}
+nav {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+}
+{% endhighlight %}
+
+<div class="container elem">
+  <span class="label">&lt;div class="container"></span>
+
+  <nav class="elem elem-red">
+    <span class="label">&lt;nav></span>
+    <ul>
+      <li>
+        <a href="position-example.html">Home</a>
+      </li>
+      <li>
+        <a href="position-example.html">Taco Menu</a>
+      </li>
+      <li>
+        <a href="position-example.html">Draft List</a>
+      </li>
+      <li>
+        <a href="position-example.html">Hours</a>
+      </li>
+      <li>
+        <a href="position-example.html">Directions</a>
+      </li>
+      <li>
+        <a href="position-example.html">Contact</a>
+      </li>
+    </ul>
+    <span class="endlabel">&lt;/nav></span>
+  </nav><div class="elem elem-red column">
+    <span class="label">&lt;div class="column"></span>
+
+    <section class="elem elem-green">
+      <span class="label">&lt;section></span>
+      <p>
+        Flexbox is so easy!
+      </p>
+      <span class="endlabel">&lt;/section></span>
+    </section>
+
+    <section class="elem elem-green ipsum">
+      <span class="label">&lt;section></span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+      </p>
+      <span class="endlabel">&lt;/section></span>
+    </section>
+
+    <section class="elem elem-green">
+      <span class="label">&lt;section></span>
+      <p>
+        Notice what happens when you resize your browser.
+      </p>
+      <span class="endlabel">&lt;/section></span>
+    </section>
+
+    <span class="endlabel">&lt;/div></span>
+  </div>
+
+</div>
