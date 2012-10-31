@@ -18,11 +18,13 @@ module.exports = function(grunt) {
             },
             dev: {
                 src: 'templates',
-                dest: 'dev'
+                dest: 'dev',
+                pygments: true
             },
             prod: {
                 src: 'templates',
-                dest: 'prod'
+                dest: 'prod',
+                pygments: true
             }
         },
 
