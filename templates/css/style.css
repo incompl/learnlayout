@@ -12,7 +12,7 @@ body {
 }
 
 p {
-  margin: 1em;
+  margin: 1em 0;
 }
 
 p code, li code {
@@ -27,7 +27,7 @@ h1 {
 
 h2 {
   font-family: 'Handlee';
-  margin: 1.2em 1rem;
+  margin: 1.2em 0;
 }
 
 a:link {
@@ -61,11 +61,11 @@ a:active {
       -ms-transform-origin: 0 0;
        -o-transform-origin: 0 0;
           transform-origin: 0 0;
-  -webkit-transform: rotate(-30deg) translate(-93px, 25px);  /* Safari 3.1+, Chrome */
-     -moz-transform: rotate(-30deg) translate(-93px, 25px);  /* Firefox 3.5-15 */
-      -ms-transform: rotate(-30deg) translate(-93px, 25px);  /* IE9+ */
-       -o-transform: rotate(-30deg) translate(-93px, 25px);  /* Opera 10.5-12.00 */
-          transform: rotate(-30deg) translate(-93px, 25px);  /* Firefox 16+, Opera 12.50+ */
+  -webkit-transform: rotate(-30deg) translate(-92px, 22px);  /* Safari 3.1+, Chrome */
+     -moz-transform: rotate(-30deg) translate(-92px, 22px);  /* Firefox 3.5-15 */
+      -ms-transform: rotate(-30deg) translate(-92px, 22px);  /* IE9+ */
+       -o-transform: rotate(-30deg) translate(-92px, 22px);  /* Opera 10.5-12.00 */
+          transform: rotate(-30deg) translate(-92px, 22px);  /* Firefox 16+, Opera 12.50+ */
 }
 
 #menu a {
@@ -75,6 +75,10 @@ a:active {
 
 #menu a:hover {
   color: black;
+}
+
+#menu .home-link {
+  margin-right: 24px;
 }
 
 .content {
@@ -126,6 +130,10 @@ a:active {
 .elem {
   border: solid blue 3px;
   position: relative;
+}
+
+.elem p {
+  padding: 0 1em;
 }
 
 .elem-inline .label, .elem-inline .endlabel {
