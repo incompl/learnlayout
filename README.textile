@@ -1,6 +1,6 @@
 This is the source for "learnlayout.com":http://learnlayout.com in case you're curious how it was built.
 
-== How to Build Locally ==
+h2. How to Build Locally
 
 * If needed, Install "NPM":https://npmjs.org/
 * If needed, Install grunt @sudo npm install grunt -g@
