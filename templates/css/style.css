@@ -49,23 +49,38 @@ a:active {
 }
 
 #menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-bottom: solid #CCC 2px;
-  width: 250px;
-  text-align: center;
   background-color: white;
-  -webkit-transform-origin: 0 0;
-     -moz-transform-origin: 0 0;
-      -ms-transform-origin: 0 0;
-       -o-transform-origin: 0 0;
-          transform-origin: 0 0;
-  -webkit-transform: rotate(-30deg) translate(-92px, 22px);  /* Safari 3.1+, Chrome */
-     -moz-transform: rotate(-30deg) translate(-92px, 22px);  /* Firefox 3.5-15 */
-      -ms-transform: rotate(-30deg) translate(-92px, 22px);  /* IE9+ */
-       -o-transform: rotate(-30deg) translate(-92px, 22px);  /* Opera 10.5-12.00 */
-          transform: rotate(-30deg) translate(-92px, 22px);  /* Firefox 16+, Opera 12.50+ */
+  text-align: center;
+  border-bottom: solid #CCC 2px;
+}
+
+@media screen and (min-width:601px) {
+  #menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    -webkit-transform-origin: 0 0;
+       -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+         -o-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: rotate(-30deg) translate(-92px, 22px);  /* Safari 3.1+, Chrome */
+       -moz-transform: rotate(-30deg) translate(-92px, 22px);  /* Firefox 3.5-15 */
+        -ms-transform: rotate(-30deg) translate(-92px, 22px);  /* IE9+ */
+         -o-transform: rotate(-30deg) translate(-92px, 22px);  /* Opera 10.5-12.00 */
+            transform: rotate(-30deg) translate(-92px, 22px);  /* Firefox 16+, Opera 12.50+ */
+  }
+
+  #menu a {
+    display: block;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #menu {
+    padding: .5em;
+  }
 }
 
 #menu a {
@@ -77,18 +92,29 @@ a:active {
   color: black;
 }
 
+#menu a:active {
+  color: white;
+}
+
 #menu .home-link {
-  margin-right: 24px;
+  margin-right: 1em;
 }
 
 .content {
   max-width: 600px;
   margin: 1em auto;
+  padding: 0 1rem;
 }
 
 .ipsum {
   color: #734161;
   background-color: #eee;
+}
+
+.highlight {
+  margin: 2em auto;
+  padding: 0 1rem;
+  max-width: 600px;
 }
 
 .css, .html {
@@ -101,8 +127,6 @@ a:active {
   background-image:      -o-linear-gradient(top, #333333, #000000); /* Opera 11.10-12.00 */
   background-image:         linear-gradient(to bottom, #333333, #000000); /* Firefox 16+, IE10, Opera 12.50+ */
   color: white;
-  max-width: 600px;
-  margin: 2em auto 2em;
   padding: 1em;
   border-color: rgba(255, 255, 255, 0.3);
   border-width: 3px;
@@ -230,8 +254,17 @@ a.nav:active {
 
 footer {
   text-align: center;
+  margin: 0 0 1em;
 }
 
 footer a:link, footer a:visited {
   color: #888;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer a:active {
+  color: white;
 }
