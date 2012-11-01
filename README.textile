@@ -2,7 +2,7 @@ This is the source for "learnlayout.com":http://learnlayout.com in case you're c
 
 h2. How to Build Locally
 
-* If needed, Install "NPM":https://npmjs.org/
-* If needed, Install grunt @sudo npm install grunt -g@
+* If needed, install "NPM":https://npmjs.org/
+* If needed, install grunt @sudo npm install grunt -g@
 * Build + run test server with @grunt jekyll@
 * Just build with @grunt jekyll:dev@ or prod
