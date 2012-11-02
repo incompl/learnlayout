@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  padding: 4em 0;
+  padding: 0 0 1em 0;
   font-size: 1.2em;
   line-height: 1.5em;
-  background-color: #ededed
+  color: #414142;
 }
 
 * {
@@ -20,19 +20,26 @@ p code, li code {
   background-color: #ddd;
 }
 
+h1, h2 {
+  font-family: 'Bree Serif', serif;
+  font-weight: normal;
+}
+
 h1 {
-  font-family: 'Handlee';
-  text-align: center;
   margin: 1.5em 0;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 h2 {
-  font-family: 'Handlee';
+  font-family: 'Bree Serif', serif;
   margin: 1.2em 0;
+  font-size: 1.2em;
 }
 
 a:link {
-  color: #00c;
+  color: #d64078;
 }
 
 a:visited {
@@ -101,6 +108,32 @@ a:active {
   margin-right: 1em;
 }
 
+#logo {
+  text-align: center;
+  background-color: #ededed;
+  padding: 1em 0;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #414142;
+}
+
+#logo a:hover {
+  background: none;
+}
+
+#logo img {
+  vertical-align: middle;
+}
+
+#logo span {
+  vertical-align: middle;
+  font-size: 2em;
+  font-family: 'Bree Serif', serif;
+  margin-left: .2em;
+}
+
 .content {
   max-width: 600px;
   margin: 1em auto;
@@ -153,7 +186,7 @@ a:active {
 }
 
 .elem {
-  border: solid blue 3px;
+  border: solid  #6AC5AC 3px;
   position: relative;
 }
 
@@ -167,10 +200,8 @@ a:active {
 
 .label, .endlabel {
   position: absolute;
-  background-color: blue;
-  color: white;
+  background-color: #6AC5AC;
   line-height: 1em;
-  text-shadow: 1px 1px 0 #003;
 }
 
 .label {
@@ -186,41 +217,42 @@ a:active {
 }
 
 .elem-green {
-  border: solid green 3px;
+  border: solid #fdc72f 3px;
 }
 .elem-green > .label, .elem-green > .endlabel{
-  background-color: green;
+  background-color: #fdc72f;
 }
 
 .elem-red {
-  border: solid #900 3px;
+  border: solid #d64078 3px;
+  color: #FFF;
 }
 .elem-red > .label, .elem-red > .endlabel{
-  background-color: #900;
+  background-color: #d64078;
 }
 
 .elem-orange {
-  border: solid orange 3px;
+  border: solid #BDD977 3px;
 }
 .elem-orange > .label, .elem-orange > .endlabel{
-  background-color: orange;
+  background-color: #BDD977;
 }
 
 a.nav {
-  font-family: sans-serif;
-  background-color: #6ac5ac;
+  font-family: 'Bree Serif', serif;
+  background-color: #d64078;
   color: white;
   border-radius: .3em;
   padding: .2em 0;
   position: relative;
   margin: 0 1em;
-  width: 6em;
+  width: 8em;
   display: inline-block;
   text-decoration: none;
-  border: solid #5ba994 1px;
-  border-bottom: solid #5ba994 4px;
+  border: solid #b03060 1px;
+  border-bottom: solid #b03060 4px;
   box-shadow: 0px 1px 1px white;
-  text-shadow: 0px 2px 0 #5ba994;
+  text-shadow: 0px 2px 0 #b03060;
   -webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
      -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
        -o-transition: all 0.1s ease-out;  /* Opera 10.5–12.00 */
@@ -228,12 +260,11 @@ a.nav {
 }
 
 a.nav:hover {
-  background-color: #61b8a0;
+  background-color: #c63b6f;
 }
 
 a.nav:active {
-  background-color: #61b8a0;
-  border-bottom: solid #5ba994 1px;
+  border-bottom: solid #b03060 1px;
   top: 4px;
   -webkit-transition: all 0 ease-out;  /* Safari 3.2+, Chrome */
      -moz-transition: all 0 ease-out;  /* Firefox 4-15 */
