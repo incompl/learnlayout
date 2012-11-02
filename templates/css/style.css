@@ -24,11 +24,13 @@ h1 {
   font-family: 'Handlee';
   text-align: center;
   margin: 1.5em 0;
+  font-weight: normal;
 }
 
 h2 {
   font-family: 'Handlee';
   margin: 1.2em 0;
+  font-weight: normal;
 }
 
 a:link {
