@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-size: 1.2em;
   line-height: 1.5em;
+  background-color: #ededed
 }
 
 * {
@@ -207,14 +208,19 @@ a:active {
 
 a.nav {
   font-family: sans-serif;
-  background-color: black;
+  background-color: #6ac5ac;
   color: white;
-  border-radius: 1em;
-  font-size: 1.1em;
-  padding: .2em .3em;
+  border-radius: .3em;
+  padding: .2em 0;
+  position: relative;
+  margin: 0 1em;
+  width: 6em;
+  display: inline-block;
   text-decoration: none;
-  border: solid black 2px;
-  text-shadow: 2px 2px 0 black;
+  border: solid #5ba994 1px;
+  border-bottom: solid #5ba994 4px;
+  box-shadow: 0px 1px 1px white;
+  text-shadow: 0px 2px 0 #5ba994;
   -webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
      -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
        -o-transition: all 0.1s ease-out;  /* Opera 10.5–12.00 */
@@ -222,18 +228,17 @@ a.nav {
 }
 
 a.nav:hover {
-  background-color: blue;
-  text-shadow: 2px 2px 0 black;
-  -webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
-     -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
-       -o-transition: all 0.1s ease-out;  /* Opera 10.5–12.00 */
-          transition: all 0.1s ease-out;  /* Firefox 16+, Opera 12.50+ */
+  background-color: #61b8a0;
 }
 
 a.nav:active {
-  background-color: white;
-  color: black;
-  text-shadow: 0 0 0;
+  background-color: #61b8a0;
+  border-bottom: solid #5ba994 1px;
+  top: 4px;
+  -webkit-transition: all 0 ease-out;  /* Safari 3.2+, Chrome */
+     -moz-transition: all 0 ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0 ease-out;  /* Opera 10.5–12.00 */
+          transition: all 0 ease-out;  /* Firefox 16+, Opera 12.50+ */
 }
 
 .nav-wrapper {
