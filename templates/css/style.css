@@ -1,9 +1,10 @@
 body {
   margin: 0;
   padding: 0 0 1em 0;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.5em;
   color: #414142;
+  font-family: Arial;
 }
 
 * {
@@ -57,51 +58,21 @@ a:active {
 }
 
 #menu {
-  background-color: white;
+  background-color: #CCC;
   text-align: center;
-  border-bottom: solid #CCC 2px;
-}
-
-@media screen and (min-width:601px) {
-  #menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 250px;
-    -webkit-transform-origin: 0 0;
-       -moz-transform-origin: 0 0;
-        -ms-transform-origin: 0 0;
-         -o-transform-origin: 0 0;
-            transform-origin: 0 0;
-    -webkit-transform: rotate(-30deg) translate(-92px, 22px);  /* Safari 3.1+, Chrome */
-       -moz-transform: rotate(-30deg) translate(-92px, 22px);  /* Firefox 3.5-15 */
-        -ms-transform: rotate(-30deg) translate(-92px, 22px);  /* IE9+ */
-         -o-transform: rotate(-30deg) translate(-92px, 22px);  /* Opera 10.5-12.00 */
-            transform: rotate(-30deg) translate(-92px, 22px);  /* Firefox 16+, Opera 12.50+ */
-  }
-
-  #menu a {
-    display: block;
-  }
-}
-
-@media screen and (max-width:600px) {
-  #menu {
-    padding: .5em;
-  }
+  border-bottom: solid #9f9e9e 2px;
 }
 
 #menu a {
   text-decoration: none;
-  color: #aaa;
+  color: #676767;
+  display: inline-block;
+  padding: .3em 1em;
+  text-shadow: 0 1px 0 #EDEDED;
 }
 
 #menu a:hover {
-  color: black;
-}
-
-#menu a:active {
-  color: white;
+  background: #bcbcbc;
 }
 
 #menu .home-link {
@@ -251,7 +222,6 @@ a.nav {
   text-decoration: none;
   border: solid #b03060 1px;
   border-bottom: solid #b03060 4px;
-  box-shadow: 0px 1px 1px white;
   text-shadow: 0px 2px 0 #b03060;
   -webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
      -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
@@ -303,4 +273,29 @@ footer a:hover {
 
 footer a:active {
   color: white;
+}
+
+@media screen and (min-width:601px) {
+  #menu {
+    position: absolute;
+    top: -16px;
+    left: -20px;
+    width: 250px;
+    padding-top: 2em;
+    -webkit-transform-origin: 0 0;
+       -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+         -o-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: rotate(-35deg) translate(-92px, 22px);  /* Safari 3.1+, Chrome */
+       -moz-transform: rotate(-35deg) translate(-92px, 22px);  /* Firefox 3.5-15 */
+        -ms-transform: rotate(-35deg) translate(-92px, 22px);  /* IE9+ */
+         -o-transform: rotate(-35deg) translate(-92px, 22px);  /* Opera 10.5-12.00 */
+            transform: rotate(-35deg) translate(-92px, 22px);  /* Firefox 16+, Opera 12.50+ */
+  }
+
+  #menu a {
+    display: block;
+    padding: .2em 0;
+  }
 }
