@@ -40,16 +40,16 @@ h2 {
 }
 
 a:link {
-  color: #d64078;
+  color: #D64078;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #414142;
+  color: #D64078;
 }
 
 a:hover {
-  background-color: #d64078;
-  color: #FFF;
+  text-decoration: underline;
 }
 
 a:active {
@@ -64,7 +64,6 @@ a:active {
 }
 
 #menu a {
-  text-decoration: none;
   color: #676767;
   display: inline-block;
   padding: .3em 1em;
@@ -263,17 +262,7 @@ footer {
   margin: 0 0 1em;
 }
 
-footer a:link, footer a:visited {
-  color: #888;
-}
 
-footer a:hover {
-  color: black;
-}
-
-footer a:active {
-  color: white;
-}
 
 @media screen and (min-width:601px) {
   #menu {
