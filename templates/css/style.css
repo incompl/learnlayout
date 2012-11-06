@@ -88,10 +88,16 @@ a:active {
 #logo a {
   text-decoration: none;
   color: #414142;
+  position: relative;
 }
 
 #logo a:hover {
   background: none;
+  top: 1px;
+}
+
+#logo a:active {
+  top: 2px;
 }
 
 #logo img {
