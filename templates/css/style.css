@@ -29,6 +29,7 @@ h1, h2 {
 h1 {
   margin: 1.5em 0;
   font-weight: normal;
+  text-align: center;
 }
 
 h2 {
@@ -89,15 +90,6 @@ a:active {
   position: relative;
 }
 
-#logo a:hover {
-  background: none;
-  top: 1px;
-}
-
-#logo a:active {
-  top: 2px;
-}
-
 #logo img {
   vertical-align: middle;
 }
@@ -112,7 +104,6 @@ a:active {
 .content {
   max-width: 600px;
   margin: 1em auto;
-  padding: 0 1rem;
 }
 
 .ipsum {
@@ -122,7 +113,6 @@ a:active {
 
 .highlight {
   margin: 2em auto;
-  padding: 0 1rem;
   max-width: 600px;
 }
 
@@ -200,7 +190,6 @@ a:active {
 
 .elem-red {
   border: solid #d64078 3px;
-  color: #FFF;
 }
 .elem-red > .label, .elem-red > .endlabel{
   background-color: #d64078;
