@@ -29,14 +29,12 @@ h1, h2 {
 h1 {
   margin: 1.5em 0;
   font-weight: normal;
-  font-size: 1.5em;
-  text-align: center;
 }
 
 h2 {
   font-family: 'Bree Serif', serif;
   margin: 1.2em 0;
-  font-size: 1.2em;
+  font-weight: normal;
 }
 
 a:link {
