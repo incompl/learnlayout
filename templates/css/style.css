@@ -57,13 +57,12 @@ a:active {
 }
 
 #menu {
-  background-color: #CCC;
+  background-color: whiteSmoke;
   text-align: center;
-  border-bottom: solid #9f9e9e 2px;
 }
 
 #menu a {
-  color: #676767;
+  color: #8F8F8F;
   display: inline-block;
   padding: .3em 1em;
   text-shadow: 0 1px 0 #EDEDED;
@@ -71,7 +70,7 @@ a:active {
 }
 
 #menu a:hover {
-  background: #bcbcbc;
+  background: rgb(220, 220, 220);
 }
 
 #menu .home-link {
