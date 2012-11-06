@@ -4,9 +4,54 @@ layout: default
 
 <style>
 #toc {
-  font-size: 1.5em;
   line-height: 1.5em;
+  padding-left: 0;
 }
+
+#toc ul {
+  padding: 0;
+  width: 90%;
+  margin: auto;
+}
+
+#toc li {
+  list-style-type:none; 
+  margin-bottom: .5em;
+  height: 2.5em;
+}
+
+#toc li a {
+  display: block;
+  text-align: center;
+  padding: .5em;
+  color: #fff;
+  background-color: #D64078;
+  border: solid #B03060 1px;
+  border-bottom: solid #B03060 4px;
+  text-shadow: 0px 2px 0 #B03060;
+  border-radius: .3em;
+  position: relative;
+  -webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
+     -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0.1s ease-out;  /* Opera 10.5–12.00 */
+          transition: all 0.1s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+#toc li a:hover {
+  text-decoration: none;
+  background-color: #c63b6f;
+}
+
+#toc li a:active {
+  border-bottom: solid #b03060 1px;
+  top: 4px;
+  -webkit-transition: all 0 ease-out;  /* Safari 3.2+, Chrome */
+     -moz-transition: all 0 ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0 ease-out;  /* Opera 10.5–12.00 */
+          transition: all 0 ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+
 @media screen and (min-width:601px) {
   #toc {
     -moz-column-count: 2;
@@ -15,7 +60,6 @@ layout: default
     -webkit-column-gap: 1em;
     column-count: 2;
     column-gap: 1em;
-    font-size: 1.2em;
     line-height: 1.2em;
   }
 }
@@ -27,7 +71,6 @@ layout: default
   
   <ul id="toc">
     <li>
-      <a href="/">Home</a>
       <ul>
         <li><a href="no-layout.html">no layout</a></li>
         <li><a href="display.html">display</a></li>

@@ -68,6 +68,7 @@ a:active {
   display: inline-block;
   padding: .3em 1em;
   text-shadow: 0 1px 0 #EDEDED;
+  text-decoration: none;
 }
 
 #menu a:hover {
@@ -209,14 +210,13 @@ a:active {
 }
 
 a.nav {
-  font-family: 'Bree Serif', serif;
   background-color: #d64078;
   color: white;
   border-radius: .3em;
   padding: .2em 0;
   position: relative;
-  margin: 0 1em;
-  width: 8em;
+  margin: 0 1.5em;
+  width: 10em;
   display: inline-block;
   text-decoration: none;
   border: solid #b03060 1px;
