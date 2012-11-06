@@ -6,10 +6,10 @@
     {% else %}
       <title>learn css layout</title>
     {% endif %}
-    <meta name="viewport" content="width=600">
+    <meta name="viewport" content="width=600px">
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="/css/code.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <script type="text/javascript">
 
@@ -27,12 +27,19 @@
   </head>
   <body>
 
-    <div id="menu">
-      <a class="home-link" href="/">home</a>
-      <a href="toc.html">table of contents</a>
+    <div id="logo">
+      <a href="/">
+        <img src="images/logo.png">
+        <span>Learn CSS Layout</span>
+      </a>
     </div>
 
-    <h1>{{ page.title }}</h1>
+    <div id="menu">
+      <a class="home-link" href="/">Home</a>
+      <a href="toc.html">Table of Contents</a>
+    </div>
+
+    <h1 class="content">{{ page.title }}</h1>
 
     {{ content }}
 
