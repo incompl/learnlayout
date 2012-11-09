@@ -5,6 +5,6 @@ h2. How to Build Locally
 * If needed, install "NPM":https://npmjs.org/
 * If needed, install grunt @sudo npm install grunt -g@
 * If needed, install jekyll @sudo gem install jekyll@
-* If needed, install [pygments](http://pygments.org/docs/installation/)
+* If needed, install "pygments":http://pygments.org/docs/installation/
 * Build + run test server with @grunt jekyll@
 * or build only with @grunt jekyll:dev@ or @grunt jekyll:prod@
