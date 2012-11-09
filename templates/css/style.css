@@ -205,6 +205,16 @@ a:active {
   background-color: #96C02E;
 }
 
+a.nav:before {
+  height: 5px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  content: "";
+  top: -6px;
+  left: 0;
+}
+
 a.nav {
   background-color: #d64078;
   color: white;
