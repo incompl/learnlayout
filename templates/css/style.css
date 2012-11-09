@@ -113,6 +113,8 @@ a:active {
 .highlight {
   margin: 2em auto;
   max-width: 600px;
+  line-height: 1.2em;
+  font-size: 16px;
 }
 
 .css, .html {
@@ -165,8 +167,8 @@ a:active {
 .label, .endlabel {
   position: absolute;
   background-color: #6AC5AC;
+  color: #414142;
   line-height: 1em;
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, .6);
 }
 
 .label {
@@ -182,24 +184,25 @@ a:active {
 }
 
 .elem-green {
-  border: solid #FFDE81 3px;
+  border: solid #FDC72F 3px;
 }
 .elem-green > .label, .elem-green > .endlabel{
-  background-color: #FFDE81;
+  background-color: #FDC72F;
 }
 
 .elem-red {
-  border: solid #DD7A9F 3px;
+  border: solid #D64078 3px;
 }
 .elem-red > .label, .elem-red > .endlabel{
-  background-color: #DD7A9F;
+  color: white;
+  background-color: #D64078;
 }
 
 .elem-orange {
-  border: solid #FFDE81 3px;
+  border: solid #96C02E 3px;
 }
 .elem-orange > .label, .elem-orange > .endlabel{
-  background-color: #FFDE81;
+  background-color: #96C02E;
 }
 
 a.nav {
