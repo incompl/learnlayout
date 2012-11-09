@@ -166,6 +166,7 @@ a:active {
   position: absolute;
   background-color: #6AC5AC;
   line-height: 1em;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, .6);
 }
 
 .label {
@@ -181,24 +182,24 @@ a:active {
 }
 
 .elem-green {
-  border: solid #fdc72f 3px;
+  border: solid #FFDE81 3px;
 }
 .elem-green > .label, .elem-green > .endlabel{
-  background-color: #fdc72f;
+  background-color: #FFDE81;
 }
 
 .elem-red {
-  border: solid #d64078 3px;
+  border: solid #DD7A9F 3px;
 }
 .elem-red > .label, .elem-red > .endlabel{
-  background-color: #d64078;
+  background-color: #DD7A9F;
 }
 
 .elem-orange {
-  border: solid #BDD977 3px;
+  border: solid #FFDE81 3px;
 }
 .elem-orange > .label, .elem-orange > .endlabel{
-  background-color: #BDD977;
+  background-color: #FFDE81;
 }
 
 a.nav {
