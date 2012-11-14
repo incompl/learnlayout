@@ -1,0 +1,17 @@
+# English
+
+global.title: "Learn CSS Layout"
+global.short_title: "CSS"
+global.home: "Home"
+global.toc: "Table of Contents"
+global.next: "Next"
+global.previous: "Previous"
+global.feedback: "Issues / Feedback"
+
+index.1: "This site teaches the CSS fundamentals that are used in any CSS layout."
+index.2: "I assume you already know how to make things colorful. You know what selectors, properties, and values are. And you probably know a thing or two about layout, though it may still be a rage-provoking activity for you. Let's see if we can save you some fury on your next project."
+index.get_started: "Get Started"
+
+no_layout.title: "no layout"
+no_layout.1: "Having no layout whatsover is almost ok if all you want is one big column of content. However, if a user makes the browser window really wide, it gets kind of annoying to read: after each line your eyes have a long distance to travel right-to-left to the next line. Try resizing your browser to see what I mean!"
+no_layout.2: "Before we fix this problem, let's make sure we're clear on the very important <code>display</code> property."

@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8">
     {% if page.title != nil %}
-      <title>css layout - {{ page.title }}</title>
+      <title>{% localize global.short_title %} - {% localize page.title %}</title>
     {% else %}
-      <title>learn css layout</title>
+      <title>{% localize global.title %}</title>
     {% endif %}
     <meta name="viewport" content="width=600px">
     <link rel="stylesheet" href="/css/style.css"/>
@@ -30,34 +31,34 @@
     <div id="logo">
       <a href="/">
         <img src="images/logo.png">
-        <span>Learn CSS Layout</span>
+        <span>{% localize global.title %}</span>
       </a>
     </div>
 
     <div id="menu">
-      <a class="home-link" href="/">Home</a>
-      <a href="toc.html">Table of Contents</a>
+      <a class="home-link" href="/">{% localize global.home %}</a>
+      <a href="toc.html">{% localize global.toc %}</a>
     </div>
 
-    <h1 class="content">{{ page.title }}</h1>
+    <h1 class="content">{% localize page.title %}</h1>
 
     {{ content }}
 
     <div class="nav-wrapper">
 
       {% if page.prev %}
-        <a class="nav prev" href="{{ page.prev }}.html">Previous</a>
+        <a class="nav prev" href="{{ page.prev }}.html">{% localize global.previous %}</a>
       {% endif %}
 
       {% if page.next %}
-        <a class="nav next" href="{{ page.next }}.html">Next</a>
+        <a class="nav next" href="{{ page.next }}.html">{% localize global.next %}</a>
       {% endif %}
 
     </div>
 
     {% if page.noFooter != true %}
       <footer>
-        <a href="https://github.com/incompl/csslayoutsite/issues">issues / feedback</a>
+        <a href="https://github.com/incompl/csslayoutsite/issues">{% localize global.feedback %}</a>
       </footer>
     {% endif %}
 
