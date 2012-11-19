@@ -11,12 +11,10 @@ h2. How to Build Locally
 
 h2. How to Translate
 
-NOTE: Right now the site is not fully internationalized. Before translation begins, the site must be fully converted to pull all of its text from "en.yaml":https://github.com/incompl/csslayoutsite/blob/master/translations/en.yaml
-
 Translation files live in the "translations":https://github.com/incompl/csslayoutsite/tree/master/translations directory. Each file is a "2-letter ISO 639-1 language code":http://www.loc.gov/standards/iso639-2/php/code_list.php and the YAML file extention.
 
 If you're not familiar with YAML, it's a very simple human-readable data format. Each line contains a translation code, a colon, and a value in quotes. The translation codes are the same in every language, and the actual translation on the right is in the appropriate language for the file.
 
-To contribute to a translation, either "email me":mailto:gsmith@incompl.com YAML files, or make pull requests against this repository if you know how.
+To contribute to a translation, start with "en.yaml":https://github.com/incompl/csslayoutsite/blob/master/translations/en.yaml and either "email me":mailto:gsmith@incompl.com translated YAML files or make pull requests against this repository if you know how.
 
 To test a translation, change the @lang@ property in "_config.yml":https://github.com/incompl/csslayoutsite/blob/master/templates/_config.yml before you build.
