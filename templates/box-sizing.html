@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "box-sizing"
+title: box_sizing.title
 next: position
 prev: box-model
 ---
@@ -26,7 +26,7 @@ prev: box-model
 </style>
 
 <p class="content">
-  Over the generations, people realized that math is not fun, so a new CSS property called <code>box-sizing</code> was created. When you set <code>box-sizing: border-box;</code> on an element, the padding and border of that element no longer increase its width. Here is the same example as the previous page, but with <code>box-sizing: border-box;</code> on both elements:
+  {% localize box_sizing.1 %}
 </p>
 
 {% highlight css %}
@@ -52,7 +52,7 @@ prev: box-model
 <div class="simple elem">
   <span class="label">&lt;div class="simple"></span>
   <p>
-    sdfasddfas
+    {% localize box_sizing.simple %}
   </p>
   <span class="endlabel">&lt;/div></span>
 </div>
@@ -60,13 +60,13 @@ prev: box-model
 <div class="fancy elem">
   <span class="label">&lt;div class="fancy"></span>
   <p>
-    asdfdsads
+    {% localize box_sizing.fancy %}
   </p>
   <span class="endlabel">&lt;/div></span>
 </div>
 
 <p class="content">
-  Since this is so much better, some authors want all elements on all their pages to always work this way. Such authors put the following CSS on their pages:
+  {% localize box_sizing.2 %}
 </p>
 
 {% highlight css %}
@@ -78,9 +78,9 @@ prev: box-model
 {% endhighlight %}
 
 <p class="content">
-  This ensures that all elements are always sized in this more intuitive way.
+  {% localize box_sizing.3 %}
 </p>
 
 <p class="content">
-  Since <code>box-sizing</code> is pretty new, you should use the <code>-webkit-</code> and <code>-moz-</code> prefixes for now, as I have in these examples. This technique enables experimental features in specific browsers. Also, keep in mind that this one is <a href="http://caniuse.com/#search=box-sizing">IE8+</a>.
+  {% localize box_sizing.4 %}
 </p>

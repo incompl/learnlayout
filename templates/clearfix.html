@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "the clearfix hack"
+title: clearfix.title
 next: float-layout
 prev: clear
 ---
 
 <p class="content">
-  Here is a weird, bad thing that can sometimes happen when using floats:
+  {% localize clearfix.1 %}
 </p>
 
 <style>
@@ -30,18 +30,18 @@ img {
     <span class="label">&lt;div></span>
     <img src="/images/ilta.png" alt="An Image">
     <p>
-      Uh oh... this image is taller than the element containing it, and it's floated, so it's overflowing outside of its container!
+      {% localize clearfix.2 %}
     </p>
   </div>
 
 </div>
 
 <p class="content clear">
-  Boo. There is a way to fix this, but it's ugly. It's called the <em>clearfix hack</em>.
+  {% localize clearfix.3 %}
 </p>
 
 <p class="content">
-  Let's try adding this new CSS:
+  {% localize clearfix.4 %}
 </p>
 
 <style>
@@ -65,7 +65,7 @@ img {
 {% endhighlight %}
 
 <p class="content">
-  Woah. What the heck does that mean? Well, I'm not going to get into it, but <a href="http://www.positioniseverything.net/easyclearing.html">here is some info if you're interested</a>. For now, the important thing to know is that it works:
+  {% localize clearfix.5 %}
 </p>
 
 <div class="content">
@@ -74,7 +74,7 @@ img {
     <span class="label">&lt;div class="clearfix"></span>
     <img src="/images/ilta.png" alt="An Image">
     <p>
-      Much better!
+      {% localize clearfix.6 %}
     </p>
   </div>
 

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "clear"
+title: clear.title
 next: clearfix
 prev: float
 ---
 
 <p class="content">
-  The <code>clear</code> property is important for controlling the behavior of floats. Compare these two examples:
+  {% localize clear.1 %}
 </p>
 
 <style>
@@ -36,7 +36,7 @@ prev: float
   <div class="box elem">
     <span class="label">&lt;div class="box"></span>
     <p>
-      I feel like I'm floating!
+      {% localize clear.floating %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </div>
@@ -45,7 +45,7 @@ prev: float
   <section class="elem elem-green">
     <span class="label">&lt;section></span>
     <p>
-      In this case, the <code>section</code> element is actually after the <code>div</code>. However, since the <code>div</code> is floated to the left, this is what happens: the text in the <code>section</code> is floated around the <code>div</code> and the <code>section</code> surrounds the whole thing. What if we wanted the <code>section</code> to actually appear after the floated element?
+      {% localize clear.2 %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>
@@ -73,7 +73,7 @@ prev: float
   <div class="box elem">
     <span class="label">&lt;div class="box"></span>
     <p>
-      I feel like I'm floating!
+      {% localize clear.floating %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </div>
@@ -81,7 +81,7 @@ prev: float
   <section class="elem elem-green after-box">
     <span class="label">&lt;section class="after-box"></span>
     <p>
-      Using <code>clear</code> we have now moved this section down below the floated <code>div</code>. You use the value <code>left</code> to clear elements floated to the left. You can also clear <code>right</code> and <code>both</code>.
+      {% localize clear.3 %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>

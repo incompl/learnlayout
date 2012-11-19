@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "position example"
+title: position_example.title
 next: float
 prev: position
 ---
 
 <p class="content">
-  This position stuff might make a little more sense in a practical example. Below is a realistic page layout.
+  {% localize position_example.1 %}
 </p>
 
 <style>
@@ -70,22 +70,22 @@ body {
     <span class="label">&lt;nav></span>
     <ul>
       <li>
-        <a href="position-example.html">Home</a>
+        <a href="position-example.html">{% localize util.nav.1 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Taco Menu</a>
+        <a href="position-example.html">{% localize util.nav.2 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Draft List</a>
+        <a href="position-example.html">{% localize util.nav.3 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Hours</a>
+        <a href="position-example.html">{% localize util.nav.4 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Directions</a>
+        <a href="position-example.html">{% localize util.nav.5 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Contact</a>
+        <a href="position-example.html">{% localize util.nav.6 %}</a>
       </li>
     </ul>
     <span class="endlabel">&lt;/nav></span>
@@ -94,7 +94,7 @@ body {
   <section class="elem elem-green">
     <span class="label">&lt;section></span>
     <p>
-      The <code>margin-left</code> style for <code>section</code>s makes sure there is room for the <code>nav</code>.
+      {% localize position_example.section.1 %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>
@@ -102,7 +102,7 @@ body {
   <section class="elem elem-green ipsum">
     <span class="label">&lt;section></span>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+      {% localize util.ipsum %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>
@@ -110,7 +110,7 @@ body {
   <section class="elem elem-green">
     <span class="label">&lt;section></span>
     <p>
-      Notice what happens when you resize your browser. It works nicely!
+      {% localize position_example.section.2 %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>
@@ -118,7 +118,7 @@ body {
   <footer class="elem elem-orange">
     <span class="label">&lt;footer></span>
     <p>
-      If you use a fixed header or footer, make sure there is room for it! I put a <code>margin-bottom</code> on the <code>body</code>.
+      {% localize position_example.footer %}
     </p>
     <span class="endlabel">&lt;/footer></span>
   </footer>
@@ -126,5 +126,5 @@ body {
 </div>
 
 <p class="content">
-  This example works because the container is taller than the nav. If it wasn't, the nav would overflow outside of its container. In the coming pages we'll discuss other layout techniques that have different pros and cons.
+  {% localize position_example.2 %}
 </p>

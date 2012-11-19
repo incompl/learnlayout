@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "percent width"
+title: percent.title
 next: media-queries
 prev: float-layout
 ---
 
 <p class="content">
-  Percent is a measurement unit relative to the containing block. It's great for images: here we make an image that is always 50% the width of its container. Try shrinking down the page to see what happens!
+  {% localize percent.1 %}
 </p>
 
 <style>
@@ -34,17 +34,17 @@ article img {
   <span class="label">&lt;article class="clearfix"></span>
   <img src="images/ilta.png" alt="an image">
   <p>
-    You could even use <code>min-width</code> and <code>max-width</code> to limit how big or small the image can get!
+    {% localize percent.2 %}
   </p>
   <span class="endlabel">&lt;/article></span>
 </article>
 
 <div class="content">
-  <h2>percent width layout</h2>
+  <h2>{% localize percent.layout.title %}</h2>
 </div>
 
 <p class="content">
-  You can use percent for layout, but this can require more work. In this example, the <code>nav</code> content starts to wrap in a displeasing way when the window is too narrow. It comes down to what works for your content.
+  {% localize percent.layout.1 %}
 </p>
 
 <style>
@@ -74,22 +74,22 @@ section {
     <span class="label">&lt;nav></span>
     <ul>
       <li>
-        <a href="percent.html">Home</a>
+        <a href="percent.html">{% localize util.nav.1 %}</a>
       </li>
       <li>
-        <a href="percent.html">Taco Menu</a>
+        <a href="percent.html">{% localize util.nav.2 %}</a>
       </li>
       <li>
-        <a href="percent.html">Draft List</a>
+        <a href="percent.html">{% localize util.nav.3 %}</a>
       </li>
       <li>
-        <a href="percent.html">Hours</a>
+        <a href="percent.html">{% localize util.nav.4 %}</a>
       </li>
       <li>
-        <a href="percent.html">Directions</a>
+        <a href="percent.html">{% localize util.nav.5 %}</a>
       </li>
       <li>
-        <a href="percent.html">Contact</a>
+        <a href="percent.html">{% localize util.nav.6 %}</a>
       </li>
     </ul>
     <span class="endlabel">&lt;/nav></span>
@@ -98,7 +98,7 @@ section {
   <section class="elem elem-green">
     <span class="label">&lt;section></span>
     <p>
-      When this layout is too narrow, the <code>nav</code> gets squished. Worse, you can't use <code>min-width</code> on the nav to fix it, because the right column wouldn't respect it.
+      {% localize percent.layout.2 %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>
@@ -106,7 +106,7 @@ section {
   <section class="elem elem-green ipsum">
     <span class="label">&lt;section></span>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+      {% localize util.ipsum %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>

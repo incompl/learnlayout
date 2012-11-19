@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "the box model"
+title: box_model.title
 next: box-sizing
 prev: max-width
 ---
@@ -26,7 +26,7 @@ prev: max-width
 </style>
 
 <p class="content">
-  While we're talking about width, we should talk about width's big caveat: the <em>box model</em>. When you set the width of an element, the element can actually appear bigger than what you set: the element's border and padding will stretch out the element beyond the specified width. Look at the following example, where two elements with the same width value end up different sizes in the result.
+  {% localize box_model.intro %}
 </p>
 
 {% highlight css %}
@@ -46,7 +46,7 @@ prev: max-width
 <div class="simple elem">
   <span class="label">&lt;div class="simple"></span>
   <p>
-    sdfasddfas
+    {% localize box_model.simple %}
   </p>
   <span class="endlabel">&lt;/div></span>
 </div>
@@ -54,11 +54,11 @@ prev: max-width
 <div class="fancy elem">
   <span class="label">&lt;div class="fancy"></span>
   <p>
-    asdfdsads
+    {% localize box_model.fancy %}
   </p>
   <span class="endlabel">&lt;/div></span>
 </div>
 
 <p class="content">
-  For generations, the solution to this problem has been math. CSS authors have always just written a smaller width value than what they wanted, subtracting out the padding and border. Thankfully, you don't have to do that anymore...
+  {% localize box_model.outro %}
 </p>
