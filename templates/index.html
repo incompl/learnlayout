@@ -4,35 +4,22 @@ noFooter: true
 ---
 
 <style>
-  html {
-    height: 100%;
-  }
-  #container {
-    margin: auto;
-  }
   #about {
     max-width: 550px;
     margin: 2.5em auto 2em;
     padding: 0 1rem;
   }
-  .nav-wrapper {
-    padding: 0;
-  }
 </style>
 
-<div id="container">
+<div id="about">
+  <p>
+    {% localize index.1 %}
+  </p>
+  <p>
+    {% localize index.2 %}
+  </p>
+</div>
 
-  <div id="about">
-    <p>
-      {% localize index.1 %}
-    </p>
-    <p>
-      {% localize index.2 %}
-    </p>
-  </div>
-
-  <div class="nav-wrapper">
-    <a class="nav start" href="no-layout.html">{% localize index.get_started %}</a>
-  </div>
-
+<div class="nav-wrapper">
+  <a class="nav start" href="no-layout.html">{% localize index.get_started %}</a>
 </div>
