@@ -93,6 +93,10 @@ a:active {
   position: relative;
 }
 
+#logo a:active {
+  background: none;
+}
+
 #logo img {
   vertical-align: middle;
 }
