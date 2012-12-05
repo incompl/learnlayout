@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "inline-block"
+title: inline_block.title
 next: inline-block-layout
 prev: media-queries
 ---
 
 <p class="content">
-  You can create a grid of boxes that fills the browser width and wraps nicely. This has been possible for a long time using <code>float</code>, but now with <code>inline-block</code> it's even easier. Let's look at examples of both approaches.
+  {% localize inline_block.1 %}
 </p>
 
 <div class="content">
-  <h2>The Hard Way (using float)</h2>
+  <h2>{% localize inline_block.hard_way.title %}</h2>
 </div>
 
 <style>
@@ -42,7 +42,7 @@ prev: media-queries
     <div class="box elem">
       <span class="label">&lt;div class="box"></span>
       <p>
-        I'm floating!
+        {% localize inline_block.hard_way.box %}
       </p>
       <span class="endlabel">&lt;/div></span>
     </div>
@@ -51,16 +51,16 @@ prev: media-queries
   <section class="elem elem-green after-box">
     <span class="label">&lt;div class="after-box"></span>
     <p>
-      I'm using clear so I don't float next to the above boxes.
+      {% localize inline_block.hard_way.after %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </section>
 </p>
 
 <div class="content">
-  <h2>The Easy Way (using inline-block)</h2>
+  <h2>{% localize inline_block.easy_way.title %}</h2>
   <p>
-    You can achieve the same effect using the <code>inline-block</code> value of the <code>display</code> property.
+    {% localize inline_block.easy_way.info %}
   </p>
 </div>
 
@@ -87,7 +87,7 @@ prev: media-queries
     <div class="box2 elem">
       <span class="label">&lt;div class="box2"></span>
       <p>
-        I'm an inline block!
+        {% localize inline_block.easy_way.box %}
       </p>
       <span class="endlabel">&lt;/div></span>
     </div>
@@ -96,12 +96,12 @@ prev: media-queries
   <section class="elem elem-green">
     <span class="label">&lt;div></span>
     <p>
-      I don't have to use <code>clear</code> in this case. Nice!
+      {% localize inline_block.easy_way.after %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </section>
 </p>
 
 <p class="content">
-  You have to do extra work for <a href="http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/">IE6 and IE7 support</a> of <code>inline-block</code>. Sometimes people talk about <code>inline-block</code> triggering something called <code>hasLayout</code>, though you only need to know about that to support old browsers. Follow the previous link about IE6 and IE7 support if you're curious to learn more. Otherwise, let's continue.
+  {% localize inline_block.2 %}
 </p>

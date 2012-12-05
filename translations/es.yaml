@@ -1,0 +1,17 @@
+# Spanish / Español
+
+global.title: "Aprended de diseño CSS"
+global.short_title: "CSS"
+global.home: "Home"
+global.toc: "Tabla de Contenidos"
+global.next: "Next"
+global.previous: "Anterior"
+global.feedback: "Cuestiones / Comentarios"
+
+index.1: "Este sitio enseña los fundamentos CSS que se utilizan en cualquier diseño CSS."
+index.2: "Supongo que usted ya sabe cómo hacer las cosas de colores ¿Sabes lo que selectores, propiedades y valores son y usted probablemente sabe una cosa o dos acerca de la composición, aunque todavía puede ser una actividad que provoca ira para ti. Vamos a ver si podemos ahorrar algo de furia en su próximo proyecto."
+index.get_started: "Comenzar"
+
+no_layout.title: "no presentación"
+no_layout.1: "Tener ausencia de toda disposición es casi bien si lo que quieres es una gran columna de contenido Sin embargo, si un usuario hace que la ventana del navegador muy amplio, puede ser un poco molesto para leer: después de cada línea de sus ojos tienen un de larga distancia a recorrer de derecha a izquierda a la línea siguiente. Trate de cambiar el tamaño de su navegador para ver lo que quiero decir!"
+no_layout.2: "Antes de solucionar este problema, vamos a asegurarnos de que estamos claros en la pantalla <code> muyimportante</code>"

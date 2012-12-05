@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "inline-block layout"
+title: inline_block_layout.title
 next: column
 prev: inline-block
 ---
@@ -8,13 +8,13 @@ prev: inline-block
 <div class="content">
 
   <p>
-    You can also use <code>inline-block</code> for layouts. There are a few things to keep in mind:
+    {% localize inline_block_layout.1 %}
   </p>
 
   <ul>
-    <li><code>inline-block</code> elements are affected by the <code>vertical-align</code> property, which you probably want set to <code>top</code>.
-    <li>You need to set the width of each column
-    <li>There will be a gap between the columns if there is any whitespace between them in the HTML
+    <li>{% localize inline_block_layout.caveat.1 %}
+    <li>{% localize inline_block_layout.caveat.2 %}
+    <li>{% localize inline_block_layout.caveat.3 %}
   </ul>
 </div>
 
@@ -51,22 +51,22 @@ nav {
     <span class="label">&lt;nav></span>
     <ul>
       <li>
-        <a href="position-example.html">Home</a>
+        <a href="inline-block-layout.html">{% localize util.nav.1 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Taco Menu</a>
+        <a href="inline-block-layout.html">{% localize util.nav.2 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Draft List</a>
+        <a href="inline-block-layout.html">{% localize util.nav.3 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Hours</a>
+        <a href="inline-block-layout.html">{% localize util.nav.4 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Directions</a>
+        <a href="inline-block-layout.html">{% localize util.nav.5 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Contact</a>
+        <a href="inline-block-layout.html">{% localize util.nav.6 %}</a>
       </li>
     </ul>
     <span class="endlabel">&lt;/nav></span>
@@ -74,8 +74,9 @@ nav {
     <span class="label">&lt;div class="column"></span>
 
     <section class="elem elem-green">
+      <span class="label">&lt;section></span>
       <p>
-        Tada!
+        {% localize inline_block_layout.tada %}
       </p>
       <span class="endlabel">&lt;/section></span>
     </section>
@@ -83,8 +84,9 @@ nav {
     <section class="elem elem-green ipsum">
       <span class="label">&lt;section></span>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        {% localize util.ipsum %}
       </p>
+      <span class="endlabel">&lt;/section></span>
     </section>
 
     <span class="endlabel">&lt;/div></span>

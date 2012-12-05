@@ -18,7 +18,7 @@ p {
 }
 
 p code, li code {
-  background-color: #ddd;
+  background-color: #ECECEC;
 }
 
 h1, h2 {
@@ -29,6 +29,7 @@ h1, h2 {
 h1 {
   margin: 1.5em 0;
   font-weight: normal;
+  text-align: center;
 }
 
 h2 {
@@ -56,13 +57,12 @@ a:active {
 }
 
 #menu {
-  background-color: #CCC;
+  background-color: whiteSmoke;
   text-align: center;
-  border-bottom: solid #9f9e9e 2px;
 }
 
 #menu a {
-  color: #676767;
+  color: #8F8F8F;
   display: inline-block;
   padding: .3em 1em;
   text-shadow: 0 1px 0 #EDEDED;
@@ -70,7 +70,7 @@ a:active {
 }
 
 #menu a:hover {
-  background: #bcbcbc;
+  background: rgb(220, 220, 220);
 }
 
 #menu .home-link {
@@ -89,15 +89,6 @@ a:active {
   position: relative;
 }
 
-#logo a:hover {
-  background: none;
-  top: 1px;
-}
-
-#logo a:active {
-  top: 2px;
-}
-
 #logo img {
   vertical-align: middle;
 }
@@ -109,10 +100,13 @@ a:active {
   margin-left: .2em;
 }
 
+#container {
+  padding: 0 1em;
+}
+
 .content {
   max-width: 600px;
   margin: 1em auto;
-  padding: 0 1rem;
 }
 
 .ipsum {
@@ -122,8 +116,9 @@ a:active {
 
 .highlight {
   margin: 2em auto;
-  padding: 0 1rem;
   max-width: 600px;
+  line-height: 1.2em;
+  font-size: 16px;
 }
 
 .css, .html {
@@ -176,6 +171,7 @@ a:active {
 .label, .endlabel {
   position: absolute;
   background-color: #6AC5AC;
+  color: #414142;
   line-height: 1em;
 }
 
@@ -192,25 +188,35 @@ a:active {
 }
 
 .elem-green {
-  border: solid #fdc72f 3px;
+  border: solid #FDC72F 3px;
 }
 .elem-green > .label, .elem-green > .endlabel{
-  background-color: #fdc72f;
+  background-color: #FDC72F;
 }
 
 .elem-red {
-  border: solid #d64078 3px;
-  color: #FFF;
+  border: solid #D64078 3px;
 }
 .elem-red > .label, .elem-red > .endlabel{
-  background-color: #d64078;
+  color: white;
+  background-color: #D64078;
 }
 
 .elem-orange {
-  border: solid #BDD977 3px;
+  border: solid #96C02E 3px;
 }
 .elem-orange > .label, .elem-orange > .endlabel{
-  background-color: #BDD977;
+  background-color: #96C02E;
+}
+
+a.nav:before {
+  height: 5px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  content: "";
+  top: -6px;
+  left: 0;
 }
 
 a.nav {

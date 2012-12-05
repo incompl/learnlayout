@@ -1,23 +1,23 @@
 ---
 layout: default
-title: "flexbox"
+title: flexbox.title
 next: frameworks
 prev: column
 ---
 
 <p class="content">
-  The new <code>flexbox</code> layout mode is poised to redefine how we do layouts in CSS. Unfortunately the specification has changed a lot recently, so it's implemented differently in different browsers. Still, I'd like to share a couple examples so you know what's coming up. These examples currently only work in the Chrome flexbox implementation, based on the <a href="http://www.w3.org/TR/css3-flexbox/">latest version of the standard</a>.
+  {% localize flexbox.1 %}
 </p>
 
 <p class="content">
-  There are a lot of out-of-date flexbox resources around. If you want to learn more about flexbox, <a href="http://css-tricks.com/old-flexbox-and-new-flexbox/">start here</a> to learn how to identify if a resource is current or not.
+  {% localize flexbox.2 %}
 </p>
 
 <p class="content">
-  There is a lot more you can do with flexbox; these are just a few examples to give you an idea:
+  {% localize flexbox.3 %}
 </p>
 
-<h2 class="content">Simple Layout using Flexbox</h2>
+<h2 class="content">{% localize flexbox.simple.title %}</h2>
 
 <style>
   .container {
@@ -54,22 +54,22 @@ nav {
     <span class="label">&lt;nav></span>
     <ul>
       <li>
-        <a href="position-example.html">Home</a>
+        <a href="flexbox.html">{% localize util.nav.1 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Taco Menu</a>
+        <a href="flexbox.html">{% localize util.nav.2 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Draft List</a>
+        <a href="flexbox.html">{% localize util.nav.3 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Hours</a>
+        <a href="flexbox.html">{% localize util.nav.4 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Directions</a>
+        <a href="flexbox.html">{% localize util.nav.5 %}</a>
       </li>
       <li>
-        <a href="position-example.html">Contact</a>
+        <a href="flexbox.html">{% localize util.nav.6 %}</a>
       </li>
     </ul>
     <span class="endlabel">&lt;/nav></span>
@@ -81,7 +81,7 @@ nav {
     <section class="elem elem-green">
       <span class="label">&lt;section></span>
       <p>
-        Flexbox is so easy!
+        {% localize flexbox.simple.1 %}
       </p>
       <span class="endlabel">&lt;/section></span>
     </section>
@@ -89,7 +89,7 @@ nav {
     <section class="elem elem-green ipsum">
       <span class="label">&lt;section></span>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        {% localize util.ipsum %}
       </p>
       <span class="endlabel">&lt;/section></span>
     </section>
@@ -99,7 +99,7 @@ nav {
 
 </div>
 
-<h2 class="content">Fancy Layout using Flexbox</h2>
+<h2 class="content">{% localize flexbox.fancy.title %}</h2>
 
 <style>
 .initial {
@@ -154,7 +154,7 @@ nav {
   <section class="elem elem-green initial">
     <span class="label">&lt;div class="initial"></span>
     <p>
-      I will be 200px when there is room, and I will shrink down to 100px if there is not room, but no smaller.
+      {% localize flexbox.fancy.1 %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </section>
@@ -162,7 +162,7 @@ nav {
   <section class="elem elem-green none">
     <span class="label">&lt;div class="none"></span>
     <p>
-      I will always be 200px, no matter what.
+      {% localize flexbox.fancy.2 %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </section>
@@ -170,7 +170,7 @@ nav {
   <section class="elem elem-green flex1">
     <span class="label">&lt;div class="flex1"></span>
     <p>
-      I will fill up 1/3 of the remaining width.
+      {% localize flexbox.fancy.3 %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </section>
@@ -178,14 +178,14 @@ nav {
   <section class="elem elem-green flex2">
     <span class="label">&lt;div class="flex2"></span>
     <p>
-      I will fill up 2/3 of the remaining width.
+      {% localize flexbox.fancy.4 %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </section>
 
 </div>
 
-<h2 class="content">Centering using Flexbox</h2>
+<h2 class="content">{% localize flexbox.centering.title %}</h2>
 
 <style>
 .vertical-container {
@@ -215,7 +215,7 @@ nav {
   <section class="elem elem-green vertically-centered">
     <span class="label">&lt;div class="vertically-centered"></span>
     <p>
-      Finally, it's easy to vertically center something in CSS!
+      {% localize flexbox.centering.1 %}
     </p>
     <span class="endlabel">&lt;/div></span>
   </section>

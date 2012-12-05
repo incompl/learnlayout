@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "media queries"
+title: media_queries.title
 next: inline-block
 prev: percent
 ---
 
 <p class="content">
-  "Responsive Design" is the strategy of making a site that "responds" to the browser and device that it is being shown on... by looking awesome no matter what.
+  {% localize media_queries.1 %}
 </p>
 
 <p class="content">
-  Media queries are the most powerful tool for doing this. Let's take our layout that uses percent widths and have it display in one column when the browser is too small to fit the menu in the sidebar:
+  {% localize media_queries.2 %}
 </p>
 
 <style>
@@ -78,7 +78,7 @@ prev: percent
   <section class="elem elem-green">
     <span class="label">&lt;section></span>
     <p>
-      Now when you resize your browser it's even cooler than ever!
+      {% localize media_queries.3 %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>
@@ -86,7 +86,7 @@ prev: percent
   <section class="elem elem-green ipsum">
     <span class="label">&lt;section></span>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+      {% localize util.ipsum %}
     </p>
     <span class="endlabel">&lt;/section></span>
   </section>
@@ -94,12 +94,12 @@ prev: percent
 </div>
 
 <p class="content">
-  Tada! Now our layout looks great even on mobile browsers. Here are <a href="http://mediaqueri.es/">some popular sites that use media queries this way</a>. There is a whole lot more you can detect than <code>min-width</code> and <code>max-width</code>: check out <a href="https://developer.mozilla.org/en-US/docs/CSS/Media_queries">the MDN documentation</a> to learn more.
+  {% localize media_queries.4 %}
 </p>
 
 <div class="content">
-  <h2>extra credit</h2>
+  <h2>{% localize util.extra_credit %}</h2>
   <p>
-    You can make your layout look even better on mobile using <a href="http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/">meta viewport</a>.
+    {% localize media_queries.5 %}
   </p>
 </div>
