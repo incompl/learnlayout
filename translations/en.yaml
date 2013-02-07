@@ -17,8 +17,8 @@ util.nav.4: "Hours"
 util.nav.5: "Directions"
 util.nav.6: "Contact"
 
-index.1: "This site teaches the CSS fundamentals that are used in any CSS layout."
-index.2: "I assume you already know how to make things colorful. You know what selectors, properties, and values are. And you probably know a thing or two about layout, though it may still be a rage-provoking activity for you. Let's see if we can save you some fury on your next project."
+index.1: "This site teaches the CSS fundamentals that are used in any website's layout."
+index.2: "I assume you already know what selectors, properties, and values are. And you probably know a thing or two about layout, though it may still be a rage-provoking activity for you. If you want to learn HTML and CSS from the beginning, you should check out <a href=\"http://learn.shayhowe.com/html-css/\">this tutorial</a>. Otherwise, let's see if we can save you some fury on your next project."
 index.get_started: "Get Started"
 
 no_layout.title: "no layout"
