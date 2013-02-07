@@ -103,8 +103,10 @@ clearfix.1: "Here is a weird, bad thing that can sometimes happen when using flo
 clearfix.2: "Uh oh... this image is taller than the element containing it, and it's floated, so it's overflowing outside of its container!"
 clearfix.3: "Boo. There is a way to fix this, but it's ugly. It's called the <em>clearfix hack</em>."
 clearfix.4: "Let's try adding this new CSS:"
-clearfix.5: "Woah. What the heck does that mean? Well, I'm not going to get into it, but <a href=\"http://www.positioniseverything.net/easyclearing.html\">here is some info if you're interested</a>. For now, the important thing to know is that it works:"
+clearfix.5: "Now let's see what happens:"
 clearfix.6: "Much better!"
+clearfix.7: "This works for modern browsers. If you want to support IE6 you will want to add the following:"
+clearfix.8: "There are exotic browsers that may require extra attention. <a href=\"http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best\">The world of clearfixing is pretty scary</a>, but this simple solution will work for the vast majority of browsers today."
 
 float_layout.title: "float layout example"
 float_layout.1: "It's very common to do entire layouts using <code>float</code>. Here is the same layout we did with <code>position</code> earlier, but using <code>float</code> instead."

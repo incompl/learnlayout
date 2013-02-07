@@ -45,22 +45,14 @@ img {
 </p>
 
 <style>
-  .clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  .clearfix {
+    overflow: auto;
   }
 </style>
 
 {% highlight css %}
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+.clearfix {
+  overflow: auto;
 }
 {% endhighlight %}
 
@@ -79,3 +71,18 @@ img {
   </div>
 
 </div>
+
+<p class="content">
+  {% localize clearfix.7 %}
+</p>
+
+{% highlight css %}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+{% endhighlight %}
+
+<p class="content">
+  {% localize clearfix.8 %}
+</p>
