@@ -150,7 +150,7 @@ column.2: "CSS columns are very new, so you need to use the prefixes, and it won
 
 flexbox.title: "flexbox"
 flexbox.1: "The new <code>flexbox</code> layout mode is poised to redefine how we do layouts in CSS. Unfortunately the specification has changed a lot recently, so it's implemented differently in different browsers. Still, I'd like to share a couple examples so you know what's coming up. These examples currently only work in the Chrome flexbox implementation, based on the <a href=\"http://www.w3.org/TR/css3-flexbox/\">latest version of the standard</a>."
-flexbox.2: "There are a lot of out-of-date flexbox resources around. If you want to learn more about flexbox, <a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">start here</a> to learn how to identify if a resource is current or not."
+flexbox.2: "There are a lot of out-of-date flexbox resources around. If you want to learn more about flexbox, <a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">start here</a> to learn how to identify if a resource is current or not. I have written a <a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">detailed article using the latest syntax</a>."
 flexbox.3: "There is a lot more you can do with flexbox; these are just a few examples to give you an idea:"
 flexbox.simple.title: "Simple Layout using Flexbox"
 flexbox.simple.1: "Flexbox is so easy!"
