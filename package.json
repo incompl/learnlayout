@@ -1,0 +1,8 @@
+{
+  "name": "learn-css-layout",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-jekyll": "0.2.2"
+  }
+}
