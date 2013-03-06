@@ -3,7 +3,7 @@ This is the source for "learnlayout.com":http://learnlayout.com in case you're c
 h2. How to Build
 
 * If needed, install "NPM":https://npmjs.org/
-* If needed, install grunt @sudo npm install grunt -g@
+* If needed, install "grunt":http://gruntjs.com
 * If needed, install jekyll @sudo gem install jekyll@
 * If needed, install "pygments":http://pygments.org/docs/installation/
 * Build + run test server with @grunt jekyll@
