@@ -112,23 +112,6 @@ a:active {
   padding: 0 1em;
 }
 
-#share {
-  z-index: -9999;
-  width: 100%;
-  bottom: 0;
-  background: #ededed;
-  margin: 2em auto 0 auto;
-  width: 220px;
-}
-
-#share li {
-  max-width: 110px;
-  height: 25px;
-  margin: 10px 0;
-  list-style: none;
-  float: left;
-}
-
 .content {
   max-width: 600px;
   margin: 1em auto;
@@ -303,6 +286,18 @@ a.nav:active {
 footer {
   text-align: center;
   margin: 0 0 1em;
+}
+
+#share {
+  z-index: -9999;
+  margin: 2em auto 0 auto;
+  width: 220px;
+}
+
+#share li {
+  margin: 10px 0;
+  list-style: none;
+  float: left;
 }
 
 @media screen and (min-width:601px) {
