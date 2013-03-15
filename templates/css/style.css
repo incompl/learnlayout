@@ -292,6 +292,7 @@ footer {
   z-index: -9999;
   margin: 2em auto 0 auto;
   width: 220px;
+  text-align: center;
 }
 
 #share li {
