@@ -218,9 +218,9 @@ a:active {
 }
 
 a.nav:before {
-  height: 5px;
+  height: 40px;
   width: 100%;
-  background: white;
+  background: rgba(0,0,0,.0);
   position: absolute;
   content: "";
   top: -6px;

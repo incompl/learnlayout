@@ -17,6 +17,7 @@ layout: default
 #toc li {
   list-style-type:none; 
   margin-bottom: .5em;
+  height: 2.6em;
 }
 
 #toc li a {
@@ -34,6 +35,16 @@ layout: default
      -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
        -o-transition: all 0.1s ease-out;  /* Opera 10.5–12.00 */
           transition: all 0.1s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+#toc li a:before {
+  height: 46px;
+  width: 100%;
+  background: rgba(0,0,0,.0);
+  position: absolute;
+  content: "";
+  top: -6px;
+  left: 0;
 }
 
 #toc li a:hover {
