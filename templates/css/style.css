@@ -270,6 +270,7 @@ a.nav:active {
 .nav-wrapper {
   text-align: center;
   padding: 1em 0;
+  height: 4.2em;
 }
 
 .prev {
