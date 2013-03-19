@@ -112,6 +112,14 @@ a:active {
   margin-left: .2em;
 }
 
+#translations {
+  text-align: center;
+}
+
+#translator {
+  text-align: center;
+}
+
 #container {
   padding: 0 1em;
 }
