@@ -1,4 +1,4 @@
-# English
+# Simplified Chinese
 
 global.title: "学习CSS布局"
 global.short_title: "CSS"
@@ -22,21 +22,21 @@ index.2: "我们假设你已经掌握了CSS选择器、属性和值。并且你�
 index.get_started: "开始"
 
 no_layout.title: "没有布局"
-no_layout.1: "如果你想要的只是一个大列内容，那么不用设置任何布局也是OK的。However, if a user makes the browser window really wide, it gets kind of annoying to read: after each line your eyes have a long distance to travel right-to-left to the next line. Try resizing your browser to see what I mean!"
-no_layout.2: "Before we fix this problem, let's make sure we're clear on the very important <code>display</code> property."
+no_layout.1: "如果你想要的只是一个大列内容，那么不用设置任何布局也是OK的。然而，如果用户把浏览器窗口缩放的很大，这时阅读网页会非常不适：读完每一行之后，你的视觉焦点要从右到左移动一大段距离。你可以试试缩放下浏览器窗口就知道意思了！"
+no_layout.2: "在我们解决这个问题之前，我们需要清楚一个很重要的属性：<code>display</code>"
 
-display.title: "the \"display\" property"
-display.intro: "<code>display</code> is CSS's most important property for controlling layout. Every element has a default display value depending on what type of element it is. The default for most elements is usually <code>block</code> or <code>inline</code>. A block element is often called a block-level element. An inline element is always just called an inline element."
+display.title: "\"display\"属性"
+display.intro: "<code>display</code>是CSS中最重要的用于控制布局的属性。每个元素都有一个默认的display值，这与元素的类型有关。对于大多数元素它们的默认值通常是<code>block</code> 或<code>inline</code>。一个block元素通常被叫做块级元素。一个inline元素通常被叫做行内元素。"
 display.block.title: "block"
-display.block: "<code>div</code> is the standard block-level element. A block-level element starts on a new line and stretches out to the left and right as far as it can. Other common block-level elements are <code>p</code> and <code>form</code>, and new in HTML5 are <code>header</code>, <code>footer</code>, <code>section</code>, and more."
+display.block: "<code>div</code>是一个标准的块级元素。一个块级元素会新开始一行并且尽可能撑满。其他常用的块级元素包括<code>p</code> 和 <code>form</code>，和HTML5中的新元素：<code>header</code>，<code>footer</code>，<code>section</code>等等。"
 display.inline.title: "inline"
-display.inline.1: "<code>span</code> is the standard inline element. An inline element can wrap some text inside a paragraph"
-display.inline.2: "like this"
-display.inline.3: "without disrupting the flow of that paragraph. The <code>a</code> element is the most common inline element, since you use them for links."
+display.inline.1: "<code>span</code>是一个标准的行内元素。一个行内元素可以在段落中包裹一些文字。"
+display.inline.2: "例如"
+display.inline.3: "没有打乱段落的布局。<code>a</code>元素是最常用的行内元素，它可以被用作链接。"
 display.none.title: "none"
-display.none.1: "Another common display value is <code>none</code>. Some specialized elements such as <code>script</code> use this as their default. It is commonly used with JavaScript to hide and show elements without really deleting and recreating them."
-display.none.2: "This is different from <code>visibility</code>. Setting <code>display</code>  to <code>none</code> will not leave space where the element would have been, but <code>visibility: hidden;</code> will leave an empty space."
-display.other.title: "other display values"
+display.none.1: "另一个常用的display值是<code>none</code>。一些特殊的元素的默认display值是它，例如<code>script</code>。它通常被Javascript用来在不删除元素的情况下隐藏或显示元素。"
+display.none.2: "它和<code>visibility</code>属性不一样。把<code>display</code>设置成<code>none</code>不会保留元素本该显示的空间，但是<code>visibility: hidden;</code>还会保留。"
+display.other.title: "其他display值"
 display.other: "There are plenty of more exotic display values, such as <code>list-item</code> and <code>table</code>. <a href=\"https://developer.mozilla.org/en-US/docs/CSS/display\">Here is an exhaustive list</a>. We'll discuss <code>inline-block</code> and <code>flex</code> later on."
 display.extra: "As I mentioned, every element has a default display type. However, you can <em>always</em> override this! Though it wouldn't make sense to make an inline div, you can use this to customize the display of elements that have particular semantics. A common example is making inline <code>li</code> elements for horizontal menus."
 
@@ -168,3 +168,4 @@ frameworks.2: "That's it! If you have any feedback on this site, please <a href=
 
 about.title: "about this site"
 about.credits: "Written and built by <a href=\"http://incompl.com\">Greg Smith</a>. Design by <a href=\"http://www.isaacdurazo.com/\">Isaac Durazo</a>. We work at <a href=\"http://bocoup.com\">Bocoup</a>."
+
