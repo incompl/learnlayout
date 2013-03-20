@@ -17,15 +17,18 @@ util.nav.4: "Hours"
 util.nav.5: "Directions"
 util.nav.6: "Contact"
 
-index.1: "This site teaches the CSS fundamentals that are used in any website's layout."
+index.1: "Diese Seite vermittelt dir die CSS-Grundlagen, die für das Layout jeder Website verwendet werden."
 index.2: "I assume you already know what selectors, properties, and values are. And you probably know a thing or two about layout, though it may still be a rage-provoking activity for you. If you want to learn HTML and CSS from the beginning, you should check out <a href=\"http://learn.shayhowe.com/html-css/\">this tutorial</a>. Otherwise, let's see if we can save you some fury on your next project."
+index.2: "Ich gehe davon aus, dass du bereits weißt, was Selektoren, Eigenschaften, und Werte sind. Und vielleicht weißt du schon das ein oder andere über CSS-Layouts, auch wenn das noch immer ein frustrierendes Thema für dich ist. Wenn du CSS und HTML von Grund auf lernen möchtest, solltest du vielleicht zuerst mit <a href=\"http://learn.shayhowe.com/html-css/\">diesem Tutorial</a> anfangen. Ansonsten schauen wir mal, ob wir dir nicht ein wenig Frust bei deinem nächsten Projekt ersparen können."
+
 index.english: "english"
 index.persian: "رسیدن"
 index.spanish: "español"
+index.german: "deutsch"
 index.translator: ""
-index.get_started: "Get Started"
+index.get_started: "Jetzt starten"
 
-no_layout.title: "no layout"
+no_layout.title: "kein Layout"
 no_layout.1: "Having no layout whatsover is almost ok if all you want is one big column of content. However, if a user makes the browser window really wide, it gets kind of annoying to read: after each line your eyes have a long distance to travel right-to-left to the next line. Try resizing your browser to see what I mean!"
 no_layout.2: "Before we fix this problem, let's make sure we're clear on the very important <code>display</code> property."
 
