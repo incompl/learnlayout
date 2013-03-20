@@ -26,6 +26,18 @@ module Jekyll
       "#{result}"
     end
   end
+
+  class RtlTag < Liquid::Tag
+    def render(context)
+      rtl = context.registers[:site].config['rtl']
+      if rtl == true
+        "rtl"
+      else
+        "ltr"
+      end
+    end
+  end
 end
 
 Liquid::Template.register_tag('localize', Jekyll::LocalizeTag)
+Liquid::Template.register_tag('rtl', Jekyll::RtlTag)

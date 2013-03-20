@@ -7,6 +7,10 @@ body {
   font-family: Arial;
 }
 
+body.rtl {
+  direction: rtl;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -108,6 +112,14 @@ a:active {
   margin-left: .2em;
 }
 
+#translations {
+  text-align: center;
+}
+
+#translator {
+  text-align: center;
+}
+
 #container {
   padding: 0 1em;
 }
@@ -127,6 +139,7 @@ a:active {
   max-width: 600px;
   line-height: 1.2em;
   font-size: 16px;
+  direction: ltr;
 }
 
 .css, .html {
@@ -270,6 +283,7 @@ a.nav:active {
 .nav-wrapper {
   text-align: center;
   padding: 1em 0;
+  clear: both;
 }
 
 .prev {
@@ -319,6 +333,24 @@ footer {
         -ms-transform: rotate(-35deg) translate(-92px, 22px);  /* IE9+ */
          -o-transform: rotate(-35deg) translate(-92px, 22px);  /* Opera 10.5-12.00 */
             transform: rotate(-35deg) translate(-92px, 22px);  /* Firefox 16+, Opera 12.50+ */
+  }
+
+  .rtl #menu {
+    position: absolute;
+    top: -16px;
+    right: -20px;
+    width: 250px;
+    padding-top: 2em;
+    -webkit-transform-origin: 0 0;
+       -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+         -o-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: rotate(35deg) translate(62px, -129px);  /* Safari 3.1+, Chrome */
+       -moz-transform: rotate(35deg) translate(62px, -129px);  /* Firefox 3.5-15 */
+        -ms-transform: rotate(35deg) translate(62px, -129px);  /* IE9+ */
+         -o-transform: rotate(35deg) translate(62px, -129px);  /* Opera 10.5-12.00 */
+            transform: rotate(35deg) translate(62px, -129px);  /* Firefox 16+, Opera 12.50+ */
   }
 
   #menu a {
