@@ -347,3 +347,18 @@ footer {
   }
 
 }
+
+#advertisements {
+  clear: both
+}
+
+#advertisements span {
+  font-size: 10px;
+  font-style: italic;
+  margin: 0;
+}
+
+#advertisements iframe {
+  width: 185px;
+  height: 60px;
+}
