@@ -18,7 +18,6 @@ util.nav.5: "Directions"
 util.nav.6: "Contact"
 
 index.1: "Diese Seite vermittelt dir die CSS-Grundlagen, die für das Layout jeder Website verwendet werden."
-index.2: "I assume you already know what selectors, properties, and values are. And you probably know a thing or two about layout, though it may still be a rage-provoking activity for you. If you want to learn HTML and CSS from the beginning, you should check out <a href=\"http://learn.shayhowe.com/html-css/\">this tutorial</a>. Otherwise, let's see if we can save you some fury on your next project."
 index.2: "Ich gehe davon aus, dass du bereits weißt, was Selektoren, Eigenschaften, und Werte sind. Und vielleicht weißt du schon das ein oder andere über CSS-Layouts, auch wenn das noch immer ein frustrierendes Thema für dich ist. Wenn du CSS und HTML von Grund auf lernen möchtest, solltest du vielleicht zuerst mit <a href=\"http://learn.shayhowe.com/html-css/\">diesem Tutorial</a> anfangen. Ansonsten schauen wir mal, ob wir dir nicht ein wenig Frust bei deinem nächsten Projekt ersparen können."
 
 index.english: "english"
