@@ -19,6 +19,10 @@ util.nav.6: "Kontakt"
 
 index.1: "Diese Seite erläutert die CSS Grundlagen, die für sämtliche Weblayouts benötigt werden."
 index.2: "Ich gehe davon aus, dass Sie bereits wissen, was Selektoren, Eigenschaften und Werte sind. Vermutlich haben Sie ebenso ein Grundwissen vom Layouten mit CSS, obwohl es Sie manchmal auf fast die Palme bringt. Wenn Sie HTML und CSS von Grund auf lernen wollen empfehle ich Ihnen <a href=\"http://learn.shayhowe.com/html-css/\">diesen Beginner's Guide</a>, <a href=\"http://jendryschik.de/wsdev/einfuehrung/\"diese Einführung</a> oder <a href=\"http://www.little-boxes.de/little-boxes-teil1-online.html\">dieses Buch</a>. Ansonsten hoffe ich, Ihnen einigen Ärger bei Ihrem nächsten Projekt ersparen zu können."
+index.english: "english"
+index.persian: "رسیدن"
+index.spanish: "español"
+index.translator: ""
 index.get_started: "Los geht's"
 
 no_layout.title: "Kein Layout"
@@ -53,6 +57,7 @@ box_model.intro: "Wenn wir über die Breite von HTML Elementen sprechen, müssen
 box_model.simple: "Ich bin schmaler..."
 box_model.fancy: "und ich grösser!"
 box_model.outro: "Während Generationen löste man dieses Problem mit Mathematik: CSS Autoren verwendeten in ihren Stylesheets einen kleineren Wert für <code>width</code> als erwünscht indem sie die Werte von <code>padding</code> und <code>border</code> davon subtrahierten. Glücklicherweise ist dies heutzutage nicht mehr nötig."
+
 box_sizing.title: "box-sizing"
 box_sizing.1: "Über die Zeit haben Leute festgestellt, dass Mathematik nicht allzu lustig ist. So wurde eine neue CSS-Eigenschaft namens <code>box-sizing</code>  geschaffen. Wenn man einem Element die Eigenschaft <code>box-sizing: border-box;</code> gibt, werden die Werte von <code>padding</code> und <code>border</code> nicht mehr der Breite hinzugerechnet. Hier noch einmal das Beispiel der vorherigen Seite aber nun mit <code>box-sizing: border-box;</code> für beide Element:"
 box_sizing.simple: "Wir haben jetzt die gleiche Grösse!"
@@ -60,6 +65,7 @@ box_sizing.fancy: "Hurra!"
 box_sizing.2: "Weil dies so viel besser ist, gibt es CSS Autoren die möchten, das alle Elemente auf allen ihren Seiten sich so verhalten. Dazu verwenden sie dieses CSS auf allen ihren Seiten:"
 box_sizing.3: "Damit wird sichergestellt, dass die Grösse aller Elemente auf diese intuitivere Weise definiert werden kann."
 box_sizing.4: "Weil <code>box-sizing</code> ziemlich neu ist, sollte man die vendor-prefixes <code>-webkit-</code> und <code>-moz-</code> benützen, wie ich es in diesen Beispielen getan habe. Mit dieser Technik können die experimentellen Eigenschafen für spezifische Browser freigeschaltet werden. Ebenfalls ist zu beachten, dass dies erst ab <a href=\"http://caniuse.com/#search=box-sizing\">IE8+</a> funktioniert."
+
 position.title: "position"
 position.intro: "In order to make more complex layouts, we need to discuss the <code>position</code> property. It has a bunch of possible values, and their names make no sense and are impossible to remember. Let's go through them one by one, but maybe you should bookmark this page too."
 position.static.title: "static"
