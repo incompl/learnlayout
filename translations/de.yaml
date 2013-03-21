@@ -92,9 +92,9 @@ float.1: "Another CSS property used for layout is <code>float</code>. Float is i
 
 clear.title: "clear"
 clear.floating: "I feel like I'm floating!"
-clear.1: "The <code>clear</code> property is important for controlling the behavior of floats. Compare these two examples:"
-clear.2: "In this case, the <code>section</code> element is actually after the <code>div</code>. However, since the <code>div</code> is floated to the left, this is what happens: the text in the <code>section</code> is floated around the <code>div</code> and the <code>section</code> surrounds the whole thing. What if we wanted the <code>section</code> to actually appear after the floated element?"
-clear.3: "Using <code>clear</code> we have now moved this section down below the floated <code>div</code>. You use the value <code>left</code> to clear elements floated to the left. You can also clear <code>right</code> and <code>both</code>."
+clear.1: "Die <code>clear</code> Eigenschaft kontrolliert das Verhalten von floats. Vergleiche ein mal diese beiden Beispiele:"
+clear.2: "Hier kommt das <code>section</code>-Element zwar nach dem <code>div</code>. Aber weil das <code>div</code> nacht links floated, passiert folgendes: Der Text in der <code>section</code> fließt um das <code>div</code> herum, und die <code>section</code> umschließt das ganze. Wie bekommen wir die <code>section</code> nun dazu, auch tatsächlich nach dem gefloateten Element zu erscheinen?"
+clear.3: "Mit Hilfe der <code>clear</code>-Eigenschaft haben wir die <code>section</code> nun unter das <code>div</code> geschoben. Der Wert <code>left</code> hebt das Umfließen um Elemente, die nach links gefloatet sind, auf. Das funktioniert auch für nach rechts gefloatete Elemente mit <code>right</code>, oder für beide Seiten mit <code>both</code>."
 
 clearfix.title: "the clearfix hack"
 clearfix.1: "Here is a weird, bad thing that can sometimes happen when using floats:"
