@@ -19,6 +19,10 @@ util.nav.6: "Contact"
 
 index.1: "本站教授的是现在广泛使用于网站布局领域的CSS基础。"
 index.2: "我们假设你已经掌握了CSS的选择器、属性和值。并且你可能已经对布局有一知半解，虽然对你来说写网页布局还是一件让你抓狂的事情。如果你想要从头开始学习HTML和CSS，那么你可以看下<a href=\"http://learn.shayhowe.com/html-css/\">这篇教程</a>。否则，让我们看看我们是否可以让你在下一个项目少动些怒。"
+index.english: "english"
+index.persian: "رسیدن"
+index.spanish: "español"
+index.translator: "由<a href=\"http://nodejs.in/\">敏明君</a>翻译"
 index.get_started: "开始"
 
 no_layout.title: "没有布局"
@@ -167,5 +171,5 @@ frameworks.1: "因为CSS布局很难使用，所以催生了不少CSS框架来�
 frameworks.2: "到此为止！如果你对本站有任何反馈，请在<a href=\"https://twitter.com/intent/tweet?source=webclient&text=%40_gsmith\">Twitter</a>上联系我！"
 
 about.title: "关于本站"
-about.credits: "由<a href=\"http://incompl.com\">Greg Smith</a>撰写和构建，由<a href=\"http://www.isaacdurazo.com/\">Isaac Durazo</a>设计。我们在<a href=\"http://bocoup.com\">Bocoup</a>工作。由<a href=\"http://nodejs.in/\">敏明君</a>翻译。"
+about.credits: "由<a href=\"http://incompl.com\">Greg Smith</a>撰写和构建，由<a href=\"http://www.isaacdurazo.com/\">Isaac Durazo</a>设计。我们在<a href=\"http://bocoup.com\">Bocoup</a>工作。"
 
