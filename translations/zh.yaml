@@ -150,11 +150,11 @@ inline_block_layout.tada: "Tada!"
 
 column.title: "column"
 column.1: "这里有一系列新的CSS属性，可以帮助你很轻松的实现文字的多列布局。让我们瞧瞧："
-column.2: "CSS columns是很新的标准，所以你需要使用前缀，并且它不被<a href=\"http://caniuse.com/#search=column\">IE9以下和Opera Mini</a>支持。还有许多和 cloumn 相关的属性，<a href=\"http://www.quirksmode.org/css/multicolumn.html\">点击这里了解更多</a>。否则让我们讨论下一个主题。"
+column.2: "CSS columns是很新的标准，所以你需要使用前缀，并且它不被<a href=\"http://caniuse.com/#search=column\">IE9及以下和Opera Mini</a>支持。还有许多和 cloumn 相关的属性，<a href=\"http://www.quirksmode.org/css/multicolumn.html\">点击这里了解更多</a>。否则让我们讨论下一个主题。"
 
 flexbox.title: "flexbox"
 flexbox.1: "新的 <code>flexbox</code> 布局模式被用来重新定义CSS中的布局方式。很遗憾的是最近规范变动过多，导致各个浏览器对它的实现也有所不同。不过我仍旧想要分享一些例子，来让你知道即将发生的改变。这些例子目前只能在支持 flexbox 的 Chrome 浏览器中运行，基于<a href=\"http://www.w3.org/TR/css3-flexbox/\">最新的标准</a>。"
-flexbox.2: "网上有不少过时的 flexbox 资料。 如果你想要了解更多有关 flexbox 的内容，<a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">从这里</a>学习如何辨别一份资料是否过时。我用最新的语法写了一份<a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">详细的文章</a>。"
+flexbox.2: "网上有不少过时的 flexbox 资料。 如果你想要了解更多有关 flexbox 的内容，<a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">从这里</a>学习如何辨别一份资料是否过时。我已经写了一份<a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">关于最新标准的详细文章</a>。"
 flexbox.3: "使用flexbox你还可以做的更多；这里只是一些让你了解概念的例子："
 flexbox.simple.title: "使用 Flexbox 的简单布局"
 flexbox.simple.1: "Flexbox好容易使用！"
@@ -171,4 +171,4 @@ frameworks.1: "因为 CSS 布局很难使用，所以催生了不少 CSS 框架�
 frameworks.2: "到此为止！如果你对本站有任何反馈，请在<a href=\"https://twitter.com/intent/tweet?source=webclient&text=%40_gsmith\">Twitter</a>上联系我！"
 
 about.title: "关于本站"
-about.credits: "由<a href=\"http://incompl.com\">Greg Smith</a>撰写和构建，由<a href=\"http://www.isaacdurazo.com/\">Isaac Durazo</a>设计。我们在<a href=\"http://bocoup.com\">Bocoup</a>工作。由<a href=\"http://nodejs.in/\">敏明君</a>翻译。"
+about.credits: "由<a href=\"http://incompl.com\">Greg Smith</a>撰写和构建，由<a href=\"http://www.isaacdurazo.com/\">Isaac Durazo</a>设计。我们在<a href=\"http://bocoup.com\">Bocoup</a>工作。由<a href=\"http://nodejs.in/\">敏明君</a>、<a href=\"https://github.com/sunnylost\">sunnylost</a>翻译。"
