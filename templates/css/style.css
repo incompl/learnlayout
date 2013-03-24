@@ -315,6 +315,22 @@ footer {
   float: left;
 }
 
+#advertisements {
+  clear: both;
+  margin: 0 auto;
+  width: 370px;
+}
+
+#advertisements span {
+  font-size: 10px;
+  font-style: italic;
+  margin: 0;
+}
+
+#advertisements iframe {
+  width: 370px;
+}
+
 @media screen and (min-width:601px) {
 
   #menu {
