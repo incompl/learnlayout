@@ -69,7 +69,7 @@ box_sizing.4: "Ya que <code>box-sizing</code> es bastante nuevo, te recomiendo u
 position.title: "position"
 position.intro: "Para poder tener estructuras mas complejas, tenemos que discutir la propiedad <code>position</code> (posición). Esta propiedad tiene un montón de posibles valores, sus nombres no tienen sentido y son casi imposibles de memorizar. Veámoslos uno a uno, pero antes deberías guardar esta página en tus marcadores para futuras referencias."
 position.static.title: "static"
-position.static.1: "<code>static</code> (estático) es el valor por defecto. Un elemento con <code>position: static;</code> no está posicionado en nunguna forma en específico. Se dice que un elemento static, está <em>no posicionado</em> y un elemento con valor establecido de position está <em>posicionado</em>."
+position.static.1: "<code>static</code> (estático) es el valor por defecto. Un elemento con <code>position: static;</code> no está posicionado en ninguna forma en específico. Se dice que un elemento static, está <em>no posicionado</em> y un elemento con valor establecido de position está <em>posicionado</em>."
 position.relative.title: "relative"
 position.relative.1: "<code>relative</code> (relativo) se comporta de la misma manera que <code>static</code> a menos que le agregues otras propiedades."
 position.relative.2: "Establecer las propiedades <code>top</code>, <code>right</code>, <code>bottom</code>, y <code>left</code> de un elemento con <code>position: relative;</code> causará que su posición normal se reajuste. Otro contenido no se puede ajustar para adaptarse a cualquier hueco dejado por el elemento."
