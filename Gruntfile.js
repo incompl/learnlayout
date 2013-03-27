@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                 src : 'templates',
                 dest: 'dev',
                 server : true,
-                server_port : 8000,
+                server_port : 8005,
                 auto : true,
                 pygments: true
             },
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
         watch: { // for development run 'grunt watch'
             jekyll: {
-                files: ['templates/*.html'],
+                files: ['templates/*.html', 'translations/*.yaml'],
                 tasks: ['jekyll:dev']
             }
         }
