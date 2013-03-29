@@ -42,21 +42,27 @@
 
     <div id="container">
 
-      <h1 class="content">{% localize page.title %}</h1>
+      {% if page.title %}
+        <h1 class="content">{% localize page.title %}</h1>
+      {% endif %}
 
       {{ content }}
 
-      <div class="nav-wrapper">
+      {% if page.prev or page.next %}
 
-        {% if page.prev %}
-          <a class="nav prev" href="{{ page.prev }}.html">{% localize global.previous %}</a>
-        {% endif %}
+        <div class="nav-wrapper">
 
-        {% if page.next %}
-          <a class="nav next" href="{{ page.next }}.html">{% localize global.next %}</a>
-        {% endif %}
+          {% if page.prev %}
+            <a class="nav prev" href="{{ page.prev }}.html">{% localize global.previous %}</a>
+          {% endif %}
 
-      </div>
+          {% if page.next %}
+            <a class="nav next" href="{{ page.next }}.html">{% localize global.next %}</a>
+          {% endif %}
+
+        </div>
+
+      {% endif %}
 
       {% if page.noFooter != true %}
         <footer>
@@ -73,6 +79,9 @@
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://learnlayout.com/">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </li>
+      <li id="license">
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png"></a>
       </li>
     </div>
     <div id="advertisements">
