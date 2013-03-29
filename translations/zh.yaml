@@ -22,6 +22,7 @@ index.2: "我们假设你已经掌握了CSS的选择器、属性和值。并且�
 index.english: "english"
 index.persian: "رسیدن"
 index.spanish: "español"
+index.chinese: "中文"
 index.translator: "由<a href=\"http://nodejs.in/\">敏明君</a>和<a href=\"https://github.com/sunnylost\">sunnylost</a>翻译"
 index.get_started: "开始"
 
