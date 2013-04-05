@@ -18,7 +18,7 @@ util.nav.5: "Lageplan"
 util.nav.6: "Kontakt"
 
 index.1: "Diese Seite erläutert die CSS Grundlagen, die für sämtliche Weblayouts benötigt werden."
-index.2: "Ich gehe davon aus, dass Sie bereits wissen, was Selektoren, Eigenschaften und Werte sind. Vermutlich haben Sie ebenso ein Grundwissen vom Layouten mit CSS, obwohl es Sie manchmal auf fast die Palme bringt. Wenn Sie HTML und CSS von Grund auf lernen wollen empfehle ich Ihnen <a href=\"http://learn.shayhowe.com/html-css/\">diesen Beginner's Guide</a>, <a href=\"http://jendryschik.de/wsdev/einfuehrung/\"diese Einführung</a> oder <a href=\"http://www.little-boxes.de/little-boxes-teil1-online.html\">dieses Buch</a>. Ansonsten hoffe ich, Ihnen einigen Ärger bei Ihrem nächsten Projekt ersparen zu können."
+index.2: "Ich gehe davon aus, dass du bereits ein Ahnung davon hast, was Selektoren, Eigenschaften und Werte sind. Vermutlich hast du ebenso ein Grundwissen vom Layouten mit CSS, obwohl es dich vielleicht manchmal auf fast die Palme treibt. Wenn du HTML und CSS von Grund auf lernen möchtest empfehle ich dir <a href=\"http://learn.shayhowe.com/html-css/\">diesen Beginner's Guide</a>, <a href=\"http://jendryschik.de/wsdev/einfuehrung/\"diese Einführung</a> oder <a href=\"http://www.little-boxes.de/little-boxes-teil1-online.html\">dieses Buch</a>. Ansonsten hoffe ich, dir einigen Ärger bei deinem nächsten Projekt ersparen zu können."
 index.english: "english"
 index.persian: "رسیدن"
 index.spanish: "español"
@@ -29,7 +29,7 @@ index.translator: ""
 index.get_started: "Los geht's"
 
 no_layout.title: "Kein Layout"
-no_layout.1: "Überhaupt kein Layout zu haben ist akzeptabel, wenn Sie lediglich eine grosse Spalte mit Inhalt füllen wollen. Wenn allerdings ein Besucher Ihrer Webseite sein Browserfenster maximiert, wird das Lesen für ihn irgendwie unangenehm. Denn nach jeder Zeile müssen seine Augen den Anfang der nächsten Zeile wieder suchen. Vergössern Sie dieses Fenster, dann sehen Sie, was ich meine."
+no_layout.1: "Überhaupt kein Layout zu haben ist akzeptabel, wenn du lediglich eine grosse Spalte mit Inhalt füllen möchtest. Wenn allerdings ein Besucher deiner Webseite sein Browserfenster maximiert, wird das Lesen für ihn irgendwie unangenehm. Denn nach jeder Zeile müssen seine Augen den Anfang der nächsten Zeile wieder suchen. Vergössere dieses Fenster, dann siehst du, was ich meine."
 no_layout.2: "Bevor wir uns um dieses Problem kümmern, müssen wir sicherstellen, dass wir die sehr wichtige Eigenschaft <code>display</code> richtig verstehen."
 
 display.title: "Die Eigenschaft \"display\""
@@ -53,10 +53,10 @@ margin_auto.2: "Nur wenn das Browserfenster schmaler wird als unser Element brei
 
 max_width.title: "max-width"
 max_width.1: "Die Situation bessert sich wenn wir anstelle von <code>width</code> <code>max-width</code> verwenden. Das ist wichtig damit unsere Seite auch auf Mobilgeräten gut nutzbar ist. Ändere die Fenstergrösse dieser Seite um zu sehen, was ich meine!"
-max_width.2: "Übrigens: <code>max-width</code> wird von <a href=\"http://caniuse.com/#search=max-width\">von allen wichtigen Browsern unterstützt</a> inklusive IE7+. Sie können es daher unbeschwert einsetzen."
+max_width.2: "Übrigens: <code>max-width</code> wird von <a href=\"http://caniuse.com/#search=max-width\">von allen wichtigen Browsern unterstützt</a> inklusive IE7+. Du kannst es daher unbeschwert einsetzen."
 
 box_model.title: "Das Box Model"
-box_model.intro: "Wenn wir über die Breite von HTML Elementen sprechen, müssen wir auch über die damit zusammenhängenden Probleme sprechen: Das <em>box model</em>. Denn wenn Sie die Breite eines Elements festlegen, kann es durchaus sein, dass das Element grösser wird, als Sie wollten, denn der Rahmen (border) und Innenabstand (padding) werdeb^n das Element über die definierte Breite hinaus vergrössern. Schauen Sie sich das folgende Beispiel an in welchem zwei Elemente mit dem selben Wert in <code>width</code> trotzdem verschiedene Breiten erhalten."
+box_model.intro: "Wenn wir über die Breite von HTML Elementen sprechen, müssen wir auch über die damit zusammenhängenden Probleme sprechen: Das <em>box model</em>. Denn wenn du die Breite eines Elements festlegst, kann es durchaus sein, dass das Element grösser wird, als du wolltest, denn der Rahmen (border) und Innenabstand (padding) werden das Element über die definierte Breite hinaus vergrössern. Schau dir das folgende Beispiel an in welchem zwei Elemente mit dem selben Wert in <code>width</code> trotzdem verschiedene Breiten erhalten."
 box_model.simple: "Ich bin schmaler..."
 box_model.fancy: "und ich grösser!"
 box_model.outro: "Während Generationen löste man dieses Problem mit Mathematik: CSS Autoren verwendeten in ihren Stylesheets einen kleineren Wert für <code>width</code> als erwünscht indem sie die Werte von <code>padding</code> und <code>border</code> davon subtrahierten. Glücklicherweise ist dies heutzutage nicht mehr nötig."
