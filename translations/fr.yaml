@@ -22,7 +22,9 @@ index.2: "Je suppose que vous savez déjà ce que sont les sélecteurs, les prop
 index.english: "english"
 index.persian: "رسیدن"
 index.spanish: "español"
+index.chinese: "中文"
 index.french: "français"
+index.german: "deutsch"
 index.translator: "Traduit par <a href=\"http://www.joel-matelli.fr\">Joël Matelli</a>"
 index.get_started: "Allons-y !"
 
