@@ -48,10 +48,6 @@ display.other.title: "andere display waardes"
 display.other: "Er zijn nog meerdere, soms zelfs exotische, display waardes zoals <code>list-item</code> en <code>table</code>. <a href=\"https://developer.mozilla.org/en-US/docs/CSS/display\">Hier is een uitgebreide lijst</a>. We zullen <code>inline-block</code> en <code>flex</code> later behandelen."
 display.extra: "Zoals ik al eerder zei, heeft elk element een standaard display type. Echter, dit is <em>altijd</em> te overschrijven! Hoewel het niet veel zin zou hebben om een inline div te maken, is er wel de mogelijkheid om de display van elementen met een bepaalde semantiek aan te passen. Een veelgebruikt voorbeeld is <code>li</code> elementen inline maken om een horizontaal menu samen te stellen."
 
-# https://github.com/mstalfoort/csslayoutsite
-# https://github.com/incompl/csslayoutsite/blob/master/README.textile
-# https://github.com/incompl/csslayoutsite/blob/master/translations/en.yaml
-
 margin_auto.title: "margin: auto;"
 margin_auto.1: "Door het zetten van een <code>width</code> op een block-level element zal deze niet volledig uitgerekt worden van links tot aan rechts binnen zijn container. Hierna kan je, door middel van het zetten van de linker en rechter marges op <code>auto</code>, het element horizontaal centreren binnen die container. Het element zal de width aannemen zoals gespecificeerd en de resterende ruimte zal evenredig over beide marges verdeeld worden."
 margin_auto.2: "Het probleem dat zich voor kan doen als het browser venster smaller is dan de width van het element, zal de browser dit oplossen door een horizontale scrollbalk te tonen. Dit is op te lossen..."
