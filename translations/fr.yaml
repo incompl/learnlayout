@@ -1,6 +1,6 @@
 # French
 
-global.title: "Apprendre les mise en page CSS"
+global.title: "Apprendre les mises en page CSS"
 global.short_title: "CSS"
 global.home: "Accueil"
 global.toc: "Sommaire"
@@ -39,7 +39,7 @@ display.inline.1: "<code>span</code> est l'élément inline standard. Un éléme
 display.inline.2: "comme ceci"
 display.inline.3: "sans intérrompre le flux de ce paragraphe. L'élément <code>a</code> est l'élément inline le plus courant, puisque vous l'utilisez pour vos liens."
 display.none.title: "none"
-display.none.1: "Une autre valeur display courante est <code>none</code>. Quelques éléments spéciaux comme <code>script</code> l'utilisent par défaut. C'est fréquemment utilisé en JavaScript pour cacher et afficher des éléments sans rééllement les supprimer et les recréer."
+display.none.1: "Une autre valeur display courante est <code>none</code>. Quelques éléments spéciaux comme <code>script</code> l'utilisent par défaut. C'est fréquemment utilisé en JavaScript pour cacher et afficher des éléments sans avoir à les supprimer et les recréer."
 display.none.2: "C'est différent de <code>visibility</code>. Attribuer <code>none</code> à <code>display</code> ne laissera aucun espace là où devrait se trouver l'élément, mais <code>visibility: hidden;</code> laissera un espace vide."
 display.other.title: "d'autres valeurs pour display"
 display.other: "Display possède une quantité d'autres valeurs exotiques, comme <code>list-item</code> et <code>table</code>. <a href=\"https://developer.mozilla.org/en-US/docs/CSS/display\">Voici une liste exhaustive</a>. Nous discuterons de <code>inline-block</code> et <code>flex</code> plus tard."
@@ -155,8 +155,8 @@ column.2: "Ces propriétés CSS sont plutôt nouvelles, et ça ne marchera pas <
 
 flexbox.title: "flexbox"
 flexbox.1: "Le nouveau mode de mise en page <code>flexbox</code> se veut redéfinir comment nous faisons les mise en page en CSS. Malheureusement la spécification a beaucoup changé récemment, donc c'est implémenté différement sur les différents navigateurs. Cependant, j'aimerais partager quelques exemples pour que vous sachiez ce qui arrive. Ces exemples ne marchent pour l'instant qu'avec l'implementation flexbox de Chrome, basé sur la <a href=\"http://www.w3.org/TR/css3-flexbox/\">dernière version du standard</a>."
-flexbox.2: "Il y a beaucoup de ressources dépassée sur flexbox. Si vous voulez en apprendre plus sur flexbox, <a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">commencez ici</a> par apprendre comment identifier si une ressource est actuelle ou pas. J'ai écrit un <a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">article détaillé utilisant la dernière syntaxe</a>."
-flexbox.3: "Flexbox vous permet de faire beaucoup plus; cles exemples qui suivent ne sont là que pour vous donner une idée :"
+flexbox.2: "Il y a beaucoup de ressources dépassées sur flexbox. Si vous voulez en apprendre plus sur flexbox, <a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">commencez ici</a> par apprendre comment identifier si une ressource est actuelle ou pas. J'ai écrit un <a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">article détaillé utilisant la dernière syntaxe</a>."
+flexbox.3: "Flexbox vous permet de faire beaucoup plus; les exemples qui suivent ne sont là que pour vous donner une idée :"
 flexbox.simple.title: "Simple mise en page avec flexbox"
 flexbox.simple.1: "Flexbox c'est trop facile!"
 flexbox.fancy.title: "Mise en page plus fantaisiste avec flexbox"
@@ -168,7 +168,7 @@ flexbox.centering.title: "Alignement avec flexbox"
 flexbox.centering.1: "Pour finir, c'est facile d'aligner quelque chose verticallement en CSS !"
 
 frameworks.title: "frameworks css"
-frameworks.1: "Parce que la mise en page en CSS est tellement difficile, il existe des frameworks CSS pour vous faciliter la tâche. En voici quelques uns si vous êtes intéressé. Utiliser un framework n'est une bonne idée que si le framework fait rééllement ce dont votre site à besoin. Cependant il est nécessaire de savoir comment marche la CSS."
+frameworks.1: "Parce que la mise en page en CSS est tellement difficile, il existe des frameworks CSS pour vous faciliter la tâche. En voici quelques uns si vous êtes intéressé. Utiliser un framework n'est une bonne idée que si le framework fait vraiment ce dont votre site à besoin. Cependant il est nécessaire de savoir comment marche la CSS."
 frameworks.2: "C'est fini ! Si vous avez des remarques sur ce site, <a href=\"https://twitter.com/intent/tweet?source=webclient&text=%40_gsmith\">faites le moi savoir</a> s'il vous plait !"
 
 about.title: "à propos de ce site"
