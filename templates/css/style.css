@@ -368,6 +368,7 @@ footer {
   .rtl #menu {
     position: absolute;
     top: -16px;
+    left: auto;
     right: -20px;
     width: 250px;
     padding-top: 2em;
