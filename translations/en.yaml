@@ -92,7 +92,7 @@ position.absolute.3: "This stuff is tricky, but it's essential to creating great
 
 position_example.title: "position example"
 position_example.1: "This position stuff might make a little more sense in a practical example. Below is a realistic page layout."
-position_example.section.1: "The <code>margin-left</code> style for <code>section</code>s makes sure there is room for the <code>nav</code>."
+position_example.section.1: "The <code>margin-left</code> style for <code>section</code>s makes sure there is room for the <code>nav</code>. Otherwise the absolute and static elements would overlap"
 position_example.section.2: "Notice what happens when you resize your browser. It works nicely!"
 position_example.2: "This example works because the container is taller than the nav. If it wasn't, the nav would overflow outside of its container. In the coming pages we'll discuss other layout techniques that have different pros and cons."
 position_example.footer: "If you use a fixed header or footer, make sure there is room for it! I put a <code>margin-bottom</code> on the <code>body</code>."
