@@ -135,7 +135,7 @@ media_queries.4: "Tada! Now our layout looks great even on mobile browsers. Here
 media_queries.5: "You can make your layout look even better on mobile using <a href=\"http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/\">meta viewport</a>."
 
 inline_block.title: "inline-block"
-inline_block.1: "You can create a grid of boxes that fills the browser width and wraps nicely. This has been possible for a long time using <code>float</code>, but now with <code>inline-block</code> it's even easier. Let's look at examples of both approaches."
+inline_block.1: "You can create a grid of boxes that fills the browser width and wraps nicely. This has been possible for a long time using <code>float</code>, but now with <code>inline-block</code> it's even easier. <code>inline-block</code> elements are like <code>inline</code> elements but they can have a width and height. Let's look at examples of both approaches."
 inline_block.hard_way.title: "The Hard Way (using float)"
 inline_block.hard_way.box: "I'm floating!"
 inline_block.hard_way.after: "I'm using clear so I don't float next to the above boxes."
