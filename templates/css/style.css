@@ -312,7 +312,7 @@ footer {
 #share {
   z-index: -9999;
   margin: 0 auto;
-  width: 310px;
+  width: 390px;
   text-align: center;
   overflow: hidden;
 }
@@ -324,7 +324,7 @@ footer {
 }
 
 #share #license {
-  margin-left: 10px;
+  
 }
 
 #advertisements {
