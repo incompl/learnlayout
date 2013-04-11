@@ -1,6 +1,6 @@
 # French
 
-global.title: "Apprendre les mise en page CSS"
+global.title: "Apprendre les mises en page CSS"
 global.short_title: "CSS"
 global.home: "Accueil"
 global.toc: "Sommaire"
@@ -29,7 +29,7 @@ index.translator: "Traduit par <a href=\"http://www.joel-matelli.fr\">Joël Mate
 index.get_started: "Allons-y !"
 
 no_layout.title: "pas de mise en page"
-no_layout.1: "Ne pas avoir de mise en page quelle qu'elle soit est presque convenable si tout ce que vous voulez c'est une seule (si la seule chose que vous voulez est d'avoir une) grande colonne de contenu. Cependant, si un utilisateur agrandit énormément la fenêtre du navigateur, cela devient très ennuyeux à lire : après chaque ligne vos yeux ont une trop grande distance à parcourir de droite à gauche pour arriver sur la ligne suivante. Essayez de redimensionner votre navigateur pour voir !"
+no_layout.1: "N'avoir aucune mise en page est un choix envisageable, si votre unique objectif est d'avoir une seule grande colonne de contenu. Mais si un utilisateur étire la fenêtre de son navigateur, la lecture devient pénible : les lignes sont interminables et le passage d'une ligne à l'autre est un peu brutal. Essayez de redimensionner votre navigateur pour voir !"
 no_layout.2: "Avant de régler ce problème, entendons nous sur l'importance de la propriété <code>display</code>."
 
 display.title: "la propriété \"display\""
@@ -39,10 +39,10 @@ display.block: "<code>div</code> est l'élément block-level standard. Un élém
 display.inline.title: "inline"
 display.inline.1: "<code>span</code> est l'élément inline standard. Un élément inline peut encadrer du texte dans un paragraphe"
 display.inline.2: "comme ceci"
-display.inline.3: "sans intérrompre le flux de ce paragraphe. L'élément <code>a</code> est l'élément inline le plus courant, puisque vous l'utilisez pour vos liens."
+display.inline.3: "sans interrompre le flux de ce paragraphe. L'élément <code>a</code> est l'élément inline le plus courant, puisque vous l'utilisez pour vos liens."
 display.none.title: "none"
-display.none.1: "Une autre valeur display courante est <code>none</code>. Quelques éléments spéciaux comme <code>script</code> l'utilisent par défaut. C'est fréquemment utilisé en JavaScript pour cacher et afficher des éléments sans rééllement les supprimer et les recréer."
-display.none.2: "C'est différent de <code>visibility</code>. Attribuer <code>none</code> à <code>display</code> ne laissera aucun espace là où devrait se trouver l'élément, mais <code>visibility: hidden;</code> laissera un espace vide."
+display.none.1: "Une autre valeur display courante est <code>none</code>. Quelques éléments spéciaux comme <code>script</code> l'utilisent par défaut. <code>display: none;</code> est très utile pour masquer ou afficher facilement des éléments en CSS ou en Javascripts sans avoir à les supprimer et les recréer dans le DOM."
+display.none.2: "Ne confondez pas <code>display: none;</code> et <code>visibility: hidden;</code> ! <code>display: none;</code> masque totalement l'élément et annule des propriétés telles que margin, padding, width, height...tandis que <code>visibility: hidden;</code> masque seulement l'élément, ce qui peut laisser des espaces vides."
 display.other.title: "d'autres valeurs pour display"
 display.other: "Display possède une quantité d'autres valeurs exotiques, comme <code>list-item</code> et <code>table</code>. <a href=\"https://developer.mozilla.org/en-US/docs/CSS/display\">Voici une liste exhaustive</a>. Nous discuterons de <code>inline-block</code> et <code>flex</code> plus tard."
 display.extra: "Comme je le disais, chaque élément a un type display par défaut. Cependant, vous pouvez <em>toujours</em> les écraser ! Même si ça n'a pas beaucoup de sens de rendre une div inline, vous pouvez faire cela pour customiser des éléments qui ont une sémantique particulière. Un exemple courant est de rendre inline les éléments <code>li</code> pour faire des menus horizontaux."
@@ -62,7 +62,7 @@ box_model.fancy: "Et je suis plus grand !"
 box_model.outro: "Pendant des générations, les maths étaient la solution à ce problème. Les auteurs des CSS attribuaient à la propriété width des valeurs inférieures à ce qu'ils souhaitaient, soustrayant le padding et la bordure. Heureusement, vous n'êtes plus obligés de faire ça..."
 
 box_sizing.title: "box-sizing"
-box_sizing.1: "Au fil du temps, les gens se sont rendus compte que les maths n'étaient pas marrants, donc une nouvelle propriété CSS appelée <code>box-sizing</code> fût créée. Quand vous ajoutez la propriété <code>box-sizing: border-box;</code> à un élément, le padding et la bordure de cet élément n'augmentent plus sa largeur. Ci-dessous, le même exemple que dans la page précédente, mais avec la propriété <code>box-sizing: border-box;</code> sur les deux éléments :"
+box_sizing.1: "Au fil du temps, les gens se sont rendus compte que les maths ce n'était pas marrant, donc une nouvelle propriété CSS appelée <code>box-sizing</code> fût créée. Quand vous ajoutez la propriété <code>box-sizing: border-box;</code> à un élément, le padding et la bordure de cet élément n'augmentent plus sa largeur. Ci-dessous, le même exemple que dans la page précédente, mais avec la propriété <code>box-sizing: border-box;</code> sur les deux éléments :"
 box_sizing.simple: "Nous avons la même taille maintenant !"
 box_sizing.fancy: "Hourra!"
 box_sizing.2: "C'est tellement mieux que certains auteurs veulent que tous les éléments de toutes leurs pages fonctionnent de la même manière. Ils ajoutent donc ce bout de CSS à leurs pages :"
@@ -127,7 +127,7 @@ percent.layout.1: "Vous pouvez utiliser le pourcent pour votre mise en page, mai
 percent.layout.2: "Quand cette mise en page est trop étroite, la <code>nav</code> est écrasée. Pire, vous ne pouvez pas utiliser <code>min-width</code> sur la nav pour empêcher cela, parce que la colonne de droite ne le respecterait pas."
 
 media_queries.title: "media queries"
-media_queries.1: "Le \"Responsive Design\" consiste à faire \"réagir\" un site au navigateur et  à l'appareil sur lequel il s'affiche... en ayant l'air génial peu importent les circonstances."
+media_queries.1: "Le \"Responsive Design\" consiste à adapter un site à la taille disponible du navigateur et à l'appareil sur lequel il s'affiche... en ayant l'air génial peu importent les circonstances."
 media_queries.2: "Les media queries sont les outils les plus puissants pour ceci. Prenons notre mise en page qui utilise les largeurs en pourcent et faisons en sorte qu'elle passe sur une seule colonne lorsque le navigateur est trop petit pour placer le menu dans la barre latérale :"
 media_queries.3: "Maintenant quand vous redimensionnez votre navigateur c'est plus cool que ça ne l'a jamais été !"
 media_queries.4: "Tadaaaa ! Maintenant notre mise en page à l'air génial, même sur les navigateurs mobiles. Vous trouverez ici <a href=\"http://mediaqueri.es/\">quelques sites populaires qui utilisent les media queries de cette façon</a>. Il y a plein d'autres choses que vous pouvez détecter que <code>min-width</code> et <code>max-width</code> : faites un tour sur <a href=\"https://developer.mozilla.org/en-US/docs/CSS/Media_queries\">la documentation MDN</a> pour en apprendre plus."
@@ -157,8 +157,8 @@ column.2: "Ces propriétés CSS sont plutôt nouvelles, et ça ne marchera pas <
 
 flexbox.title: "flexbox"
 flexbox.1: "Le nouveau mode de mise en page <code>flexbox</code> se veut redéfinir comment nous faisons les mise en page en CSS. Malheureusement la spécification a beaucoup changé récemment, donc c'est implémenté différement sur les différents navigateurs. Cependant, j'aimerais partager quelques exemples pour que vous sachiez ce qui arrive. Ces exemples ne marchent pour l'instant qu'avec l'implementation flexbox de Chrome, basé sur la <a href=\"http://www.w3.org/TR/css3-flexbox/\">dernière version du standard</a>."
-flexbox.2: "Il y a beaucoup de ressources dépassée sur flexbox. Si vous voulez en apprendre plus sur flexbox, <a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">commencez ici</a> par apprendre comment identifier si une ressource est actuelle ou pas. J'ai écrit un <a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">article détaillé utilisant la dernière syntaxe</a>."
-flexbox.3: "Flexbox vous permet de faire beaucoup plus; cles exemples qui suivent ne sont là que pour vous donner une idée :"
+flexbox.2: "Il y a beaucoup de ressources dépassées sur flexbox. Si vous voulez en apprendre plus sur flexbox, <a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">commencez ici</a> par apprendre comment identifier si une ressource est actuelle ou pas. J'ai écrit un <a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">article détaillé utilisant la dernière syntaxe</a>."
+flexbox.3: "Flexbox vous permet de faire beaucoup plus; les exemples qui suivent ne sont là que pour vous donner une idée :"
 flexbox.simple.title: "Simple mise en page avec flexbox"
 flexbox.simple.1: "Flexbox c'est trop facile!"
 flexbox.fancy.title: "Mise en page plus fantaisiste avec flexbox"
@@ -170,7 +170,7 @@ flexbox.centering.title: "Alignement avec flexbox"
 flexbox.centering.1: "Pour finir, c'est facile d'aligner quelque chose verticallement en CSS !"
 
 frameworks.title: "frameworks css"
-frameworks.1: "Parce que la mise en page en CSS est tellement difficile, il existe des frameworks CSS pour vous faciliter la tâche. En voici quelques uns si vous êtes intéressé. Utiliser un framework n'est une bonne idée que si le framework fait rééllement ce dont votre site à besoin. Cependant il est nécessaire de savoir comment marche la CSS."
+frameworks.1: "Parce que la mise en page en CSS est tellement difficile, il existe des frameworks CSS pour vous faciliter la tâche. En voici quelques uns si vous êtes intéressé. Utiliser un framework n'est une bonne idée que si le framework fait vraiment ce dont votre site à besoin. Cependant il est nécessaire de savoir comment marche la CSS."
 frameworks.2: "C'est fini ! Si vous avez des remarques sur ce site, <a href=\"https://twitter.com/intent/tweet?source=webclient&text=%40_gsmith\">faites le moi savoir</a> s'il vous plait !"
 
 about.title: "à propos de ce site"
