@@ -26,6 +26,8 @@ index.chinese: "中文"
 index.french: "français"
 index.german: "deutsch"
 index.dutch: "dutch"
+index.pt-br: "português (brasil)"
+index.pt-pt: "português (português)"
 index.translator: ""
 index.get_started: "Los geht's"
 
