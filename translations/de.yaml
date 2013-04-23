@@ -69,7 +69,7 @@ box_sizing.1: "Über die Zeit haben Leute festgestellt, dass Mathematik nicht al
 box_sizing.simple: "Wir haben jetzt die gleiche Größe!"
 box_sizing.fancy: "Hurra!"
 box_sizing.2: "Weil dies so viel besser ist, gibt es CSS Autoren die möchten, das alle Elemente auf allen ihren Seiten sich so verhalten. Dazu verwenden sie dieses CSS auf allen ihren Seiten:"
-box_sizing.3: "Damit wird sichergestellt, dass die Grösse aller Elemente auf diese intuitivere Weise definiert werden kann."
+box_sizing.3: "Damit wird sichergestellt, dass die Größe aller Elemente auf diese intuitivere Weise definiert werden kann."
 box_sizing.4: "Weil <code>box-sizing</code> ziemlich neu ist, sollte man die vendor-prefixes <code>-webkit-</code> und <code>-moz-</code> benützen, wie ich es in diesen Beispielen getan habe. Mit dieser Technik können die experimentellen Eigenschafen für spezifische Browser freigeschaltet werden. Ebenfalls ist zu beachten, dass dies erst ab <a href=\"http://caniuse.com/#search=box-sizing\">IE8+</a> funktioniert."
 
 position.title: "position"
@@ -130,11 +130,11 @@ percent.layout.1: "Du kannst Prozent für Layouts verwenden, aber das braucht me
 percent.layout.2: "Wird das Layout zu schmal, wird <code>nav</code> zerquetscht. Noch schlimmmer ist, dass du nicht <code>min-width</code> verwenden kannst, um das zu vermeiden, weil die rechte Spalte sich nicht daran halten würde."
 
 media_queries.title: "media queries"
-media_queries.1: "\"Responsive Design\" is the strategy of making a site that \"responds\" to the browser and device that it is being shown on … by looking awesome no matter what."
-media_queries.2: "Media queries are the most powerful tool for doing this. Let's take our layout that uses percent widths and have it display in one column when the browser is too small to fit the menu in the sidebar:"
-media_queries.3: "Now when you resize your browser it's even cooler than ever!"
-media_queries.4: "Tada! Now our layout looks great even on mobile browsers. Here are <a href=\"http://mediaqueri.es/\">some popular sites that use media queries this way</a>. There is a whole lot more you can detect than <code>min-width</code> and <code>max-width</code>: check out <a href=\"https://developer.mozilla.org/en-US/docs/CSS/Media_queries\">the MDN documentation</a> to learn more."
-media_queries.5: "You can make your layout look even better on mobile using <a href=\"http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/\">meta viewport</a>."
+media_queries.1: "Unter \"Responsive Design\" versteht man den Ansatz, Websites so zu gestalten, dass sie in möglichst vielen Browsern und Geräten funktionieren und gut aussehen."
+media_queries.2: "So genannte Media queries sind dabei behilflich. Nehmen wir unser Layout mit den prozentualen Breiten und coden es so, dass nur eine Spalte zu sehen ist in Browserfenstern, die zu schmal sind für die Sidebar:"
+media_queries.3: "Wenn Du jetzt das Browserfenster verkleinerst – whoa!"
+media_queries.4: "Jetzt sieht unser Layout auch auf mobilen Geräten super aus. Hier findest Du <a href=\"http://mediaqueri.es/\">einige Websites die diese Technik vorbildlich anwenden</a>. Außer <code>min-width</code> und <code>max-width</code> gitb es noch einige andere Eigenschaften, die Du mit gezielt media queries ansprechen kannst: In der <a href=\"https://developer.mozilla.org/en-US/docs/CSS/Media_queries\">MDN documentation</a> kannst Du mehr darüber lernen."
+media_queries.5: "Um Dein Layout noch besser für mobile Geräte zu optimieren, benutze <a href=\"http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/\">meta viewport</a>."
 
 inline_block.title: "inline-block"
 inline_block.1: "You can create a grid of boxes that fills the browser width and wraps nicely. This has been possible for a long time using <code>float</code>, but now with <code>inline-block</code> it's even easier. Let's look at examples of both approaches."
