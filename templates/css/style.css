@@ -115,7 +115,13 @@ a:active {
 
 #translations {
   text-align: center;
-  margin: 0 0 1em 0;
+  max-width: 400px;
+  margin: 0 auto 1em;
+}
+
+#translations span {
+  margin: 0 .2em;
+  white-space: nowrap;
 }
 
 #translator {
