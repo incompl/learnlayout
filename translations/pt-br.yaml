@@ -65,7 +65,7 @@ box_model.fancy: "E eu sou grande!"
 box_model.outro: "Por muito tempo a solução disso foi a matemárica. Os desenvolvedores CSS quando se deparavam com isso subtraiam os valores de padding e border com a largura desejada, e assim se definia um valor final de largura para o elemento. Felizmente, essa \"gambiarra\" acabou..."
 
 box_sizing.title: "box-sizing"
-box_sizing.1: "Com o tempo, os desenvolvedores perceberam que utilizar a matemática para resolver este problema, saia um pouco da essencência \"divertida\" e simples do CSS e então uma propriedade chamada <code>box-sizing</code> foi criada. Quando você defini o <code>box-sizing: border-box;</code> de um elemento, o <code>padding</code> e o <code>border</code> não se adicionam na largura do elemento. Aqui está o exemplo da página anterior, mas com a propriedade <code>box-sizing: border-box;</code> sendo utilizada:"
+box_sizing.1: "Com o tempo, os desenvolvedores perceberam que utilizar a matemática para resolver este problema não era divertido, então uma propriedade chamada <code>box-sizing</code> foi criada. Quando você defini o <code>box-sizing: border-box;</code> de um elemento, o <code>padding</code> e o <code>border</code> não se adicionam na largura do elemento. Aqui está o exemplo da página anterior, mas com a propriedade <code>box-sizing: border-box;</code> sendo utilizada:"
 box_sizing.simple: "Temos o mesmo tamanho agora!"
 box_sizing.fancy: "Legaaal!"
 box_sizing.2: "Já que esta aplicação é muito melhor, alguns autores desejando que todos os elementos de suas páginas funcionem assim, aplicam a seguinte técnica:"
