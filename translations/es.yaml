@@ -19,9 +19,6 @@ util.nav.6: "Contacto"
 
 index.1: "Este sitio enseña los fundamentos de CSS usados para estructurar cualquier sitio web."
 index.2: "Supongo que ya sabes lo que son los selectores, propiedades y valores. Y probablemente sabes algo de cómo estructurar un sitio web, sin embargo puede que aun sea motivo de ira y frustración para ti. Si quieres aprender HTML y CSS desde el principio, deberías checar <a href=\"http://learn.shayhowe.com/html-css/\">este tutorial</a>. Si no, veamos si podemos salvarte de algunos enojos en tu próximo proyecto."
-index.english: "english"
-index.persian: "رسیدن"
-index.spanish: "español"
 index.translator: "Traducido por <a href=\"http://www.isaacdurazo.com/\">Isaac Durazo</a>"
 index.get_started: "Comenzar"
 

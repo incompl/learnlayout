@@ -8,8 +8,12 @@ module Jekyll
     end
 
     def render(context)
+      defaultsPath = "translations/defaults.yaml"
       @lang = context.registers[:site].config['lang']
       @translations = YAML::load(File.open("translations/#{@lang}.yaml"))
+      if File.exist? defaultsPath
+        @defaults = YAML::load(File.open(defaultsPath))
+      end
       @init = true
 
       if @key[0..3] == 'page'
@@ -22,6 +26,10 @@ module Jekyll
       end
       
       result = @translations[@key]
+
+      if result.nil? and defined? @defaults
+        result = @defaults[@key]
+      end
 
       "#{result}"
     end

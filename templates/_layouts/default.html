@@ -16,6 +16,7 @@
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-35945753-1']);
+  _gaq.push(['_setDomainName', 'learnlayout.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -42,38 +43,76 @@
 
     <div id="container">
 
-      <h1 class="content">{% localize page.title %}</h1>
+      {% if page.title %}
+        <h1 class="content">{% localize page.title %}</h1>
+      {% endif %}
 
       {{ content }}
 
-      <div class="nav-wrapper">
+      {% if page.prev or page.next %}
 
-        {% if page.prev %}
-          <a class="nav prev" href="{{ page.prev }}.html">{% localize global.previous %}</a>
-        {% endif %}
+        <div class="nav-wrapper">
 
-        {% if page.next %}
-          <a class="nav next" href="{{ page.next }}.html">{% localize global.next %}</a>
-        {% endif %}
+          {% if page.prev %}
+            <a class="nav prev" href="{{ page.prev }}.html">{% localize global.previous %}</a>
+          {% endif %}
 
-      </div>
+          {% if page.next %}
+            <a class="nav next" href="{{ page.next }}.html">{% localize global.next %}</a>
+          {% endif %}
+
+        </div>
+
+      {% endif %}
 
       {% if page.noFooter != true %}
         <footer>
-          <a href="https://github.com/incompl/csslayoutsite/issues">{% localize global.feedback %}</a>
+          {{ page.num }} / 19
         </footer>
       {% endif %}
 
     </div>
 
     <div id="share">
-      <li>
-        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Flearnlayout.com%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
-      </li>
+
       <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://learnlayout.com/">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </li>
+
+      <li>
+        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Flearnlayout.com%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+      </li>
+
+      <li>
+        <div class="g-plusone" data-size="medium"></div>
+        <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+      </li>
+
+      <li id="license">
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png"></a>
+      </li>
+
+    </div>
+    <div id="advertisements">
+      <span>Ads by <a href="http://bocoup.com">Bocoup</a></span>
+      <script type="text/javascript">var p="http",d="static";if(document.location.protocol=="https:"){p+="s";d="engine";}var z=document.createElement("script");z.type="text/javascript";z.async=true;z.src=p+"://"+d+".adzerk.net/ados.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(z,s);</script>
+      <script type="text/javascript">
+        var ados = ados || {};
+        ados.run = ados.run || [];
+        ados.run.push(function() {
+          /* load placement for account: Bocoup, site: Learn Layout, size: 0x0 - Static Text Link*/
+          ados_add_placement(4433, 27632, "azk92758", 20);
+          ados_load();
+        });
+      </script>
+      <div id="azk92758"></div>
     </div>
 
   </body>
