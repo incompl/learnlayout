@@ -84,15 +84,10 @@ num: 15
 {% endhighlight %}
 
 <p class="content">
-  {% for i in (1..11) %}
-    <div class="box2 elem">
-      <span class="label">&lt;div class="box2"></span>
-      <p>
-        {% localize inline_block.easy_way.box %}
-      </p>
-      <span class="endlabel">&lt;/div></span>
-    </div>
-  {% endfor %}
+  <!-- These are on same line because of how significant
+  whitespace works with inline-block. More info:
+  http://learnlayout.com/inline-block-layout.html -->
+  <div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div><div class="box2 elem"><span class="label">&lt;div class="box2"></span><p>{% localize inline_block.easy_way.box %}</p><span class="endlabel">&lt;/div></span></div>
 
   <section class="elem elem-green">
     <span class="label">&lt;div></span>
