@@ -161,7 +161,7 @@ flexbox.fancy.2: "J'aurai toujours une largeur de 200px, peu importe ce qu'il se
 flexbox.fancy.3: "Je prendrai 1/3 de la place restante."
 flexbox.fancy.4: "Je prendrai 2/3 de la place restante."
 flexbox.centering.title: "Alignement avec flexbox"
-flexbox.centering.1: "Pour finir, c'est facile d'aligner quelque chose verticallement en CSS !"
+flexbox.centering.1: "Pour finir, c'est facile d'aligner quelque chose verticalement en CSS !"
 
 frameworks.title: "frameworks css"
 frameworks.1: "Parce que la mise en page en CSS est tellement difficile, il existe des frameworks CSS pour vous faciliter la tâche. En voici quelques uns si vous êtes intéressé. Utiliser un framework n'est une bonne idée que si le framework fait vraiment ce dont votre site à besoin. Cependant il est nécessaire de savoir comment marche la CSS."
