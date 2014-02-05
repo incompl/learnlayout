@@ -1,44 +1,36 @@
-// Sample grunt-jekyll grunt.js file
-// https://github.com/dannygarcia/grunt-jekyll
+/* jshint node:true, camelcase:false */
 
-/*global module:false*/
 module.exports = function(grunt) {
 
-    // Project configuration.
-    grunt.initConfig({
+  // config
+  grunt.initConfig({
 
-        jekyll: {
-            server : {
-                src : 'templates',
-                dest: 'dev',
-                server : true,
-                server_port : 8000,
-                auto : true,
-                pygments: true
-            },
-            dev: {
-                src: 'templates',
-                dest: 'dev',
-                pygments: true
-            },
-            prod: {
-                src: 'templates',
-                dest: 'prod',
-                pygments: true
-            }
-        },
+    jekyll: {
+      options: {
+        src: 'templates',
+        plugins: '_plugins',
+        config: '_config.yml',
+        dest: '_site',
+        pygments: true
+      },
+      build: {
 
-        watch: { // for development run 'grunt watch'
-            jekyll: {
-                files: ['templates/*.html'],
-                tasks: ['jekyll:dev']
-            }
+      },
+      serve: {
+        options: {
+          watch: true,
+          serve: true
         }
-    });
+      }
+    }
 
-    // Default task. Run standard jekyll server.
-    grunt.registerTask('default', 'jekyll:server');
+  });
 
-    // plugin tasks
-    grunt.loadNpmTasks('grunt-jekyll');
+  // plugins
+  grunt.loadNpmTasks('grunt-jekyll');
+
+  // tasks
+  grunt.registerTask('default', ['jekyll:build']);
+  grunt.registerTask('serve', ['jekyll:serve']);
+
 };
