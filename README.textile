@@ -18,4 +18,4 @@ If you're not familiar with YAML, it's a very simple human-readable data format.
 
 To contribute to a translation, start with "en.yaml":https://github.com/incompl/csslayoutsite/blob/master/translations/en.yaml and either "email me":mailto:gsmith@incompl.com translated YAML files or make pull requests against this repository if you know how.
 
-To test a translation, change the @lang@ property in "_config.yml":https://github.com/incompl/csslayoutsite/blob/master/templates/_config.yml before you build.
+To test a translation, change the @lang@ property in "_config.yml":https://github.com/incompl/csslayoutsite/blob/master/templates/_config.yml before you build. If you choose an RTL language you need to add the line `rtl: true` to the config.
