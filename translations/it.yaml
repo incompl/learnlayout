@@ -86,12 +86,12 @@ position.absolute.relative: "Questo elemento è posizionato relativamente. Se qu
 position.absolute.absolute: "Questo elemento è posizionato in maniera assoluta. E' posizionato relativamente al suo padre"
 position.absolute.3: "Questa roba è complicata, ma è essenziale per creare impaginazioni CSS grandiose. Nella prossima pagina useremo <code>position</code> in un esempio più pratico."
 
-position_example.title: "position example"
-position_example.1: "This position stuff might make a little more sense in a practical example. Below is a realistic page layout."
-position_example.section.1: "The <code>margin-left</code> style for <code>section</code>s makes sure there is room for the <code>nav</code>. Otherwise the absolute and static elements would overlap"
-position_example.section.2: "Notice what happens when you resize your browser. It works nicely!"
-position_example.2: "This example works because the container is taller than the nav. If it wasn't, the nav would overflow outside of its container. In the coming pages we'll discuss other layout techniques that have different pros and cons."
-position_example.footer: "If you use a fixed header or footer, make sure there is room for it! I put a <code>margin-bottom</code> on the <code>body</code>."
+position_example.title: "esempio di position"
+position_example.1: "Queste cose di position potrebbero avere un pochino più di senso in un esempio pratico. Sotto una impaginazione di pagina realistica."
+position_example.section.1: "Lo stile di <code>margin-left</code> per le <code>section</code> fa si che ci sia spazio per <code>nav</code>. Se così non fosse gli elementi absolute e static si sovrapporrebbero."
+position_example.section.2: "Nota cosa succede se ridimensioni il tuo browser. Funziona gradevolmente!"
+position_example.2: "Questo esempio funziona perchè il contenitore è più alto di nav. Se non lo fosse, nav sborderebbe fuori dal suo contenitore. Nelle pagine a venire discuteremo altre tecniche di impaginazione con differenti pro e contro."
+position_example.footer: "Se utilizzi una testata o un footer posizionati fissi, sii sicuro che ci sia spazio per loro! I metto un <code>margin-bottom</code> nel <code>body</code>."
 
 float.title: "float"
 float.1: "Another CSS property used for layout is <code>float</code>. Float is intended for wrapping text around images, like this:"
