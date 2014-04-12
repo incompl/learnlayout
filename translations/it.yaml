@@ -95,6 +95,7 @@ position_example.footer: "Se utilizzi una testata o un footer posizionati fissi,
 
 float.title: "float"
 float.1: "Another CSS property used for layout is <code>float</code>. Float is intended for wrapping text around images, like this:"
+float.1: "Un'altra proprietà css utilizzata per impaginare è <code>float</code>. Float è utilizzato per avvolgere le immagini attorno al testo, come questa:"
 
 clear.title: "clear"
 clear.floating: "I feel like I'm floating!"
