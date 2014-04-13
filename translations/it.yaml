@@ -124,11 +124,11 @@ percent.layout.1: "Puoi utilizzare le percentuali per l'impaginazione, ma ciò r
 percent.layout.2: "Quando la finestra è troppo stretta, <code>nav</code> viene schiacciato. Ancor peggio, non puoi utilizzare <code>min-width</code> su nav per correggerlo, perchè la colonna destra non lo rispetterebbe."
 
 media_queries.title: "media queries"
-media_queries.1: "\"Responsive Design\" is the strategy of making a site that \"responds\" to the browser and device that it is being shown on... by looking awesome no matter what."
-media_queries.2: "Media queries are the most powerful tool for doing this. Let's take our layout that uses percent widths and have it display in one column when the browser is too small to fit the menu in the sidebar:"
-media_queries.3: "Now when you resize your browser it's even cooler than ever!"
-media_queries.4: "Tada! Now our layout looks great even on mobile browsers. Here are <a href=\"http://mediaqueri.es/\">some popular sites that use media queries this way</a>. There is a whole lot more you can detect than <code>min-width</code> and <code>max-width</code>: check out <a href=\"https://developer.mozilla.org/en-US/docs/CSS/Media_queries\">the MDN documentation</a> to learn more."
-media_queries.5: "You can make your layout look even better on mobile using <a href=\"http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/\">meta viewport</a>."
+media_queries.1: "\"Responsive Design\" è la strategia di fare un sito web che \"risponda\" al browser e al dispositivo sul quale è visualizzato... cercando di essere gradevole qualsiasi esso sia."
+media_queries.2: "Le media queries sono lo strumento più potente per farlo. Prendiamo la nostra impaginazione che usa le larghezze in percentuale e facciamo che sia visualizzata in una colonna quando il browser è troppo piccolo per contenere il menu della barra laterale:"
+media_queries.3: "Adesso quando ridimensioni il tuo browser è più figo che mai!"
+media_queries.4: "Tadan! Adesso la nostra impaginazione è magnifica anche sui browser mobile. Qui ci sono <a href=\"http://mediaqueri.es/\">alcuni siti famosi che utilizzano le media queries nella stessa maniera</a>. Puoi rilevare molto altro di più oltre a <code>min-width</code> e <code>max-width</code>: consulta <a href=\"https://developer.mozilla.org/en-US/docs/CSS/Media_queries\">the MDN documentation</a> per saperne di più."
+media_queries.5: "Puoi fare in modo che la tua impaginazione si veda ancora meglio sul mobile utilizzando <a href=\"http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/\">meta viewport</a>."
 
 inline_block.title: "inline-block"
 inline_block.1: "You can create a grid of boxes that fills the browser width and wraps nicely. This has been possible for a long time using <code>float</code>, but now with <code>inline-block</code> it's even easier. <code>inline-block</code> elements are like <code>inline</code> elements but they can have a width and height. Let's look at examples of both approaches."
