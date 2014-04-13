@@ -149,8 +149,9 @@ inline_block_layout.caveat.3: "Ci sarà un vuoto tra le colonne se c'è un quals
 inline_block_layout.tada: "Tadan!"
 
 column.title: "column"
-column.1: "There is a new set of CSS properties that let you easily make multi-column text. Have a look:"
+column.1: "C'è una nuova serie di proprietà CSS che ti consentiranno facilmente di fare testo multi-colonna. Guarda:"
 column.2: "CSS columns are very new, so you need to use the prefixes, and it won't work <a href=\"http://caniuse.com/#search=column\">through IE9 or in Opera Mini</a>. There are some more column-related properties, so <a href=\"http://www.quirksmode.org/css/multicolumn.html\">click here to read more</a>. Otherwise, off to the next topic."
+column.2: "CSS column è molto nuovo, quindi hai bisogno di utilizzare i prefissi, e non funziona <a href=\"http://caniuse.com/#search=column\">con IE9 o con Opera Mini</a>. Ci sono alcune altre proprietà relative a column, quindi <a href=\"http://www.quirksmode.org/css/multicolumn.html\">clicca qua per leggere di più</a>. Altrimenti, dritti al prossimo argomento."
 
 flexbox.title: "flexbox"
 flexbox.1: "The new <code>flexbox</code> layout mode is poised to redefine how we do layouts in CSS. Unfortunately the specification has changed a lot recently, so it's implemented differently in different browsers. Still, I'd like to share a couple examples so you know what's coming up. These examples currently only work <a href=\"http://caniuse.com/flexbox\">some browsers</a> that use the <a href=\"http://www.w3.org/TR/css3-flexbox/\">latest version of the standard</a>."
