@@ -20,7 +20,7 @@ util.nav.6: "Contatti"
 index.1: "Questo sito insegna le basi CSS utilizzate per l'impaginazione di qualsiasi sito web."
 index.2: "Suppongo che tu sappia già cosa siano i selettori, le proprietà e i valori. E probabilmente sai già qualcosa sull'impaginazione, sebbene sia un'attività che ti fa rodere il fegato. Se vuoi imparare HTML e CSS da zero, dovresti consultare <a href=\"http://learn.shayhowe.com/html-css/\">questo tutorial</a>. Altrimenti, vediamo se possiamo risparmiarti un po' di nervosismo nel tuo prossimo progetto."
 
-index.translator: ""
+index.translator: "Traduzione a cura di <a href=\"http://github.com/NKjoep\">Andrea D.</a>, revisione <a href=\"https://github.com/trumbitta\">William Ghelfi</a>"
 index.get_started: "Inizia"
 
 no_layout.title: "no layout"
