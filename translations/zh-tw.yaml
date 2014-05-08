@@ -77,7 +77,7 @@ position.fixed.3: "固定定位元素不會保留它原本在頁面應有的空�
 position.fixed.4: "令人驚訝的是，行動版裝置上的瀏覽器對 <code>fixed</code> 的支援度比想像的還差很多。<a href=\"http://bradfrostweb.com/blog/mobile/fixed-position/\">學習關於此問題的相關文章</a>."
 position.fixed.example: "哈囉～ 先不要太關注我！"
 position.absolute.title: "absolute"
-position.absolute.1: "<code>absolute</code> 應該是最弔詭的 position 屬性值。<code>absolute</code> 與 <code>fixed</code> 的行為很像，不一樣的地方在於 <code>absolute</code> 元素的定位是在他所處上層容器的相對位置。如果這個套用 <code>display: absolute</code> 的元素，其上層容器並沒有「可以被定位」的元素的話，那麼這個元素的定位就是相對於該網頁所有內容（也就是 &lt;body&gt; 元素）最左上角的絕對位置，看起來就是這張網頁的絕對位置一樣，所以當你的畫面在捲動時，該元素還是會隨著頁面捲動。請記得，只有套用 <code>display: static</code> 的元素屬於「不會被特別定位」的元素，套用 <code>static</code> 以外的屬性值都算是「可以被定位」的元素。"
+position.absolute.1: "<code>absolute</code> 應該是最弔詭的 position 屬性值。<code>absolute</code> 與 <code>fixed</code> 的行為很像，不一樣的地方在於 <code>absolute</code> 元素的定位是在他所處上層容器的相對位置。如果這個套用 <code>position: absolute</code> 的元素，其上層容器並沒有「可以被定位」的元素的話，那麼這個元素的定位就是相對於該網頁所有內容（也就是 &lt;body&gt; 元素）最左上角的絕對位置，看起來就是這張網頁的絕對位置一樣，所以當你的畫面在捲動時，該元素還是會隨著頁面捲動。請記得，只有套用 <code>position: static</code> 的元素屬於「不會被特別定位」的元素，套用 <code>static</code> 以外的屬性值都算是「可以被定位」的元素。"
 position.absolute.2: "這裡有一個簡單的例子："
 position.absolute.relative: "這個元素是相對定位的，如果它是 <code>position: static;</code>，那麼它的子元素如果套用「絕對定位」的話，就會跳過它，並直接參考 body 元素的相對位置。"
 position.absolute.absolute: "這個元素被設定成絕對定位（<code>position: absolute;</code>），它會相對於它的父元素進行定位（相對於父元素的絕對定位）。"
