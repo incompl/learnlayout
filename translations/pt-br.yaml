@@ -42,7 +42,7 @@ display.other: "Existem vários outros valores diferentes para o display, tais c
 display.extra: "Como mencionei, cada elemento possui um tipo padrão de display. No entanto, você <em>sempre</em> poderá substituí-los! Embora não faça sentido uma <code>div</code> no modo de linha, você pode fazer isso para personalizar a visualização de elementos com semânticas particulares. Um exemplo comum é aplicar <code>display:inline</code> no elemento <code>li</code> para menus horizontais."
 
 margin_auto.title: "margin: auto;"
-margin_auto.1: "Definir a largura (<code>width</code>) de um elemento de bloco previne que ele se estique para as pontas do elemento onde está contido tanto pra esquerda quanto para a direita. Logo, você pode modificar as margens à esquerda e à direita em automático - <code>auto</code> - para centralizar o elemento horizontalmente aonde está contido. O elemento vai ler a largura que você definiu para então utilizar o espaço restante ser difivido entre as duas margens."
+margin_auto.1: "Definir a largura (<code>width</code>) de um elemento de bloco previne que ele se estique para as pontas do elemento onde está contido tanto pra esquerda quanto para a direita. Logo, você pode modificar as margens à esquerda e à direita em automático - <code>auto</code> - para centralizar o elemento horizontalmente aonde está contido. O elemento vai ocupar a largura especificada, então o espaço restante será dividido igualmente entre as duas margens."
 margin_auto.2: "O problema que pode ocorrer é quando a janela do navegador é menor que a largura do elemento. O browser resolve isso criando uma barra de rolagem horizontal na página. Vamos melhorar isso..."
 
 max_width.title: "max-width"
