@@ -121,7 +121,7 @@ percent.layout.1: "Você pode utilizar porcentagem para estruturar uma página, 
 percent.layout.2: "Quando esse layout é muito estreito, o <code>nav</code> fica esmagado. Pior, não podemos utilizar <code>min-width</code> para corrigir isso, pois a coluna à direita não respeitaria isso."
 
 media_queries.title: "media queries"
-media_queries.1: "\"Design Responsivo\" é uma técnica que faz com que sua página \"responda\" para o navegadore e dispositivo no qual o conteúdo é exibido... para parecer incrível não importe como."
+media_queries.1: "\"Design Responsivo\" é uma técnica que faz com que sua página \"responda\" para o navegador e dispositivo no qual o conteúdo é exibido... para parecer incrível não importe como."
 media_queries.2: "Media Queries são as ferramentas mais poderosas para fazer isso. Vamos usar nosso layout que possui larguras baseadas em percentagens e faze-lo exibir uma única coluna quando o navegador for muito pequeno, permitindo que o menu caiba na barra lateral:"
 media_queries.3: "Agora, quando você redimensionar seu navegador fica muito bacana!"
 media_queries.4: "Pronto! Agora nosso layout está ótimo até em navegadores de dispositivos móveis. Aqui estão <a href=\"http://mediaqueri.es/\">alguns sites populares que utilizam media queries dessa forma</a>. Há muito mais que você pode detectar além de <code>min-width</code> e <code>max-width</code>: consulte a <a href=\"https://developer.mozilla.org/pt-BR/docs/CSS/Media_queries\">documentação da MDN</a> para aprender mais."
