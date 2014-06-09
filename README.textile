@@ -6,7 +6,7 @@ h2. How to Build
 * If needed, install "grunt":http://gruntjs.com @npm install -g grunt-cli@
 * If needed, do a @npm install@
 * If needed, install jekyll @sudo gem install jekyll@
-* If needed, install "pygments":http://pygments.org/docs/installation/
+* If needed, install "pygments":http://pygments.org/download/
 * Build + run test server with @grunt serve@
 * or build only with @grunt@
 
