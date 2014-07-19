@@ -77,9 +77,9 @@ position.fixed.3: "A fixed element does not leave a gap in the page where it wou
 position.fixed.4: "Mobile browsers have surprisingly shaky support for fixed. <a href=\"http://bradfrostweb.com/blog/mobile/fixed-position/\">Learn more about the situation here</a>."
 position.fixed.example: "Hello! Don't pay attention to me yet."
 position.absolute.title: "absolute"
-position.absolute.1: "<code>absolute</code> is the trickiest position value. <code>absolute</code> behaves like <code>fixed</code> except relative to <em>the nearest positioned ancestor</em> instead of relative to the viewport. If an absolutely-positioned element has no positioned ancestors, it uses the document body, and still moves along with page scrolling. Remember, a \"positioned\" element is one whose position is anything except <code>static</code>."
+position.absolute.1: "Absolutely-positioned elements are taken out of the normal flow of the DOM and placed on the page relative to the <em>nearest positioned ancestor</em>. If no parent elements are positioned, then the element will place itself on the page <em>relative</em> to the <code>html</code> element."
 position.absolute.2: "Here is a simple example:"
-position.absolute.relative: "This element is relatively-positioned. If this element was <code>position: static;</code> its absolutely-positioned child would escape and would be positioned relative to the document body."
+position.absolute.relative: "This element is relatively-positioned. If this element was <code>position: static;</code> its absolutely-positioned child would escape and would be positioned relative to the <code>html</code> element."
 position.absolute.absolute: "This element is absolutely-positioned. It's positioned relative to its parent."
 position.absolute.3: "This stuff is tricky, but it's essential to creating great CSS layouts. On the next page we'll use <code>position</code> in a more practical example."
 
