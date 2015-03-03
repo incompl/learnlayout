@@ -190,31 +190,33 @@ nav {
 
 <style>
 .vertical-container {
+  height: 300px;
   display: -webkit-flex;
   display:         flex;
-  height: 300px;
-}
-.vertically-centered {
-  margin: auto;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 </style>
 
 {% highlight css %}
 .vertical-container {
-  display: -webkit-flex;
-  display: flex;
   height: 300px;
-}
-.vertically-centered {
-  margin: auto;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 {% endhighlight %}
 
 <div class="vertical-container elem">
   <span class="label">&lt;div class="vertical-container"></span>
 
-  <section class="elem elem-green vertically-centered">
-    <span class="label">&lt;div class="vertically-centered"></span>
+  <section class="elem elem-green">
+    <span class="label">&lt;div></span>
     <p>
       {% localize flexbox.centering.1 %}
     </p>
