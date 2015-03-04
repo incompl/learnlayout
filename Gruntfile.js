@@ -1,6 +1,24 @@
 /* jshint node:true, camelcase:false */
 
+var fs = require('fs');
+
 module.exports = function(grunt) {
+
+  // params
+  var lang = grunt.option('lang') || 'en';
+  var ftpDir = 'learnlayout';
+  if (lang !== 'en') {
+    ftpDir += '_' + lang;
+  }
+
+  // test for valid language
+  try {
+    fs.statSync('translations/' + lang + '.yaml');
+  }
+  catch (e) {
+    grunt.fail.fatal('Invalid language "' + lang + '"');
+  }
+  grunt.log.write('Language: ' + lang);
 
   // config
   grunt.initConfig({
@@ -9,13 +27,11 @@ module.exports = function(grunt) {
       options: {
         src: 'templates',
         plugins: '_plugins',
-        config: '_config.yml',
         dest: '_site',
-        pygments: true
+        pygments: true,
+        raw: 'lang: ' + lang
       },
-      build: {
-
-      },
+      build: {},
       serve: {
         options: {
           watch: true,
@@ -31,7 +47,7 @@ module.exports = function(grunt) {
           port: 21
         },
         src: '_site',
-        dest: 'learnlayout',
+        dest: ftpDir,
         exclusions: [
           'Gruntfile.js',
           'package.json',
@@ -50,7 +66,6 @@ module.exports = function(grunt) {
   // tasks
   grunt.registerTask('default', ['jekyll:build']);
   grunt.registerTask('serve', ['jekyll:serve']);
-
-  grunt.registerTask('deploy-english', ['default', 'ftp-deploy']);
+  grunt.registerTask('deploy', ['default', 'ftp-deploy']);
 
 };

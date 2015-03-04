@@ -1,0 +1,15 @@
+grunt deploy --lang=en
+grunt deploy --lang=de
+grunt deploy --lang=es
+grunt deploy --lang=fa
+grunt deploy --lang=fr
+grunt deploy --lang=hy
+grunt deploy --lang=it
+grunt deploy --lang=ja
+grunt deploy --lang=ko
+grunt deploy --lang=nl
+grunt deploy --lang=pt-br
+grunt deploy --lang=pt-pt
+grunt deploy --lang=ru
+grunt deploy --lang=zh
+grunt deploy --lang=zh-tw
