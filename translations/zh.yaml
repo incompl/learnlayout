@@ -147,7 +147,7 @@ inline_block_layout.tada: "Tada!"
 
 column.title: "column"
 column.1: "这里有一系列新的CSS属性，可以帮助你很轻松的实现文字的多列布局。让我们瞧瞧："
-column.2: "CSS columns是很新的标准，所以你需要使用前缀，并且它不被<a href=\"http://caniuse.com/#search=column\">IE9及以下和Opera Mini</a>支持。还有许多和 cloumn 相关的属性，<a href=\"http://www.quirksmode.org/css/multicolumn.html\">点击这里了解更多</a>。否则让我们讨论下一个主题。"
+column.2: "CSS columns是很新的标准，所以你需要使用前缀，并且它不被<a href=\"http://caniuse.com/#search=column\">IE9及以下和Opera Mini</a>支持。还有许多和 column 相关的属性，<a href=\"http://www.quirksmode.org/css/multicolumn.html\">点击这里了解更多</a>。否则让我们讨论下一个主题。"
 
 flexbox.title: "flexbox"
 flexbox.1: "新的 <code>flexbox</code> 布局模式被用来重新定义CSS中的布局方式。很遗憾的是最近规范变动过多，导致各个浏览器对它的实现也有所不同。不过我仍旧想要分享一些例子，来让你知道即将发生的改变。这些例子目前只能在支持 flexbox 的 Chrome 浏览器中运行，基于<a href=\"http://www.w3.org/TR/css3-flexbox/\">最新的标准</a>。"
