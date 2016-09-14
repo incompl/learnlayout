@@ -97,7 +97,7 @@ float.1: "Un'altra proprietà css utilizzata per impaginare è <code>float</code
 
 clear.title: "clear"
 clear.floating: "Mi sento come se galleggiassi!"
-clear.1: "La proprietà <code>clear</code> è importate per controllare il comportamento dei float."
+clear.1: "La proprietà <code>clear</code> è importante per controllare il comportamento dei float."
 clear.2: "In questo caso, <code>section</code> in realtà si trova dopo il <code>div</code>. Tuttavia, dato che <code>div</code> sta flottando a sinistra, ecco cosa accade: il testo in <code>section</code> si disponde attorno a <code>div</code> e <code>section</code> circonda il tutto. E se volessimo far comparire <code>section</code> dopo l'elemento flottante?"
 clear.3: "Usando <code>clear</code> abbiamo spostato adesso questa sezione al di sotto del <code>div</code> flottante. Usa il valore <code>left</code> per sgomberare gli elementi flottanti a sinistra. Puoi anche usare <code>right</code> e <code>both</code>"
 
