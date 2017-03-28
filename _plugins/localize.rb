@@ -37,7 +37,9 @@ module Jekyll
 
   class RtlTag < Liquid::Tag
     def render(context)
-      rtl = context.registers[:site].config['rtl']
+      @lang = context.registers[:site].config['lang']
+      @translations = YAML::load(File.open("translations/#{@lang}.yaml"))
+      rtl = @translations['rtl']
       if rtl == true
         "rtl"
       else

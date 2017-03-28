@@ -1,5 +1,7 @@
 # Farsi/Persian
 
+rtl: true
+
 global.title: "یادگیری پیکربندی با CSS"
 global.short_title: "CSS"
 global.home: "خانه"
