@@ -21,7 +21,7 @@ util.nav.6: "اتصل بنا"
 
 index.1: "هذا الموقع يقوم بتعليمك أساسيات لغة CSS، أو ما تعرف بلغة التنسيق، والتي تستخدم في تصميم الكثير من المواقع الإلكترونية"
 index.2: "يُفترض أنك ملم ببعض الأشياء العامة في css، مثل المحددات، والخصائص. أيضًا، يُفضل أن تكون مهتمًا بأمور تصميم المواقع. إذا كنت تود تعلم ال HTML، و CSS من البداية؛ يمكنك زيارة : <a href=\"http://learn.shayhowe.com/html-css/\">الموقع الإلكتروني التالي</a>. أما لو كانت لديك خبرة فيهما؛ فيُمكنك البدء في هذه الدروس!."
-index.translator: "ترجمة: <a href = \"amsammour@gmail.com\">Ahmed Sammour</a>"
+index.translator: "ترجمة: <a href = \"mailto:amsammour@gmail.com\">Ahmed Sammour</a>"
 index.get_started: "البداية"
 
 no_layout.title: "لا تصميم!"
