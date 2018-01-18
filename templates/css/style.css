@@ -201,6 +201,7 @@ h1.content {
 
 .elem {
   border: solid  #6AC5AC 3px;
+  padding-top: 1em;
   position: relative;
 }
 
