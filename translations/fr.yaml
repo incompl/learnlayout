@@ -27,7 +27,7 @@ no_layout.1: "N'avoir aucune mise en page est un choix envisageable, si votre un
 no_layout.2: "Avant de régler ce problème, entendons nous sur l'importance de la propriété <code>display</code>."
 
 display.title: "la propriété \"display\""
-display.intro: "La propriété CSS <code>display</code> est la plus importante pour contrôler la mise en page. Chaque élément à une valeur display par défaut dépendante du type de l'élément. Les valeurs par défaut de la plupart des éléments sont <code>block</code> ou <code>inline</code>. Un élément block est souvent appelé un élément block-level. Un élément inline n'est jamais appelé autrement qu'un élément inline."
+display.intro: "La propriété CSS <code>display</code> est la plus importante pour contrôler la mise en page. Chaque élément a une valeur display par défaut dépendante du type de l'élément. Les valeurs par défaut de la plupart des éléments sont <code>block</code> ou <code>inline</code>. Un élément block est souvent appelé un élément block-level. Un élément inline n'est jamais appelé autrement qu'un élément inline."
 display.block.title: "block"
 display.block: "<code>div</code> est l'élément block-level standard. Un élément block-level commence sur une nouvelle ligne et s'étire autant qu'il peut sur la gauche et la droite. D'autres éléments block-level courant sont <code>p</code> et <code>form</code>, et les nouveaux en HTML5 sont <code>header</code>, <code>footer</code>, <code>section</code>, et plus."
 display.inline.title: "inline"
