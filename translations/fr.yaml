@@ -87,7 +87,7 @@ position_example.title: "Exemple de position"
 position_example.1: "Ces trucs à propos de position vont peut-être avoir plus de sens dans un exemple pratique. Ci-dessous se trouve une mise en page réaliste."
 position_example.section.1: "La propriété <code>margin-left</code> pour les <code>section</code>s assure qu'il y a de la place pour la <code>nav</code>."
 position_example.section.2: "Remarquez ce qu'il se passe lorsque vous redimensionnez votre navigateur. Ça marche plutôt bien !"
-position_example.2: "Cet exemple marche parce que l'élément conteneur est plus grand que la nav. Ci ce n'était pas le cas, la nav déborderait de son conteneur. Dans les pages suivantes nous discuterons d'autres techniques de mise en page qui ont différents avantages et inconvénients."
+position_example.2: "Cet exemple marche parce que l'élément conteneur est plus grand que la nav. Si ce n'était pas le cas, la nav déborderait de son conteneur. Dans les pages suivantes nous discuterons d'autres techniques de mise en page qui ont différents avantages et inconvénients."
 position_example.footer: "Si vous utilisez un header et un footer positionné en fixed, faites en sorte qu'il y ait de la place pour eux ! J'ajoute un <code>margin-bottom</code> sur le <code>body</code>."
 
 float.title: "float"
