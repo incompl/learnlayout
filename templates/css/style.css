@@ -342,29 +342,6 @@ footer {
   margin-left: 10px;
 }
 
-#share #license {
-
-}
-
-#advertisements {
-  clear: both;
-  margin: 0 auto;
-  width: 370px;
-  text-align: center;
-}
-
-#advertisements span {
-  font-size: 10px;
-  font-style: italic;
-  margin: 0;
-}
-
-#advertisements div {
-  font-size: 13px;
-  text-align: left;
-}
-
-
 @media screen and (min-width:601px) {
 
   #menu {
