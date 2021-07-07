@@ -106,7 +106,7 @@ clearfix.3: "是的，有個方法可以解決這個問題，不過這方式還�
 clearfix.4: "讓我們加入一些新的 CSS 樣式："
 clearfix.5: "我們現在來看看發生了什麼事："
 clearfix.6: "好多了！"
-clearfix.7: "這個密技可以用在現代的瀏覽器上，但如果你還想支持 IE6，你就必須加入如下樣式："
+clearfix.7: "這個密技可以用在現代的瀏覽器上，但如果你還想支援 IE6，你就必須加入如下樣式："
 clearfix.8: "某些特別的瀏覽器可能需要注意，<a href=\"http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best\">clearfixing 的世界是很可怕的</a>，但這個簡單的密技可以套用在這些主流瀏覽器上。"
 
 float_layout.title: "float 版面配置範例"
