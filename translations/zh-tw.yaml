@@ -120,7 +120,7 @@ percent.2: "你甚至還能同時使用 <code>min-width</code> 與 <code>max-wid
 
 percent.layout.title: "百分比寬度的版面配置"
 percent.layout.1: "你可以用百分比做版面配置，但是這需要更多的工作。在下面的例子中，當視窗寬度很窄時 <code>nav</code> 的內容就會被擠壓得非常難看。總之，你要選一種最合適你內容的方式來排版。"
-percent.layout.2: "當版面配置很窄時， <code>nav</code> 就會被擠扁。更糟的是，你不能在 nav 上使用 <code>min-width</code> 屬性來修復這個問題，因為視窗太小時，右邊的那欄的內容還是會壓到 <code>nav</code> 上面。"
+percent.layout.2: "當版面配置很窄時， <code>nav</code> 就會被擠扁。更糟的是，你不能在 nav 上使用 <code>min-width</code> 屬性來改善這個問題，因為視窗太小時，右邊的那欄的內容還是會壓到 <code>nav</code> 上面。"
 
 media_queries.title: "媒體查詢（media queries）"
 media_queries.1: "「響應式設計（Responsive Design）」是一種讓網站針對不同的瀏覽器和上網裝置「響應」不同顯示效果的策略，讓網站不管在任何情況下都能完美呈現！"
@@ -138,7 +138,7 @@ inline_block.easy_way.title: "容易的方法（使用 inline-block）"
 inline_block.easy_way.info: "你可以用 <code>display: inline-block;</code> 來實現相同效果。"
 inline_block.easy_way.box: "我是一個行內元素（inline-block）"
 inline_block.easy_way.after: "這次我不需要用 <code>clear</code> 屬性了。讚！"
-inline_block.2: "要使用 <code>inline-block</code> 你得額外做些事來支援 <a href=\"http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/\">IE6 和 IE7</a>。有些時候人們談到 <code>inline-block</code> 會觸發所謂 <code>hasLayout</code> 的東西，你只需要知道那是用來支持舊版 IE 瀏覽器用的。如果你對此很感興趣，可以在上面那個<a href=\"http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/\">超連結</a>中找到更詳細的資訊。否則我們就繼續下去吧。"
+inline_block.2: "要使用 <code>inline-block</code> 你得額外做些事來支援 <a href=\"http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/\">IE6 和 IE7</a>。有些時候人們談到 <code>inline-block</code> 會觸發所謂 <code>hasLayout</code> 的東西，你只需要知道那是用來支援舊版 IE 瀏覽器用的。如果你對此很感興趣，可以在上面那個<a href=\"http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/\">超連結</a>中找到更詳細的資訊。否則我們就繼續下去吧。"
 
 inline_block_layout.title: "使用 inline-block 版面配置"
 inline_block_layout.1: "你可以使用 <code>inline-block</code> 進行版面配置，但有一些事情你必須記得："
@@ -149,11 +149,11 @@ inline_block_layout.tada: "太棒了！"
 
 column.title: "column"
 column.1: "有一組新的 CSS 屬性可以幫你輕鬆的實現多欄文字的版面配置。你看："
-column.2: "CSS3 Multiple Columns 是很新的標準，所以你需要使用前綴，並且它不支援 <a href=\"http://caniuse.com/#search=column\">IE9 以下和 Opera Mini 版本</a>。還有許多和 cloumn-* 相關的屬性，<a href=\"http://www.quirksmode.org/css/multicolumn.html\">點擊這裡瞭解更多</a>。否則讓我們進入下一個主題。"
+column.2: "CSS3 Multiple Columns 是很新的標準，所以你需要使用針對不同瀏覽器專用的前綴，並且它不支援 <a href=\"http://caniuse.com/#search=column\">IE9 以下和 Opera Mini 版本</a>。還有許多和 cloumn-* 相關的屬性，<a href=\"http://www.quirksmode.org/css/multicolumn.html\">點擊這裡瞭解更多</a>。否則讓我們進入下一個主題。"
 
 flexbox.title: "flexbox"
 flexbox.1: "新的 <code>flexbox</code> 技術重新定義了使用 CSS 版面配置的方法。遺憾的是 flexbox規範最近的變動過多，導致不同瀏覽器之間對它的實作也有所差異，不過我仍想分享一些例子來讓你知道即將發生的改變。這些例子目前只能運作在有實作<a href=\"http://www.w3.org/TR/css3-flexbox/\">最新版標準</a>的<a href=\"http://caniuse.com/flexbox\">某些瀏覽器</a>上。"
-flexbox.2: "網路上有不少過時的 flexbox 資料，如果你想瞭解更多有關 flexbox 的內容，可以<a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">從這裡</a>學習如何識別資料是否過時。我也寫過一份<a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">關於最新語法的詳細文章</a>。"
+flexbox.2: "網路上有不少過時的 flexbox 資料，如果你想瞭解更多有關 flexbox 的內容，可以<a href=\"http://css-tricks.com/old-flexbox-and-new-flexbox/\">從這裡</a>學習如何辨識資料是否過時。我也寫過一份<a href=\"http://weblog.bocoup.com/dive-into-flexbox/\">關於最新語法的詳細文章</a>。"
 flexbox.3: "你還可以使用 flexbox 做到更多版面配置的技巧，這裡只是一些讓你瞭解概念的例子而已："
 flexbox.simple.title: "使用 Flexbox 配置簡單的版面"
 flexbox.simple.1: "Flexbox 好簡單！"
@@ -166,7 +166,7 @@ flexbox.centering.title: "使用 Flexbox 配置居中的版面"
 flexbox.centering.1: "CSS 總算有了一種可以簡單完成的版面垂直置中的方法了！"
 
 frameworks.title: "CSS 框架"
-frameworks.1: "因為 CSS 版面配置有點難用，市面上有不少 CSS 框架可以用來配置版面，這裡有整理一些讓你參考。要使用框架幫你進行版面配置，只有當這個框架真正符合你需求時，使用框架才是個好主意，了解 CSS 的運作方式是無可取代的。"
+frameworks.1: "因為 CSS 版面配置有點難用，市面上有不少 CSS 框架可以用來配置版面，這裡有整理一些讓你參考。要使用框架幫你進行版面配置，只有當這個框架真正符合你需求時，使用框架才是個好主意，然而了解 CSS 的運作方式是無可取代的。"
 frameworks.2: "就這樣！如果你對本站有任何反饋，請在 <a href=\"https://twitter.com/intent/tweet?source=webclient&text=%40_gsmith\">Twitter</a> 上聯繫我！"
 
 about.title: "關於本站"
