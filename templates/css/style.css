@@ -165,7 +165,7 @@ h1.content {
   direction: ltr;
 }
 
-.css, .html {
+.language-css, .language-html {
   display: block;
   text-shadow: 1px 1px 0 black;
   background-color: #333333;
@@ -183,7 +183,7 @@ h1.content {
   white-space: pre;
 }
 
-.html:before {
+.language-html:before {
   content: "html";
   float: right;
   color: black;
@@ -191,7 +191,7 @@ h1.content {
   font-size: 1.5em;
 }
 
-.css:before {
+.language-css:before {
   content: "css";
   float: right;
   color: black;
@@ -338,28 +338,9 @@ footer {
   float: left;
 }
 
-#share #license {
-  
+#share > li:not(first-child){
+  margin-left: 10px;
 }
-
-#advertisements {
-  clear: both;
-  margin: 0 auto;
-  width: 370px;
-  text-align: center;
-}
-
-#advertisements span {
-  font-size: 10px;
-  font-style: italic;
-  margin: 0;
-}
-
-#advertisements div {
-  font-size: 13px;
-  text-align: left;
-}
-
 
 @media screen and (min-width:601px) {
 
@@ -415,7 +396,7 @@ footer {
 
 }
 
-@media screen and (max-width:404px) { 
+@media screen and (max-width:404px) {
 
   a.nav {
     width: 40%;

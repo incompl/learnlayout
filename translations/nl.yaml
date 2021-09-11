@@ -27,7 +27,7 @@ no_layout.1: "Helemaal geen layout hebben is nagenoeg voldoende als het doel is 
 no_layout.2: "Voordat we dit probleem gaan oplossen, laten we eerst eens aandachtig naar de belangrijke <code>display</code> property kijken."
 
 display.title: "de \"display\" property"
-display.intro: "<code>display</code> is CSS's meest belangrijke property om controle op layout te hebben. Elk element heeft een standaard display waarde afhankelijk van welk type element het is. De standaard voor de meeste elementen is <code>block</code> of <code>inline</code>. Een block element is doorgaans aangemerkt als een block-level element. Een inline element daarentegen wordt altijd aangemerkt als inline element."
+display.intro: "<code>display</code> is CSS's meest belangrijke property om controle over de layout te krijgen. Elk element heeft een standaard display waarde afhankelijk van welk type element het is. De standaard voor de meeste elementen is <code>block</code> of <code>inline</code>. Een block element is doorgaans aangemerkt als een block-level element. Een inline element daarentegen wordt altijd aangemerkt als inline element."
 display.block.title: "block"
 display.block: "<code>div</code> is het standaard block-level element. Een block-level element begint op een nieuwe regel en rekt uit zover het kan van links naar rechts. Andere bekende block-level elementen zijn <code>p</code> en <code>form</code>. Sinds HTML5 zijn daar bijvoorbeeld ook <code>header</code>, <code>footer</code>, <code>section</code> aan toegevoegd en zo zijn er nog meer."
 display.inline.title: "inline"
@@ -164,7 +164,7 @@ flexbox.centering.title: "Centreren met Flexbox"
 flexbox.centering.1: "Eindelijk is het makkelijk om iets verticaal te centreren in CSS!"
 
 frameworks.title: "css frameworks"
-frameworks.1: "Omdat CSS layout zo listig is, zijn er CSS frameworks beschikbaar om het eenvoudiger te maken. Hier zijn er een aantal als je ze wilt proberen. Het gebruik van een framework is alleen een goed idee als het doet wat je site moet gaan doen. Ze zijn niet een vervanger om te weten hoe CSS werkt."
+frameworks.1: "Omdat CSS layout zo lastig is, zijn er CSS frameworks beschikbaar om het eenvoudiger te maken. Hier zijn er een aantal als je ze wilt proberen. Het gebruik van een framework is alleen een goed idee als het doet wat je site moet gaan doen. Ze zijn niet een vervanger om te weten hoe CSS werkt."
 frameworks.2: "Dit was het! Elke vorm van terugkoppeling over deze site kan je me <a href=\"https://twitter.com/intent/tweet?source=webclient&text=%40_gsmith\">laten weten via Twitter</a>!"
 
 about.title: "over deze website"

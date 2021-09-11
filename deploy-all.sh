@@ -13,3 +13,4 @@ grunt deploy --lang=pt-pt
 grunt deploy --lang=ru
 grunt deploy --lang=zh
 grunt deploy --lang=zh-tw
+grunt deploy --lang=ar

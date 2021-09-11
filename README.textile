@@ -3,10 +3,16 @@ This is the source for "learnlayout.com":http://learnlayout.com in case you're c
 h2. How to Build
 
 * If needed, install "NPM":https://npmjs.org/
+** Last tested version was 6.14.4
 * If needed, install "grunt":http://gruntjs.com @npm install -g grunt-cli@
+** Last tested grunt-cli version was 1.3.2
+** Last tested grunt version was 0.4.5
 * If needed, do a @npm install@
 * If needed, install jekyll @sudo gem install jekyll@
-* If needed, install "pygments":http://pygments.org/download/ (I have used `sudo easy_install pygments` on Mac)
+** Last tested version was 4.1.1
+* If needed, install "pygments":http://pygments.org/download/
+** I have used `sudo easy_install pygments` on Mac
+** Last tested version was 2.7.2
 * Build + run test server with @grunt serve@
 * or build only with @grunt@
 
@@ -19,3 +25,7 @@ If you're not familiar with YAML, it's a very simple human-readable data format.
 To contribute to a translation, start with "en.yaml":https://github.com/incompl/csslayoutsite/blob/master/translations/en.yaml and either "email me":mailto:gsmith@incompl.com translated YAML files or make pull requests against this repository if you know how.
 
 To test a translation, change the @lang@ property in "_config.yml":https://github.com/incompl/csslayoutsite/blob/master/templates/_config.yml before you build. If you choose an RTL language you need to add the line @rtl: true@ to the config.
+
+h2. License
+
+"Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)":https://creativecommons.org/licenses/by-nc/4.0/

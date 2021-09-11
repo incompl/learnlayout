@@ -2,3 +2,5 @@
 _site
 node_modules
 .ftppass
+package-lock.json
+.jekyll-cache
