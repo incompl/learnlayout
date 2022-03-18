@@ -24,7 +24,13 @@ module Jekyll
           @key = @key[token]
         end
       end
-      
+
+      # hacky fix for liquid caching issue
+      # see https://github.com/incompl/csslayoutsite/issues/155)
+      if @key.include?(".title") && !@key.include?("global")
+        @key = context.registers[:page]["title"]
+      end
+
       result = @translations[@key]
 
       if result.nil? and defined? @defaults
