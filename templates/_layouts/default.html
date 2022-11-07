@@ -2,11 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    {% if page.title != nil %}
-      <title>{% localize global.short_title %} - {% localize page.title %}</title>
-    {% else %}
-      <title>{% localize global.title %}</title>
-    {% endif %}
+    <title>{% localize global.title %}</title>
     <meta name="viewport" content="width=600">
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="/css/code.css"/>
@@ -42,10 +38,6 @@
     </div>
 
     <div id="container">
-
-      {% if page.title %}
-        <h1 class="content">{% localize page.title %}</h1>
-      {% endif %}
 
       {{ content }}
 
