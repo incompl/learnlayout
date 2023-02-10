@@ -87,7 +87,7 @@ position_example.title: "position Beispiel"
 position_example.1: "Dieser Positions-Kram macht wahrscheinlich mit einem praktischen Beispiel mehr Sinn. Unten siehst du ein realisches Seitenlayout."
 position_example.section.1: "Der <code>margin-left</code> Stil der <code>section</code> stellt den Platz für das <code>nav</code>-Element sicher."
 position_example.section.2: "Schau was passiert wenn du das Browserfenster verkleinerst. Funktioniert super!"
-position_example.2: "Dieses Beispiel fuktioniert nur, weil der Container höher als die Navigation. Wäre das nicht so, würde die Navi über ihren Container hinausragen. Auf den folgenden Seiten besprechen wir Techniken, die ihre eigenen Stärken und Schwächen haben."
+position_example.2: "Dieses Beispiel funktioniert nur, weil der Container höher ist als die Navigation. Wäre das nicht so, würde die Navi über ihren Container hinausragen. Auf den folgenden Seiten besprechen wir Techniken, die ihre eigenen Stärken und Schwächen haben."
 position_example.footer: "Wenn du einen fixierten Header oder Footer verwendest, stell sicher, dass du Platz dafür hast! Ich habe ein <code>margin-bottom</code> auf den <code>body</code> angewendet."
 
 float.title: "float"
