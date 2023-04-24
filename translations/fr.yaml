@@ -27,7 +27,7 @@ no_layout.1: "N'avoir aucune mise en page est un choix envisageable, si votre un
 no_layout.2: "Avant de régler ce problème, entendons nous sur l'importance de la propriété <code>display</code>."
 
 display.title: "la propriété \"display\""
-display.intro: "La propriété CSS <code>display</code> est la plus importante pour contrôler la mise en page. Chaque élément à une valeur display par défaut dépendante du type de l'élément. Les valeurs par défaut de la plupart des éléments sont <code>block</code> ou <code>inline</code>. Un élément block est souvent appelé un élément block-level. Un élément inline n'est jamais appelé autrement qu'un élément inline."
+display.intro: "La propriété CSS <code>display</code> est la plus importante pour contrôler la mise en page. Chaque élément a une valeur display par défaut dépendante du type de l'élément. Les valeurs par défaut de la plupart des éléments sont <code>block</code> ou <code>inline</code>. Un élément block est souvent appelé un élément block-level. Un élément inline n'est jamais appelé autrement qu'un élément inline."
 display.block.title: "block"
 display.block: "<code>div</code> est l'élément block-level standard. Un élément block-level commence sur une nouvelle ligne et s'étire autant qu'il peut sur la gauche et la droite. D'autres éléments block-level courant sont <code>p</code> et <code>form</code>, et les nouveaux en HTML5 sont <code>header</code>, <code>footer</code>, <code>section</code>, et plus."
 display.inline.title: "inline"
@@ -87,7 +87,7 @@ position_example.title: "Exemple de position"
 position_example.1: "Ces trucs à propos de position vont peut-être avoir plus de sens dans un exemple pratique. Ci-dessous se trouve une mise en page réaliste."
 position_example.section.1: "La propriété <code>margin-left</code> pour les <code>section</code>s assure qu'il y a de la place pour la <code>nav</code>."
 position_example.section.2: "Remarquez ce qu'il se passe lorsque vous redimensionnez votre navigateur. Ça marche plutôt bien !"
-position_example.2: "Cet exemple marche parce que l'élément conteneur est plus grand que la nav. Ci ce n'était pas le cas, la nav déborderait de son conteneur. Dans les pages suivantes nous discuterons d'autres techniques de mise en page qui ont différents avantages et inconvénients."
+position_example.2: "Cet exemple marche parce que l'élément conteneur est plus grand que la nav. Si ce n'était pas le cas, la nav déborderait de son conteneur. Dans les pages suivantes nous discuterons d'autres techniques de mise en page qui ont différents avantages et inconvénients."
 position_example.footer: "Si vous utilisez un header et un footer positionné en fixed, faites en sorte qu'il y ait de la place pour eux ! J'ajoute un <code>margin-bottom</code> sur le <code>body</code>."
 
 float.title: "float"
